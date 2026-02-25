@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<File name="errori.xml" creationdate="2026-02-23T17:49:46" logtype="Generic">
+  <Messages>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.core.dbl.MA_VCrossReferences dichiarata nella libreria MA_VCrossReferences mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Mancano alcune tabelle della libreria core: dbl.&#xD; Contattare l'amministratore del sistema" />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Caricamento della libreria Library.erp.company.dbl fallito" />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.purchases.dbl.MA_VInventoryProfit dichiarata nella libreria MA_VInventoryProfit mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.purchases.dbl.MA_VTransactionReport dichiarata nella libreria MA_VTransactionReport mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Mancano alcune tabelle della libreria purchases: dbl.&#xD; Contattare l'amministratore del sistema" />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.saleorders.dbl.MA_VSaleOrdersToDelivered dichiarata nella libreria MA_VSaleOrdersToDelivered mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Mancano alcune tabelle della libreria saleorders: dbl.&#xD; Contattare l'amministratore del sistema" />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.sales.dbl.MA_SalesStatistics dichiarata nella libreria MA_SalesStatistics mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.sales.dbl.MA_SalesStatisticsDetailed dichiarata nella libreria MA_SalesStatisticsDetailed mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.sales.dbl.MA_VDocumentsToBeInvoiced dichiarata nella libreria MA_VDocumentsToBeInvoiced mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Mancano alcune tabelle della libreria sales: dbl.&#xD; Contattare l'amministratore del sistema" />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Caricamento della libreria Library.ERP.TESANConnector.Dbl fallito" />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.core.dbl.MA_VCrossReferences dichiarata nella libreria MA_VCrossReferences mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Mancano alcune tabelle della libreria core: dbl.&#xD; Contattare l'amministratore del sistema" />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.inventory.dbl.MA_ItemsSubstituteFiscalData dichiarata nella libreria MA_ItemsSubstituteFiscalData mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.inventory.dbl.MA_VInvEntries dichiarata nella libreria MA_VInvEntries mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.inventory.dbl.MA_VInvEntriesDetail dichiarata nella libreria MA_VInvEntriesDetail mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Mancano alcune tabelle della libreria inventory: dbl.&#xD; Contattare l'amministratore del sistema" />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.singlesteplifofifo.dbl.MA_VReceiptsBatch dichiarata nella libreria MA_VReceiptsBatch mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Mancano alcune tabelle della libreria singlesteplifofifo: dbl.&#xD; Contattare l'amministratore del sistema" />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.wms.dbl.MA_VWMSaleOrdersPreShipping dichiarata nella libreria MA_VWMSaleOrdersPreShipping mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Mancano alcune tabelle della libreria wms: dbl.&#xD; Contattare l'amministratore del sistema" />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.purchases.dbl.MA_VInventoryProfit dichiarata nella libreria MA_VInventoryProfit mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.purchases.dbl.MA_VTransactionReport dichiarata nella libreria MA_VTransactionReport mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Mancano alcune tabelle della libreria purchases: dbl.&#xD; Contattare l'amministratore del sistema" />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.saleorders.dbl.MA_VSaleOrdersToDelivered dichiarata nella libreria MA_VSaleOrdersToDelivered mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Mancano alcune tabelle della libreria saleorders: dbl.&#xD; Contattare l'amministratore del sistema" />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.sales.dbl.MA_SalesStatistics dichiarata nella libreria MA_SalesStatistics mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.sales.dbl.MA_SalesStatisticsDetailed dichiarata nella libreria MA_SalesStatisticsDetailed mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.sales.dbl.MA_VDocumentsToBeInvoiced dichiarata nella libreria MA_VDocumentsToBeInvoiced mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Mancano alcune tabelle della libreria sales: dbl.&#xD; Contattare l'amministratore del sistema" />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.manufacturing.dbl.MA_ProductionDevelopment dichiarata nella libreria MA_ProductionDevelopment mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.manufacturing.dbl.MA_AvailabilityAnalysis dichiarata nella libreria MA_AvailabilityAnalysis mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.manufacturing.dbl.MA_SubcontractingDoc dichiarata nella libreria MA_SubcontractingDoc mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Mancano alcune tabelle della libreria manufacturing: dbl.&#xD; Contattare l'amministratore del sistema" />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella erp.subcontracting.dbl.MA_SubcontratorAnalysis dichiarata nella libreria MA_SubcontratorAnalysis mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Mancano alcune tabelle della libreria subcontracting: dbl.&#xD; Contattare l'amministratore del sistema" />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella impiantinet.dbl.indbl.IM_JobsDetailsCategories dichiarata nella libreria IM_JobsDetailsCategories mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella impiantinet.dbl.indbl.IM_PurchReqGenDocRefPRDetails dichiarata nella libreria IM_PurchReqGenDocRefPRDetails mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella impiantinet.dbl.indbl.IM_SuppQuotasDetails dichiarata nella libreria IM_SuppQuotasDetails mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella impiantinet.dbl.indbl.IM_InvEntryJobs dichiarata nella libreria IM_InvEntryJobs mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella impiantinet.dbl.indbl.IM_SuppQuotasSummary dichiarata nella libreria IM_SuppQuotasSummary mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella impiantinet.dbl.indbl.IM_SuppQuotasDetailSummary dichiarata nella libreria IM_SuppQuotasDetailSummary mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella impiantinet.dbl.indbl.IM_CLCLComponents dichiarata nella libreria IM_CLCLComponents mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Tabella impiantinet.dbl.indbl.IM_PurchReqGenDocRefSuppQuota dichiarata nella libreria IM_PurchReqGenDocRefSuppQuota mancante." />
+    </Message>
+    <Message type="Error" time="2026-02-23T17:48:30">
+      <MessageText text="Mancano alcune tabelle della libreria dbl: indbl.&#xD; Contattare l'amministratore del sistema" />
+    </Message>
+  </Messages>
+</File>

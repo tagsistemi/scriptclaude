@@ -1,0 +1,235 @@
+Report di analisi della struttura del database per MA_PurchaseOrd generato il 09/12/2025 13:07:36
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'Autorizzato'
+  - 'VEDMaster': Posizione 55
+  - 'furmanetclone': Posizione 59
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'Autorizzato'
+  - 'VEDMaster': Posizione 55
+  - 'gpxnetclone': Posizione 59
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'Autorizzato'
+  - 'VEDMaster': Posizione 55
+  - 'vedbondifeclone': Posizione 59
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'BarcodeSegment'
+  - 'VEDMaster': Posizione 52
+  - 'furmanetclone': Posizione 55
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'BarcodeSegment'
+  - 'VEDMaster': Posizione 52
+  - 'gpxnetclone': Posizione 55
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'BarcodeSegment'
+  - 'VEDMaster': Posizione 52
+  - 'vedbondifeclone': Posizione 55
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'DataAutorizzazione'
+  - 'VEDMaster': Posizione 56
+  - 'furmanetclone': Posizione 60
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'DataAutorizzazione'
+  - 'VEDMaster': Posizione 56
+  - 'gpxnetclone': Posizione 60
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'DataAutorizzazione'
+  - 'VEDMaster': Posizione 56
+  - 'vedbondifeclone': Posizione 60
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'PaymentAddress'
+  - 'VEDMaster': Posizione 50
+  - 'furmanetclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'PaymentAddress'
+  - 'VEDMaster': Posizione 50
+  - 'gpxnetclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'Receipt'
+  - 'VEDMaster': Posizione 51
+  - 'furmanetclone': Posizione 58
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'Receipt'
+  - 'VEDMaster': Posizione 51
+  - 'gpxnetclone': Posizione 58
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'Receipt'
+  - 'VEDMaster': Posizione 51
+  - 'vedbondifeclone': Posizione 58
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 57
+  - 'furmanetclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 57
+  - 'gpxnetclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 57
+  - 'vedbondifeclone': Posizione 51
+[ERRORE] Nullability: Tabella 'MA_PurchaseOrd', Colonna 'TBCreatedID'
+  - 'VEDMaster': NO
+  - 'furmanetclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'TBCreatedID'
+  - 'VEDMaster': Posizione 59
+  - 'furmanetclone': Posizione 56
+[ERRORE] Nullability: Tabella 'MA_PurchaseOrd', Colonna 'TBCreatedID'
+  - 'VEDMaster': NO
+  - 'gpxnetclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'TBCreatedID'
+  - 'VEDMaster': Posizione 59
+  - 'gpxnetclone': Posizione 56
+[ERRORE] Nullability: Tabella 'MA_PurchaseOrd', Colonna 'TBCreatedID'
+  - 'VEDMaster': NO
+  - 'vedbondifeclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'TBCreatedID'
+  - 'VEDMaster': Posizione 59
+  - 'vedbondifeclone': Posizione 56
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 58
+  - 'furmanetclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 58
+  - 'gpxnetclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 58
+  - 'vedbondifeclone': Posizione 52
+[ERRORE] Nullability: Tabella 'MA_PurchaseOrd', Colonna 'TBModifiedID'
+  - 'VEDMaster': NO
+  - 'furmanetclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'TBModifiedID'
+  - 'VEDMaster': Posizione 60
+  - 'furmanetclone': Posizione 57
+[ERRORE] Nullability: Tabella 'MA_PurchaseOrd', Colonna 'TBModifiedID'
+  - 'VEDMaster': NO
+  - 'gpxnetclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'TBModifiedID'
+  - 'VEDMaster': Posizione 60
+  - 'gpxnetclone': Posizione 57
+[ERRORE] Nullability: Tabella 'MA_PurchaseOrd', Colonna 'TBModifiedID'
+  - 'VEDMaster': NO
+  - 'vedbondifeclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrd', Colonna 'TBModifiedID'
+  - 'VEDMaster': Posizione 60
+  - 'vedbondifeclone': Posizione 57
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDefaults', Colonna 'ExtraEUPurchaseOrderAccTpl'
+  - 'VEDMaster': Posizione 7
+  - 'furmanetclone': Posizione 9
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDefaults', Colonna 'ExtraEUPurchaseOrderAccTpl'
+  - 'VEDMaster': Posizione 7
+  - 'gpxnetclone': Posizione 9
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDefaults', Colonna 'ExtraEUPurchaseOrderAccTpl'
+  - 'VEDMaster': Posizione 7
+  - 'vedbondifeclone': Posizione 9
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDefaults', Colonna 'PurchaseOrderInvRsn'
+  - 'VEDMaster': Posizione 6
+  - 'furmanetclone': Posizione 8
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDefaults', Colonna 'PurchaseOrderInvRsn'
+  - 'VEDMaster': Posizione 6
+  - 'gpxnetclone': Posizione 8
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDefaults', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 8
+  - 'furmanetclone': Posizione 6
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDefaults', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 8
+  - 'gpxnetclone': Posizione 6
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDefaults', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 8
+  - 'vedbondifeclone': Posizione 7
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDefaults', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 9
+  - 'furmanetclone': Posizione 7
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDefaults', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 9
+  - 'gpxnetclone': Posizione 7
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDefaults', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 9
+  - 'vedbondifeclone': Posizione 8
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'ConfirmationNum'
+  - 'VEDMaster': Posizione 73
+  - 'furmanetclone': Posizione 75
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'ConfirmationNum'
+  - 'VEDMaster': Posizione 73
+  - 'gpxnetclone': Posizione 75
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'ConfirmationNum'
+  - 'VEDMaster': Posizione 73
+  - 'vedbondifeclone': Posizione 75
+[ERRORE] Lunghezza: Tabella 'MA_PurchaseOrdDetails', Colonna 'Description'
+  - 'VEDMaster': 250
+  - 'furmanetclone': 280
+[ERRORE] Lunghezza: Tabella 'MA_PurchaseOrdDetails', Colonna 'Description'
+  - 'VEDMaster': 250
+  - 'gpxnetclone': 280
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'ExtendedNotes'
+  - 'VEDMaster': Posizione 75
+  - 'furmanetclone': Posizione 77
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'ExtendedNotes'
+  - 'VEDMaster': Posizione 75
+  - 'gpxnetclone': Posizione 77
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'ExtendedNotes'
+  - 'VEDMaster': Posizione 75
+  - 'vedbondifeclone': Posizione 77
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'PreviousConfirmedDeliveryDate'
+  - 'VEDMaster': Posizione 74
+  - 'furmanetclone': Posizione 76
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'PreviousConfirmedDeliveryDate'
+  - 'VEDMaster': Posizione 74
+  - 'gpxnetclone': Posizione 76
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'PreviousConfirmedDeliveryDate'
+  - 'VEDMaster': Posizione 74
+  - 'vedbondifeclone': Posizione 76
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'Receipt'
+  - 'VEDMaster': Posizione 76
+  - 'furmanetclone': Posizione 82
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'Receipt'
+  - 'VEDMaster': Posizione 76
+  - 'gpxnetclone': Posizione 82
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'Receipt'
+  - 'VEDMaster': Posizione 76
+  - 'vedbondifeclone': Posizione 82
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'ReceiptQty'
+  - 'VEDMaster': Posizione 77
+  - 'furmanetclone': Posizione 83
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'ReceiptQty'
+  - 'VEDMaster': Posizione 77
+  - 'gpxnetclone': Posizione 83
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'ReceiptQty'
+  - 'VEDMaster': Posizione 77
+  - 'vedbondifeclone': Posizione 83
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 82
+  - 'furmanetclone': Posizione 73
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 82
+  - 'gpxnetclone': Posizione 73
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 82
+  - 'vedbondifeclone': Posizione 73
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 83
+  - 'furmanetclone': Posizione 74
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 83
+  - 'gpxnetclone': Posizione 74
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdDetails', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 83
+  - 'vedbondifeclone': Posizione 74
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdParameters', Colonna 'DefaultEmptyConfDelivDate'
+  - 'VEDMaster': Posizione 3
+  - 'furmanetclone': Posizione 5
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdParameters', Colonna 'DefaultEmptyConfDelivDate'
+  - 'VEDMaster': Posizione 3
+  - 'gpxnetclone': Posizione 5
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdParameters', Colonna 'DefaultEmptyConfDelivDate'
+  - 'VEDMaster': Posizione 3
+  - 'vedbondifeclone': Posizione 5
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdParameters', Colonna 'DefaultSupplExpDelivDate'
+  - 'VEDMaster': Posizione 4
+  - 'furmanetclone': Posizione 6
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdParameters', Colonna 'DefaultSupplExpDelivDate'
+  - 'VEDMaster': Posizione 4
+  - 'gpxnetclone': Posizione 6
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdParameters', Colonna 'DefaultSupplExpDelivDate'
+  - 'VEDMaster': Posizione 4
+  - 'vedbondifeclone': Posizione 6
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdParameters', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 5
+  - 'furmanetclone': Posizione 3
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdParameters', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 5
+  - 'gpxnetclone': Posizione 3
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdParameters', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 5
+  - 'vedbondifeclone': Posizione 3
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdParameters', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 6
+  - 'furmanetclone': Posizione 4
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdParameters', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 6
+  - 'gpxnetclone': Posizione 4
+[ERRORE] Ordine colonna: Tabella 'MA_PurchaseOrdParameters', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 6
+  - 'vedbondifeclone': Posizione 4

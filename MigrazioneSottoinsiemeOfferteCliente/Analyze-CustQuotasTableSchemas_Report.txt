@@ -1,0 +1,396 @@
+Report di analisi della struttura del database per MA_CustQuotas generato il 09/12/2025 13:51:45
+[ERRORE] Database 'vedbondifeclone', Tabella 'MA_CustQuotas': Colonne mancanti rispetto a 'VEDMaster':
+  - IxW_IdRichAnalisi
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ActiveSubcontracting'
+  - 'VEDMaster': Posizione 37
+  - 'furmanetclone': Posizione 36
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ActiveSubcontracting'
+  - 'VEDMaster': Posizione 37
+  - 'gpxnetclone': Posizione 36
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ActiveSubcontracting'
+  - 'VEDMaster': Posizione 37
+  - 'vedbondifeclone': Posizione 36
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Archived'
+  - 'VEDMaster': Posizione 62
+  - 'vedbondifeclone': Posizione 61
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'AreaManager'
+  - 'VEDMaster': Posizione 23
+  - 'furmanetclone': Posizione 54
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'AreaManager'
+  - 'VEDMaster': Posizione 23
+  - 'gpxnetclone': Posizione 54
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'AreaManager'
+  - 'VEDMaster': Posizione 23
+  - 'vedbondifeclone': Posizione 53
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'CompanyCA'
+  - 'VEDMaster': Posizione 28
+  - 'furmanetclone': Posizione 27
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'CompanyCA'
+  - 'VEDMaster': Posizione 28
+  - 'gpxnetclone': Posizione 27
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'CompanyCA'
+  - 'VEDMaster': Posizione 28
+  - 'vedbondifeclone': Posizione 27
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'CompanyPymtCA'
+  - 'VEDMaster': Posizione 60
+  - 'vedbondifeclone': Posizione 59
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ContractCode'
+  - 'VEDMaster': Posizione 51
+  - 'furmanetclone': Posizione 55
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ContractCode'
+  - 'VEDMaster': Posizione 51
+  - 'gpxnetclone': Posizione 55
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ContractCode'
+  - 'VEDMaster': Posizione 51
+  - 'vedbondifeclone': Posizione 54
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'CostCenter'
+  - 'VEDMaster': Posizione 35
+  - 'furmanetclone': Posizione 34
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'CostCenter'
+  - 'VEDMaster': Posizione 35
+  - 'gpxnetclone': Posizione 34
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'CostCenter'
+  - 'VEDMaster': Posizione 35
+  - 'vedbondifeclone': Posizione 34
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'CustQuotaId'
+  - 'VEDMaster': Posizione 25
+  - 'furmanetclone': Posizione 24
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'CustQuotaId'
+  - 'VEDMaster': Posizione 25
+  - 'gpxnetclone': Posizione 24
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'CustQuotaId'
+  - 'VEDMaster': Posizione 25
+  - 'vedbondifeclone': Posizione 24
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'CustSuppType'
+  - 'VEDMaster': Posizione 40
+  - 'furmanetclone': Posizione 39
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'CustSuppType'
+  - 'VEDMaster': Posizione 40
+  - 'gpxnetclone': Posizione 39
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'CustSuppType'
+  - 'VEDMaster': Posizione 40
+  - 'vedbondifeclone': Posizione 39
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'DueDateFromOrderDate'
+  - 'VEDMaster': Posizione 32
+  - 'furmanetclone': Posizione 31
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'DueDateFromOrderDate'
+  - 'VEDMaster': Posizione 32
+  - 'gpxnetclone': Posizione 31
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'DueDateFromOrderDate'
+  - 'VEDMaster': Posizione 32
+  - 'vedbondifeclone': Posizione 31
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'FromExternalProgram'
+  - 'VEDMaster': Posizione 63
+  - 'vedbondifeclone': Posizione 62
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'IM_QuotationRequestId'
+  - 'VEDMaster': Posizione 53
+  - 'vedbondifeclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'InvRsn'
+  - 'VEDMaster': Posizione 44
+  - 'furmanetclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'InvRsn'
+  - 'VEDMaster': Posizione 44
+  - 'gpxnetclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'InvRsn'
+  - 'VEDMaster': Posizione 44
+  - 'vedbondifeclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'IxW_IdRichAnalisi'
+  - 'VEDMaster': Posizione 58
+  - 'furmanetclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'IxW_IdRichAnalisi'
+  - 'VEDMaster': Posizione 58
+  - 'gpxnetclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Job'
+  - 'VEDMaster': Posizione 34
+  - 'furmanetclone': Posizione 33
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Job'
+  - 'VEDMaster': Posizione 34
+  - 'gpxnetclone': Posizione 33
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Job'
+  - 'VEDMaster': Posizione 34
+  - 'vedbondifeclone': Posizione 33
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'LastSubId'
+  - 'VEDMaster': Posizione 33
+  - 'furmanetclone': Posizione 32
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'LastSubId'
+  - 'VEDMaster': Posizione 33
+  - 'gpxnetclone': Posizione 32
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'LastSubId'
+  - 'VEDMaster': Posizione 33
+  - 'vedbondifeclone': Posizione 32
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Notes'
+  - 'VEDMaster': Posizione 24
+  - 'furmanetclone': Posizione 23
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Notes'
+  - 'VEDMaster': Posizione 24
+  - 'gpxnetclone': Posizione 23
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Notes'
+  - 'VEDMaster': Posizione 24
+  - 'vedbondifeclone': Posizione 23
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Presentation'
+  - 'VEDMaster': Posizione 29
+  - 'furmanetclone': Posizione 28
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Presentation'
+  - 'VEDMaster': Posizione 29
+  - 'gpxnetclone': Posizione 28
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Presentation'
+  - 'VEDMaster': Posizione 29
+  - 'vedbondifeclone': Posizione 28
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Printed'
+  - 'VEDMaster': Posizione 26
+  - 'furmanetclone': Posizione 25
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Printed'
+  - 'VEDMaster': Posizione 26
+  - 'gpxnetclone': Posizione 25
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Printed'
+  - 'VEDMaster': Posizione 26
+  - 'vedbondifeclone': Posizione 25
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ProductLine'
+  - 'VEDMaster': Posizione 36
+  - 'furmanetclone': Posizione 35
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ProductLine'
+  - 'VEDMaster': Posizione 36
+  - 'gpxnetclone': Posizione 35
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ProductLine'
+  - 'VEDMaster': Posizione 36
+  - 'vedbondifeclone': Posizione 35
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ProjectCode'
+  - 'VEDMaster': Posizione 52
+  - 'furmanetclone': Posizione 56
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ProjectCode'
+  - 'VEDMaster': Posizione 52
+  - 'gpxnetclone': Posizione 56
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ProjectCode'
+  - 'VEDMaster': Posizione 52
+  - 'vedbondifeclone': Posizione 55
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'RequestDate'
+  - 'VEDMaster': Posizione 39
+  - 'furmanetclone': Posizione 38
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'RequestDate'
+  - 'VEDMaster': Posizione 39
+  - 'gpxnetclone': Posizione 38
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'RequestDate'
+  - 'VEDMaster': Posizione 39
+  - 'vedbondifeclone': Posizione 38
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'RequestNo'
+  - 'VEDMaster': Posizione 38
+  - 'furmanetclone': Posizione 37
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'RequestNo'
+  - 'VEDMaster': Posizione 38
+  - 'gpxnetclone': Posizione 37
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'RequestNo'
+  - 'VEDMaster': Posizione 38
+  - 'vedbondifeclone': Posizione 37
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'SentByEMail'
+  - 'VEDMaster': Posizione 27
+  - 'furmanetclone': Posizione 26
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'SentByEMail'
+  - 'VEDMaster': Posizione 27
+  - 'gpxnetclone': Posizione 26
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'SentByEMail'
+  - 'VEDMaster': Posizione 27
+  - 'vedbondifeclone': Posizione 26
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'SentByPostaLite'
+  - 'VEDMaster': Posizione 61
+  - 'vedbondifeclone': Posizione 60
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Specificator1Type'
+  - 'VEDMaster': Posizione 49
+  - 'furmanetclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Specificator1Type'
+  - 'VEDMaster': Posizione 49
+  - 'gpxnetclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Specificator1Type'
+  - 'VEDMaster': Posizione 49
+  - 'vedbondifeclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Specificator2Type'
+  - 'VEDMaster': Posizione 50
+  - 'furmanetclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Specificator2Type'
+  - 'VEDMaster': Posizione 50
+  - 'gpxnetclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'Specificator2Type'
+  - 'VEDMaster': Posizione 50
+  - 'vedbondifeclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'SpecificatorPhase1'
+  - 'VEDMaster': Posizione 46
+  - 'furmanetclone': Posizione 45
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'SpecificatorPhase1'
+  - 'VEDMaster': Posizione 46
+  - 'gpxnetclone': Posizione 45
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'SpecificatorPhase1'
+  - 'VEDMaster': Posizione 46
+  - 'vedbondifeclone': Posizione 45
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'SpecificatorPhase2'
+  - 'VEDMaster': Posizione 48
+  - 'furmanetclone': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'SpecificatorPhase2'
+  - 'VEDMaster': Posizione 48
+  - 'gpxnetclone': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'SpecificatorPhase2'
+  - 'VEDMaster': Posizione 48
+  - 'vedbondifeclone': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'StoragePhase1'
+  - 'VEDMaster': Posizione 45
+  - 'furmanetclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'StoragePhase1'
+  - 'VEDMaster': Posizione 45
+  - 'gpxnetclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'StoragePhase1'
+  - 'VEDMaster': Posizione 45
+  - 'vedbondifeclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'StoragePhase2'
+  - 'VEDMaster': Posizione 47
+  - 'furmanetclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'StoragePhase2'
+  - 'VEDMaster': Posizione 47
+  - 'gpxnetclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'StoragePhase2'
+  - 'VEDMaster': Posizione 47
+  - 'vedbondifeclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'StubBook'
+  - 'VEDMaster': Posizione 43
+  - 'furmanetclone': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'StubBook'
+  - 'VEDMaster': Posizione 43
+  - 'gpxnetclone': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'StubBook'
+  - 'VEDMaster': Posizione 43
+  - 'vedbondifeclone': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TaxCommunicationGroup'
+  - 'VEDMaster': Posizione 59
+  - 'vedbondifeclone': Posizione 58
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TaxJournal'
+  - 'VEDMaster': Posizione 42
+  - 'furmanetclone': Posizione 41
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TaxJournal'
+  - 'VEDMaster': Posizione 42
+  - 'gpxnetclone': Posizione 41
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TaxJournal'
+  - 'VEDMaster': Posizione 42
+  - 'vedbondifeclone': Posizione 41
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 54
+  - 'furmanetclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 54
+  - 'gpxnetclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 54
+  - 'vedbondifeclone': Posizione 51
+[ERRORE] Nullability: Tabella 'MA_CustQuotas', Colonna 'TBCreatedID'
+  - 'VEDMaster': NO
+  - 'furmanetclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TBCreatedID'
+  - 'VEDMaster': Posizione 56
+  - 'furmanetclone': Posizione 57
+[ERRORE] Nullability: Tabella 'MA_CustQuotas', Colonna 'TBCreatedID'
+  - 'VEDMaster': NO
+  - 'gpxnetclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TBCreatedID'
+  - 'VEDMaster': Posizione 56
+  - 'gpxnetclone': Posizione 57
+[ERRORE] Nullability: Tabella 'MA_CustQuotas', Colonna 'TBCreatedID'
+  - 'VEDMaster': NO
+  - 'vedbondifeclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TBGuid'
+  - 'VEDMaster': Posizione 41
+  - 'furmanetclone': Posizione 40
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TBGuid'
+  - 'VEDMaster': Posizione 41
+  - 'gpxnetclone': Posizione 40
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TBGuid'
+  - 'VEDMaster': Posizione 41
+  - 'vedbondifeclone': Posizione 40
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 55
+  - 'furmanetclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 55
+  - 'gpxnetclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 55
+  - 'vedbondifeclone': Posizione 52
+[ERRORE] Nullability: Tabella 'MA_CustQuotas', Colonna 'TBModifiedID'
+  - 'VEDMaster': NO
+  - 'furmanetclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TBModifiedID'
+  - 'VEDMaster': Posizione 57
+  - 'furmanetclone': Posizione 58
+[ERRORE] Nullability: Tabella 'MA_CustQuotas', Colonna 'TBModifiedID'
+  - 'VEDMaster': NO
+  - 'gpxnetclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'TBModifiedID'
+  - 'VEDMaster': Posizione 57
+  - 'gpxnetclone': Posizione 58
+[ERRORE] Nullability: Tabella 'MA_CustQuotas', Colonna 'TBModifiedID'
+  - 'VEDMaster': NO
+  - 'vedbondifeclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ValidityDays'
+  - 'VEDMaster': Posizione 31
+  - 'furmanetclone': Posizione 30
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ValidityDays'
+  - 'VEDMaster': Posizione 31
+  - 'gpxnetclone': Posizione 30
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ValidityDays'
+  - 'VEDMaster': Posizione 31
+  - 'vedbondifeclone': Posizione 30
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ValidityEndingDate'
+  - 'VEDMaster': Posizione 30
+  - 'furmanetclone': Posizione 29
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ValidityEndingDate'
+  - 'VEDMaster': Posizione 30
+  - 'gpxnetclone': Posizione 29
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotas', Colonna 'ValidityEndingDate'
+  - 'VEDMaster': Posizione 30
+  - 'vedbondifeclone': Posizione 29
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotasDetail', Colonna 'CRRefID'
+  - 'VEDMaster': Posizione 50
+  - 'furmanetclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotasDetail', Colonna 'CRRefID'
+  - 'VEDMaster': Posizione 50
+  - 'gpxnetclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotasDetail', Colonna 'CRRefID'
+  - 'VEDMaster': Posizione 50
+  - 'vedbondifeclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotasDetail', Colonna 'CRRefSubID'
+  - 'VEDMaster': Posizione 51
+  - 'furmanetclone': Posizione 53
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotasDetail', Colonna 'CRRefSubID'
+  - 'VEDMaster': Posizione 51
+  - 'gpxnetclone': Posizione 53
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotasDetail', Colonna 'CRRefSubID'
+  - 'VEDMaster': Posizione 51
+  - 'vedbondifeclone': Posizione 53
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotasDetail', Colonna 'CRRefType'
+  - 'VEDMaster': Posizione 49
+  - 'furmanetclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotasDetail', Colonna 'CRRefType'
+  - 'VEDMaster': Posizione 49
+  - 'gpxnetclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotasDetail', Colonna 'CRRefType'
+  - 'VEDMaster': Posizione 49
+  - 'vedbondifeclone': Posizione 51
+[ERRORE] Lunghezza: Tabella 'MA_CustQuotasDetail', Colonna 'Description'
+  - 'VEDMaster': 128
+  - 'furmanetclone': 280
+[ERRORE] Lunghezza: Tabella 'MA_CustQuotasDetail', Colonna 'Description'
+  - 'VEDMaster': 128
+  - 'gpxnetclone': 280
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotasDetail', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 52
+  - 'furmanetclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotasDetail', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 52
+  - 'gpxnetclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotasDetail', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 52
+  - 'vedbondifeclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotasDetail', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 53
+  - 'furmanetclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotasDetail', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 53
+  - 'gpxnetclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_CustQuotasDetail', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 53
+  - 'vedbondifeclone': Posizione 50

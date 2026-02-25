@@ -1,0 +1,21 @@
+Analisi strutture (Commesse) eseguita: 09/16/2025 09:31:09
+
+== Tabella: MA_JobGroups ==
+
+== Tabella: MA_Jobs ==
+[AVVISO] Ordine colonna diverso (ContractCode): Dest=23 vs furmanetclone=26
+[AVVISO] Ordine colonna diverso (ProjectCode): Dest=24 vs furmanetclone=27
+[AVVISO] Ordine colonna diverso (TBCreated): Dest=26 vs furmanetclone=23
+[AVVISO] Ordine colonna diverso (TBModified): Dest=27 vs furmanetclone=24
+[AVVISO] Ordine colonna diverso (ContractCode): Dest=23 vs gpxnetclone=26
+[AVVISO] Ordine colonna diverso (ProjectCode): Dest=24 vs gpxnetclone=27
+[AVVISO] Ordine colonna diverso (TBCreated): Dest=26 vs gpxnetclone=23
+[AVVISO] Ordine colonna diverso (TBModified): Dest=27 vs gpxnetclone=24
+[AVVISO] Ordine colonna diverso (ContractCode): Dest=23 vs vedbondifeclone=26
+[AVVISO] Ordine colonna diverso (ProjectCode): Dest=24 vs vedbondifeclone=27
+[AVVISO] Ordine colonna diverso (TBCreated): Dest=26 vs vedbondifeclone=23
+[AVVISO] Ordine colonna diverso (TBModified): Dest=27 vs vedbondifeclone=24
+
+== Tabella: MA_JobsBalances ==
+
+== Tabella: MA_JobsParameters ==

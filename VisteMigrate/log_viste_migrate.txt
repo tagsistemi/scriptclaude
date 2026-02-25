@@ -1,0 +1,761 @@
+# Log di migrazione viste - 2026-02-23 21:30:28
+# Database sorgente: gpxnetclone
+# Database destinazione: vedmaster
+# Server: 192.168.0.3\sql2008
+
+[2026-02-23 21:30:28] [INFO] === INIZIO MIGRAZIONE VISTE DA gpxnetclone A vedmaster ===
+[2026-02-23 21:30:28] [INFO] Test connessione al database sorgente...
+[2026-02-23 21:30:28] [SUCCESS] Connessione a gpxnetclone riuscita
+[2026-02-23 21:30:28] [INFO] Test connessione al database destinazione...
+[2026-02-23 21:30:28] [SUCCESS] Connessione a vedmaster riuscita
+[2026-02-23 21:30:28] [INFO] Recupero viste dal database gpxnetclone...
+[2026-02-23 21:30:28] [INFO] Connessione aperta
+[2026-02-23 21:30:29] [SUCCESS] Recuperate 144 viste dal database gpxnetclone
+[2026-02-23 21:30:29] [INFO] Connessione chiusa
+[2026-02-23 21:30:29] [INFO] Elenco delle prime 5 viste trovate:
+[2026-02-23 21:30:29] [WARNING]   Vista #1: Riga nulla
+[2026-02-23 21:30:29] [WARNING]   Vista #2: Riga nulla
+[2026-02-23 21:30:29] [WARNING]   Vista #3: Riga nulla
+[2026-02-23 21:30:29] [WARNING]   Vista #4: Riga nulla
+[2026-02-23 21:30:29] [WARNING]   Vista #5: Riga nulla
+[2026-02-23 21:30:32] [WARNING] Il risultato non è un DataTable. Conversione in corso...
+[2026-02-23 21:30:32] [SUCCESS] Conversione completata. Viste convertite: 147
+[2026-02-23 21:30:32] [INFO] Generazione script per 147 viste...
+[2026-02-23 21:30:32] [INFO] Elaborazione vista 1/147: [].[]
+[2026-02-23 21:30:32] [WARNING]   Vista [].[] saltata: definizione mancante
+[].[] - SALTATA: definizione mancante
+[2026-02-23 21:30:32] [INFO] Elaborazione vista 2/147: [].[]
+[2026-02-23 21:30:32] [WARNING]   Vista [].[] saltata: definizione mancante
+[].[] - SALTATA: definizione mancante
+[2026-02-23 21:30:32] [INFO] Elaborazione vista 3/147: [].[]
+[2026-02-23 21:30:32] [WARNING]   Vista [].[] saltata: definizione mancante
+[].[] - SALTATA: definizione mancante
+[2026-02-23 21:30:32] [INFO] Elaborazione vista 4/147: [dbo].[aa_vista_etichette_cliente]
+[2026-02-23 21:30:32] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:32] [SUCCESS]   Script generato: 004_dbo_aa_vista_etichette_cliente.sql
+[2026-02-23 21:30:32] [INFO] Elaborazione vista 5/147: [dbo].[artcommessew]
+[2026-02-23 21:30:32] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:32] [SUCCESS]   Script generato: 005_dbo_artcommessew.sql
+[2026-02-23 21:30:32] [INFO] Elaborazione vista 6/147: [dbo].[BDE_04_UoM]
+[2026-02-23 21:30:32] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:32] [SUCCESS]   Script generato: 006_dbo_BDE_04_UoM.sql
+[2026-02-23 21:30:32] [INFO] Elaborazione vista 7/147: [dbo].[BDE_05_UoMComparations]
+[2026-02-23 21:30:32] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:32] [SUCCESS]   Script generato: 007_dbo_BDE_05_UoMComparations.sql
+[2026-02-23 21:30:32] [INFO] Elaborazione vista 8/147: [dbo].[BDE_10_Items]
+[2026-02-23 21:30:32] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:32] [SUCCESS]   Script generato: 008_dbo_BDE_10_Items.sql
+[2026-02-23 21:30:32] [INFO] Elaborazione vista 9/147: [dbo].[BDE_10_Items_old]
+[2026-02-23 21:30:32] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:32] [SUCCESS]   Script generato: 009_dbo_BDE_10_Items_old.sql
+[2026-02-23 21:30:32] [INFO] Elaborazione vista 10/147: [dbo].[BDE_11_ItemsUOMComparations]
+[2026-02-23 21:30:33] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:33] [SUCCESS]   Script generato: 010_dbo_BDE_11_ItemsUOMComparations.sql
+[2026-02-23 21:30:33] [INFO] Elaborazione vista 11/147: [dbo].[BDE_12_ItemsCosts]
+[2026-02-23 21:30:33] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:33] [SUCCESS]   Script generato: 011_dbo_BDE_12_ItemsCosts.sql
+[2026-02-23 21:30:33] [INFO] Elaborazione vista 12/147: [dbo].[BDE_12_ItemsCosts_old]
+[2026-02-23 21:30:33] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:33] [SUCCESS]   Script generato: 012_dbo_BDE_12_ItemsCosts_old.sql
+[2026-02-23 21:30:33] [INFO] Elaborazione vista 13/147: [dbo].[BDE_13_ItemsLots]
+[2026-02-23 21:30:33] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:33] [SUCCESS]   Script generato: 013_dbo_BDE_13_ItemsLots.sql
+[2026-02-23 21:30:33] [INFO] Elaborazione vista 14/147: [dbo].[BDE_15_CustSupp]
+[2026-02-23 21:30:33] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:33] [SUCCESS]   Script generato: 014_dbo_BDE_15_CustSupp.sql
+[2026-02-23 21:30:33] [INFO] Elaborazione vista 15/147: [dbo].[BDE_16_Jobs]
+[2026-02-23 21:30:33] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:33] [SUCCESS]   Script generato: 015_dbo_BDE_16_Jobs.sql
+[2026-02-23 21:30:33] [INFO] Elaborazione vista 16/147: [dbo].[BDE_17_Appliances]
+[2026-02-23 21:30:33] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:33] [SUCCESS]   Script generato: 016_dbo_BDE_17_Appliances.sql
+[2026-02-23 21:30:33] [INFO] Elaborazione vista 17/147: [dbo].[BDE_18_Operations]
+[2026-02-23 21:30:33] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:33] [SUCCESS]   Script generato: 017_dbo_BDE_18_Operations.sql
+[2026-02-23 21:30:33] [INFO] Elaborazione vista 18/147: [dbo].[BDE_20_BOM]
+[2026-02-23 21:30:33] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:33] [SUCCESS]   Script generato: 018_dbo_BDE_20_BOM.sql
+[2026-02-23 21:30:33] [INFO] Elaborazione vista 19/147: [dbo].[BDE_21_BOMSteps]
+[2026-02-23 21:30:33] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:33] [SUCCESS]   Script generato: 019_dbo_BDE_21_BOMSteps.sql
+[2026-02-23 21:30:33] [INFO] Elaborazione vista 20/147: [dbo].[BDE_22_BOMCompoItems]
+[2026-02-23 21:30:33] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:33] [SUCCESS]   Script generato: 020_dbo_BDE_22_BOMCompoItems.sql
+[2026-02-23 21:30:33] [INFO] Elaborazione vista 21/147: [dbo].[BDE_23_BOMCompoBOMs]
+[2026-02-23 21:30:33] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:33] [SUCCESS]   Script generato: 021_dbo_BDE_23_BOMCompoBOMs.sql
+[2026-02-23 21:30:33] [INFO] Elaborazione vista 22/147: [dbo].[BDE_24_BOMStepsWorkerTime]
+[2026-02-23 21:30:33] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:33] [SUCCESS]   Script generato: 022_dbo_BDE_24_BOMStepsWorkerTime.sql
+[2026-02-23 21:30:33] [INFO] Elaborazione vista 23/147: [dbo].[BDE_25_BOMNotes]
+[2026-02-23 21:30:34] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:34] [SUCCESS]   Script generato: 023_dbo_BDE_25_BOMNotes.sql
+[2026-02-23 21:30:34] [INFO] Elaborazione vista 24/147: [dbo].[BDE_31_Teams]
+[2026-02-23 21:30:34] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:34] [SUCCESS]   Script generato: 024_dbo_BDE_31_Teams.sql
+[2026-02-23 21:30:34] [INFO] Elaborazione vista 25/147: [dbo].[BDE_32_Workers]
+[2026-02-23 21:30:34] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:34] [SUCCESS]   Script generato: 025_dbo_BDE_32_Workers.sql
+[2026-02-23 21:30:34] [INFO] Elaborazione vista 26/147: [dbo].[BDE_40_ManufacturingOrders]
+[2026-02-23 21:30:34] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:34] [SUCCESS]   Script generato: 026_dbo_BDE_40_ManufacturingOrders.sql
+[2026-02-23 21:30:34] [INFO] Elaborazione vista 27/147: [dbo].[BDE_41_MOSteps]
+[2026-02-23 21:30:34] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:34] [SUCCESS]   Script generato: 027_dbo_BDE_41_MOSteps.sql
+[2026-02-23 21:30:34] [INFO] Elaborazione vista 28/147: [dbo].[BDE_42_StepsWorkerTimes]
+[2026-02-23 21:30:34] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:34] [SUCCESS]   Script generato: 028_dbo_BDE_42_StepsWorkerTimes.sql
+[2026-02-23 21:30:34] [INFO] Elaborazione vista 29/147: [dbo].[BDE_43_StepsItems]
+[2026-02-23 21:30:34] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:34] [SUCCESS]   Script generato: 029_dbo_BDE_43_StepsItems.sql
+[2026-02-23 21:30:34] [INFO] Elaborazione vista 30/147: [dbo].[BDE_44_MOHierarchies]
+[2026-02-23 21:30:34] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:34] [SUCCESS]   Script generato: 030_dbo_BDE_44_MOHierarchies.sql
+[2026-02-23 21:30:34] [INFO] Elaborazione vista 31/147: [dbo].[BDE_50_CustomerOrders]
+[2026-02-23 21:30:34] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:34] [SUCCESS]   Script generato: 031_dbo_BDE_50_CustomerOrders.sql
+[2026-02-23 21:30:34] [INFO] Elaborazione vista 32/147: [dbo].[BDE_50_CustomerOrders_old]
+[2026-02-23 21:30:34] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:34] [SUCCESS]   Script generato: 032_dbo_BDE_50_CustomerOrders_old.sql
+[2026-02-23 21:30:34] [INFO] Elaborazione vista 33/147: [dbo].[BDE_51_CustomerOrderEntries]
+[2026-02-23 21:30:34] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:34] [SUCCESS]   Script generato: 033_dbo_BDE_51_CustomerOrderEntries.sql
+[2026-02-23 21:30:34] [INFO] Elaborazione vista 34/147: [dbo].[BDE_51_CustomerOrderEntries_all]
+[2026-02-23 21:30:34] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:34] [SUCCESS]   Script generato: 034_dbo_BDE_51_CustomerOrderEntries_all.sql
+[2026-02-23 21:30:34] [INFO] Elaborazione vista 35/147: [dbo].[BDE_51_CustomerOrderEntries_old]
+[2026-02-23 21:30:34] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:34] [SUCCESS]   Script generato: 035_dbo_BDE_51_CustomerOrderEntries_old.sql
+[2026-02-23 21:30:34] [INFO] Elaborazione vista 36/147: [dbo].[BDE_51_CustomerOrderEntries_old1]
+[2026-02-23 21:30:34] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:34] [SUCCESS]   Script generato: 036_dbo_BDE_51_CustomerOrderEntries_old1.sql
+[2026-02-23 21:30:34] [INFO] Elaborazione vista 37/147: [dbo].[BDE_76_ItemsPhotos]
+[2026-02-23 21:30:35] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:35] [SUCCESS]   Script generato: 037_dbo_BDE_76_ItemsPhotos.sql
+[2026-02-23 21:30:35] [INFO] Elaborazione vista 38/147: [dbo].[BDE_80_FamiliesAppliances]
+[2026-02-23 21:30:35] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:35] [SUCCESS]   Script generato: 038_dbo_BDE_80_FamiliesAppliances.sql
+[2026-02-23 21:30:35] [INFO] Elaborazione vista 39/147: [dbo].[BDE_81_AppliancesHourlyCosts]
+[2026-02-23 21:30:35] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:35] [SUCCESS]   Script generato: 039_dbo_BDE_81_AppliancesHourlyCosts.sql
+[2026-02-23 21:30:35] [INFO] Elaborazione vista 40/147: [dbo].[BDE_85_OperationsWorkerTimes]
+[2026-02-23 21:30:35] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:35] [SUCCESS]   Script generato: 040_dbo_BDE_85_OperationsWorkerTimes.sql
+[2026-02-23 21:30:35] [INFO] Elaborazione vista 41/147: [dbo].[docviewoikos]
+[2026-02-23 21:30:35] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:35] [SUCCESS]   Script generato: 041_dbo_docviewoikos.sql
+[2026-02-23 21:30:35] [INFO] Elaborazione vista 42/147: [dbo].[docviewtexigom]
+[2026-02-23 21:30:35] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:35] [SUCCESS]   Script generato: 042_dbo_docviewtexigom.sql
+[2026-02-23 21:30:35] [INFO] Elaborazione vista 43/147: [dbo].[docviewved]
+[2026-02-23 21:30:35] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:35] [SUCCESS]   Script generato: 043_dbo_docviewved.sql
+[2026-02-23 21:30:35] [INFO] Elaborazione vista 44/147: [dbo].[fatturericevuteoikos]
+[2026-02-23 21:30:35] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:35] [SUCCESS]   Script generato: 044_dbo_fatturericevuteoikos.sql
+[2026-02-23 21:30:35] [INFO] Elaborazione vista 45/147: [dbo].[fatturericevutetexigom]
+[2026-02-23 21:30:35] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:35] [SUCCESS]   Script generato: 045_dbo_fatturericevutetexigom.sql
+[2026-02-23 21:30:35] [INFO] Elaborazione vista 46/147: [dbo].[fatturericevuteved2007]
+[2026-02-23 21:30:35] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:35] [SUCCESS]   Script generato: 046_dbo_fatturericevuteved2007.sql
+[2026-02-23 21:30:35] [INFO] Elaborazione vista 47/147: [dbo].[GPX_VistaRigheOrdiniFor]
+[2026-02-23 21:30:35] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:35] [SUCCESS]   Script generato: 047_dbo_GPX_VistaRigheOrdiniFor.sql
+[2026-02-23 21:30:35] [INFO] Elaborazione vista 48/147: [dbo].[GPX_VistaRigheRam]
+[2026-02-23 21:30:35] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:35] [SUCCESS]   Script generato: 048_dbo_GPX_VistaRigheRam.sql
+[2026-02-23 21:30:35] [INFO] Elaborazione vista 49/147: [dbo].[GPX_VistaSituazioneCommessa]
+[2026-02-23 21:30:36] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:36] [SUCCESS]   Script generato: 049_dbo_GPX_VistaSituazioneCommessa.sql
+[2026-02-23 21:30:36] [INFO] Elaborazione vista 50/147: [dbo].[IM_CLCLComponents]
+[2026-02-23 21:30:36] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:36] [SUCCESS]   Script generato: 050_dbo_IM_CLCLComponents.sql
+[2026-02-23 21:30:36] [INFO] Elaborazione vista 51/147: [dbo].[IM_DataJobItemWorkingSteps]
+[2026-02-23 21:30:36] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:36] [SUCCESS]   Script generato: 051_dbo_IM_DataJobItemWorkingSteps.sql
+[2026-02-23 21:30:36] [INFO] Elaborazione vista 52/147: [dbo].[IM_InvEntryJobs]
+[2026-02-23 21:30:36] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:36] [SUCCESS]   Script generato: 052_dbo_IM_InvEntryJobs.sql
+[2026-02-23 21:30:36] [INFO] Elaborazione vista 53/147: [dbo].[IM_JobCorrectionsList]
+[2026-02-23 21:30:36] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:36] [SUCCESS]   Script generato: 053_dbo_IM_JobCorrectionsList.sql
+[2026-02-23 21:30:36] [INFO] Elaborazione vista 54/147: [dbo].[IM_JobItemsOrder]
+[2026-02-23 21:30:36] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:36] [SUCCESS]   Script generato: 054_dbo_IM_JobItemsOrder.sql
+[2026-02-23 21:30:36] [INFO] Elaborazione vista 55/147: [dbo].[IM_JobsDetailsCategories]
+[2026-02-23 21:30:36] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:36] [SUCCESS]   Script generato: 055_dbo_IM_JobsDetailsCategories.sql
+[2026-02-23 21:30:36] [INFO] Elaborazione vista 56/147: [dbo].[IM_JobsParentJobs]
+[2026-02-23 21:30:36] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:36] [SUCCESS]   Script generato: 056_dbo_IM_JobsParentJobs.sql
+[2026-02-23 21:30:36] [INFO] Elaborazione vista 57/147: [dbo].[IM_PurchaseOrdOrdDetails]
+[2026-02-23 21:30:36] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:36] [SUCCESS]   Script generato: 057_dbo_IM_PurchaseOrdOrdDetails.sql
+[2026-02-23 21:30:36] [INFO] Elaborazione vista 58/147: [dbo].[IM_PurchReqDetailsGroup]
+[2026-02-23 21:30:36] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:36] [SUCCESS]   Script generato: 058_dbo_IM_PurchReqDetailsGroup.sql
+[2026-02-23 21:30:36] [INFO] Elaborazione vista 59/147: [dbo].[IM_PurchReqGenDocRefPRDetails]
+[2026-02-23 21:30:36] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:36] [SUCCESS]   Script generato: 059_dbo_IM_PurchReqGenDocRefPRDetails.sql
+[2026-02-23 21:30:36] [INFO] Elaborazione vista 60/147: [dbo].[IM_PurchReqGenDocRefSuppQuota]
+[2026-02-23 21:30:36] [SUCCESS]   Script generato: 060_dbo_IM_PurchReqGenDocRefSuppQuota.sql
+[2026-02-23 21:30:36] [INFO] Elaborazione vista 61/147: [dbo].[IM_PyblsRcvblsJobIncidenceDocs]
+[2026-02-23 21:30:36] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:36] [SUCCESS]   Script generato: 061_dbo_IM_PyblsRcvblsJobIncidenceDocs.sql
+[2026-02-23 21:30:36] [INFO] Elaborazione vista 62/147: [dbo].[IM_SuppQuotasDetails]
+[2026-02-23 21:30:37] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:37] [SUCCESS]   Script generato: 062_dbo_IM_SuppQuotasDetails.sql
+[2026-02-23 21:30:37] [INFO] Elaborazione vista 63/147: [dbo].[IM_SuppQuotasDetailSummary]
+[2026-02-23 21:30:37] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:37] [SUCCESS]   Script generato: 063_dbo_IM_SuppQuotasDetailSummary.sql
+[2026-02-23 21:30:37] [INFO] Elaborazione vista 64/147: [dbo].[IM_SuppQuotasSummary]
+[2026-02-23 21:30:37] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:37] [SUCCESS]   Script generato: 064_dbo_IM_SuppQuotasSummary.sql
+[2026-02-23 21:30:37] [INFO] Elaborazione vista 65/147: [dbo].[IM_WorkingReportsWRStat]
+[2026-02-23 21:30:37] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:37] [SUCCESS]   Script generato: 065_dbo_IM_WorkingReportsWRStat.sql
+[2026-02-23 21:30:37] [INFO] Elaborazione vista 66/147: [dbo].[Lottiw]
+[2026-02-23 21:30:37] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:37] [SUCCESS]   Script generato: 066_dbo_Lottiw.sql
+[2026-02-23 21:30:37] [INFO] Elaborazione vista 67/147: [dbo].[MA_AvailabilityAnalysis]
+[2026-02-23 21:30:37] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:37] [SUCCESS]   Script generato: 067_dbo_MA_AvailabilityAnalysis.sql
+[2026-02-23 21:30:37] [INFO] Elaborazione vista 68/147: [dbo].[MA_DepthLevelBOM]
+[2026-02-23 21:30:37] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:37] [SUCCESS]   Script generato: 068_dbo_MA_DepthLevelBOM.sql
+[2026-02-23 21:30:37] [INFO] Elaborazione vista 69/147: [dbo].[MA_InventoryEntriesPhases]
+[2026-02-23 21:30:37] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:37] [SUCCESS]   Script generato: 069_dbo_MA_InventoryEntriesPhases.sql
+[2026-02-23 21:30:37] [INFO] Elaborazione vista 70/147: [dbo].[MA_ItemsSubstituteFiscalData]
+[2026-02-23 21:30:37] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:37] [SUCCESS]   Script generato: 070_dbo_MA_ItemsSubstituteFiscalData.sql
+[2026-02-23 21:30:37] [INFO] Elaborazione vista 71/147: [dbo].[MA_JournalEntriesTaxJoin]
+[2026-02-23 21:30:37] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:37] [SUCCESS]   Script generato: 071_dbo_MA_JournalEntriesTaxJoin.sql
+[2026-02-23 21:30:37] [INFO] Elaborazione vista 72/147: [dbo].[MA_MasterFor770Form]
+[2026-02-23 21:30:37] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:37] [SUCCESS]   Script generato: 072_dbo_MA_MasterFor770Form.sql
+[2026-02-23 21:30:37] [INFO] Elaborazione vista 73/147: [dbo].[MA_ProductionDevelopment]
+[2026-02-23 21:30:37] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:37] [SUCCESS]   Script generato: 073_dbo_MA_ProductionDevelopment.sql
+[2026-02-23 21:30:37] [INFO] Elaborazione vista 74/147: [dbo].[MA_SalesStatistics]
+[2026-02-23 21:30:38] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:38] [SUCCESS]   Script generato: 074_dbo_MA_SalesStatistics.sql
+[2026-02-23 21:30:38] [INFO] Elaborazione vista 75/147: [dbo].[MA_SalesStatisticsDetailed]
+[2026-02-23 21:30:38] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:38] [SUCCESS]   Script generato: 075_dbo_MA_SalesStatisticsDetailed.sql
+[2026-02-23 21:30:38] [INFO] Elaborazione vista 76/147: [dbo].[MA_SubcontractingDoc]
+[2026-02-23 21:30:38] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:38] [SUCCESS]   Script generato: 076_dbo_MA_SubcontractingDoc.sql
+[2026-02-23 21:30:38] [INFO] Elaborazione vista 77/147: [dbo].[MA_SubcontratorAnalysis]
+[2026-02-23 21:30:38] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:38] [SUCCESS]   Script generato: 077_dbo_MA_SubcontratorAnalysis.sql
+[2026-02-23 21:30:38] [INFO] Elaborazione vista 78/147: [dbo].[MA_VCrossReferences]
+[2026-02-23 21:30:38] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:38] [SUCCESS]   Script generato: 078_dbo_MA_VCrossReferences.sql
+[2026-02-23 21:30:38] [INFO] Elaborazione vista 79/147: [dbo].[MA_VDocumentsToBeInvoiced]
+[2026-02-23 21:30:38] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:38] [SUCCESS]   Script generato: 079_dbo_MA_VDocumentsToBeInvoiced.sql
+[2026-02-23 21:30:38] [INFO] Elaborazione vista 80/147: [dbo].[MA_VInventoryProfit]
+[2026-02-23 21:30:38] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:38] [SUCCESS]   Script generato: 080_dbo_MA_VInventoryProfit.sql
+[2026-02-23 21:30:38] [INFO] Elaborazione vista 81/147: [dbo].[MA_VInvEntries]
+[2026-02-23 21:30:38] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:38] [SUCCESS]   Script generato: 081_dbo_MA_VInvEntries.sql
+[2026-02-23 21:30:38] [INFO] Elaborazione vista 82/147: [dbo].[MA_VInvEntriesDetail]
+[2026-02-23 21:30:38] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:38] [SUCCESS]   Script generato: 082_dbo_MA_VInvEntriesDetail.sql
+[2026-02-23 21:30:38] [INFO] Elaborazione vista 83/147: [dbo].[MA_VOpenOrders]
+[2026-02-23 21:30:38] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:38] [SUCCESS]   Script generato: 083_dbo_MA_VOpenOrders.sql
+[2026-02-23 21:30:38] [INFO] Elaborazione vista 84/147: [dbo].[MA_VPaymentScheduleSplitTax]
+[2026-02-23 21:30:38] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:38] [SUCCESS]   Script generato: 084_dbo_MA_VPaymentScheduleSplitTax.sql
+[2026-02-23 21:30:38] [INFO] Elaborazione vista 85/147: [dbo].[MA_VReceiptsBatch]
+[2026-02-23 21:30:38] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:38] [SUCCESS]   Script generato: 085_dbo_MA_VReceiptsBatch.sql
+[2026-02-23 21:30:38] [INFO] Elaborazione vista 86/147: [dbo].[MA_VSaleOrdersToDelivered]
+[2026-02-23 21:30:38] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:39] [SUCCESS]   Script generato: 086_dbo_MA_VSaleOrdersToDelivered.sql
+[2026-02-23 21:30:39] [INFO] Elaborazione vista 87/147: [dbo].[MA_VTaxDocSendings]
+[2026-02-23 21:30:39] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:39] [SUCCESS]   Script generato: 087_dbo_MA_VTaxDocSendings.sql
+[2026-02-23 21:30:39] [INFO] Elaborazione vista 88/147: [dbo].[MA_VTransactionReport]
+[2026-02-23 21:30:39] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:39] [SUCCESS]   Script generato: 088_dbo_MA_VTransactionReport.sql
+[2026-02-23 21:30:39] [INFO] Elaborazione vista 89/147: [dbo].[MA_VWMSaleOrdersPreShipping]
+[2026-02-23 21:30:39] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:39] [SUCCESS]   Script generato: 089_dbo_MA_VWMSaleOrdersPreShipping.sql
+[2026-02-23 21:30:39] [INFO] Elaborazione vista 90/147: [dbo].[MERCE_PRONTA_BRAVO]
+[2026-02-23 21:30:39] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:39] [SUCCESS]   Script generato: 090_dbo_MERCE_PRONTA_BRAVO.sql
+[2026-02-23 21:30:39] [INFO] Elaborazione vista 91/147: [dbo].[mp_OrdArtOldItem]
+[2026-02-23 21:30:39] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:39] [SUCCESS]   Script generato: 091_dbo_mp_OrdArtOldItem.sql
+[2026-02-23 21:30:39] [INFO] Elaborazione vista 92/147: [dbo].[mp_QAnalisiArticolo]
+[2026-02-23 21:30:39] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:39] [SUCCESS]   Script generato: 092_dbo_mp_QAnalisiArticolo.sql
+[2026-02-23 21:30:39] [INFO] Elaborazione vista 93/147: [dbo].[mp_QVendAgReg]
+[2026-02-23 21:30:39] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:39] [SUCCESS]   Script generato: 093_dbo_mp_QVendAgReg.sql
+[2026-02-23 21:30:39] [INFO] Elaborazione vista 94/147: [dbo].[mp_QxMedia12m]
+[2026-02-23 21:30:39] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:39] [SUCCESS]   Script generato: 094_dbo_mp_QxMedia12m.sql
+[2026-02-23 21:30:39] [INFO] Elaborazione vista 95/147: [dbo].[mp_VistaOrdXCliente]
+[2026-02-23 21:30:39] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:39] [SUCCESS]   Script generato: 095_dbo_mp_VistaOrdXCliente.sql
+[2026-02-23 21:30:39] [INFO] Elaborazione vista 96/147: [dbo].[Ord_Fornitori_Tempo_Evasione]
+[2026-02-23 21:30:39] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:39] [SUCCESS]   Script generato: 096_dbo_Ord_Fornitori_Tempo_Evasione.sql
+[2026-02-23 21:30:39] [INFO] Elaborazione vista 97/147: [dbo].[ordforcommesse]
+[2026-02-23 21:30:39] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:39] [SUCCESS]   Script generato: 097_dbo_ordforcommesse.sql
+[2026-02-23 21:30:39] [INFO] Elaborazione vista 98/147: [dbo].[PARTITARIO]
+[2026-02-23 21:30:39] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:39] [SUCCESS]   Script generato: 098_dbo_PARTITARIO.sql
+[2026-02-23 21:30:39] [INFO] Elaborazione vista 99/147: [dbo].[PARTITARIONEW]
+[2026-02-23 21:30:40] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:40] [SUCCESS]   Script generato: 099_dbo_PARTITARIONEW.sql
+[2026-02-23 21:30:40] [INFO] Elaborazione vista 100/147: [dbo].[saldi_per_gruppo]
+[2026-02-23 21:30:40] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:40] [SUCCESS]   Script generato: 100_dbo_saldi_per_gruppo.sql
+[2026-02-23 21:30:40] [INFO] Elaborazione vista 101/147: [dbo].[scadordbase]
+[2026-02-23 21:30:40] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:40] [SUCCESS]   Script generato: 101_dbo_scadordbase.sql
+[2026-02-23 21:30:40] [INFO] Elaborazione vista 102/147: [dbo].[scadordbase1]
+[2026-02-23 21:30:40] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:40] [SUCCESS]   Script generato: 102_dbo_scadordbase1.sql
+[2026-02-23 21:30:40] [INFO] Elaborazione vista 103/147: [dbo].[scadordbase3]
+[2026-02-23 21:30:40] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:40] [SUCCESS]   Script generato: 103_dbo_scadordbase3.sql
+[2026-02-23 21:30:40] [INFO] Elaborazione vista 104/147: [dbo].[Statistica numero commesse]
+[2026-02-23 21:30:40] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:40] [SUCCESS]   Script generato: 104_dbo_Statistica numero commesse.sql
+[2026-02-23 21:30:40] [INFO] Elaborazione vista 105/147: [dbo].[View_aggiornamentoindirizzimail]
+[2026-02-23 21:30:40] [SUCCESS]   Script generato: 105_dbo_View_aggiornamentoindirizzimail.sql
+[2026-02-23 21:30:40] [INFO] Elaborazione vista 106/147: [dbo].[VIEW_CODICI_IVA_UTILIZZATI]
+[2026-02-23 21:30:40] [SUCCESS]   Script generato: 106_dbo_VIEW_CODICI_IVA_UTILIZZATI.sql
+[2026-02-23 21:30:40] [INFO] Elaborazione vista 107/147: [dbo].[VIEW_OIKOS_CONTIPERFORNITORE_1]
+[2026-02-23 21:30:40] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:40] [SUCCESS]   Script generato: 107_dbo_VIEW_OIKOS_CONTIPERFORNITORE_1.sql
+[2026-02-23 21:30:40] [INFO] Elaborazione vista 108/147: [dbo].[VIEW_OIKOS_CONTIPERFORNITORE2]
+[2026-02-23 21:30:40] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:40] [SUCCESS]   Script generato: 108_dbo_VIEW_OIKOS_CONTIPERFORNITORE2.sql
+[2026-02-23 21:30:40] [INFO] Elaborazione vista 109/147: [dbo].[VIEW_ORDFOR_CENTRI]
+[2026-02-23 21:30:40] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:40] [SUCCESS]   Script generato: 109_dbo_VIEW_ORDFOR_CENTRI.sql
+[2026-02-23 21:30:40] [INFO] Elaborazione vista 110/147: [dbo].[VIEW_ORDFOR_CENTRI_ORIGINALE]
+[2026-02-23 21:30:40] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:40] [SUCCESS]   Script generato: 110_dbo_VIEW_ORDFOR_CENTRI_ORIGINALE.sql
+[2026-02-23 21:30:40] [INFO] Elaborazione vista 111/147: [dbo].[viewavanfatt]
+[2026-02-23 21:30:41] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:41] [SUCCESS]   Script generato: 111_dbo_viewavanfatt.sql
+[2026-02-23 21:30:41] [INFO] Elaborazione vista 112/147: [dbo].[Vista_AggposizioneOrdineMovimento]
+[2026-02-23 21:30:41] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:41] [SUCCESS]   Script generato: 112_dbo_Vista_AggposizioneOrdineMovimento.sql
+[2026-02-23 21:30:41] [INFO] Elaborazione vista 113/147: [dbo].[Vista_Basecontrolloordinibollefatt]
+[2026-02-23 21:30:41] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:41] [SUCCESS]   Script generato: 113_dbo_Vista_Basecontrolloordinibollefatt.sql
+[2026-02-23 21:30:41] [INFO] Elaborazione vista 114/147: [dbo].[Vista_BaseUpdatePosOrdine]
+[2026-02-23 21:30:41] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:41] [SUCCESS]   Script generato: 114_dbo_Vista_BaseUpdatePosOrdine.sql
+[2026-02-23 21:30:41] [INFO] Elaborazione vista 115/147: [dbo].[Vista_Bolle]
+[2026-02-23 21:30:41] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:41] [SUCCESS]   Script generato: 115_dbo_Vista_Bolle.sql
+[2026-02-23 21:30:41] [INFO] Elaborazione vista 116/147: [dbo].[Vista_controlloddt_fattura]
+[2026-02-23 21:30:41] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:41] [SUCCESS]   Script generato: 116_dbo_Vista_controlloddt_fattura.sql
+[2026-02-23 21:30:41] [INFO] Elaborazione vista 117/147: [dbo].[Vista_controlloqtaconsegnata]
+[2026-02-23 21:30:41] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:41] [SUCCESS]   Script generato: 117_dbo_Vista_controlloqtaconsegnata.sql
+[2026-02-23 21:30:41] [INFO] Elaborazione vista 118/147: [dbo].[Vista_costoimballoordini]
+[2026-02-23 21:30:41] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:41] [SUCCESS]   Script generato: 118_dbo_Vista_costoimballoordini.sql
+[2026-02-23 21:30:41] [INFO] Elaborazione vista 119/147: [dbo].[Vista_ExportFatture]
+[2026-02-23 21:30:41] [SUCCESS]   Script generato: 119_dbo_Vista_ExportFatture.sql
+[2026-02-23 21:30:41] [INFO] Elaborazione vista 120/147: [dbo].[Vista_Fatture]
+[2026-02-23 21:30:41] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:41] [SUCCESS]   Script generato: 120_dbo_Vista_Fatture.sql
+[2026-02-23 21:30:41] [INFO] Elaborazione vista 121/147: [dbo].[Vista_numero_commesse_anno]
+[2026-02-23 21:30:41] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:41] [SUCCESS]   Script generato: 121_dbo_Vista_numero_commesse_anno.sql
+[2026-02-23 21:30:41] [INFO] Elaborazione vista 122/147: [dbo].[Vista_QtaConsegnataCommessa]
+[2026-02-23 21:30:41] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:41] [SUCCESS]   Script generato: 122_dbo_Vista_QtaConsegnataCommessa.sql
+[2026-02-23 21:30:41] [INFO] Elaborazione vista 123/147: [dbo].[Vista_Ramdaevadere]
+[2026-02-23 21:30:42] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:42] [SUCCESS]   Script generato: 123_dbo_Vista_Ramdaevadere.sql
+[2026-02-23 21:30:42] [INFO] Elaborazione vista 124/147: [dbo].[Vista_RiferimentiDocVenditaGroup]
+[2026-02-23 21:30:42] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:42] [SUCCESS]   Script generato: 124_dbo_Vista_RiferimentiDocVenditaGroup.sql
+[2026-02-23 21:30:42] [INFO] Elaborazione vista 125/147: [dbo].[VistaBaseControlloOrdiniBolle]
+[2026-02-23 21:30:42] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:42] [SUCCESS]   Script generato: 125_dbo_VistaBaseControlloOrdiniBolle.sql
+[2026-02-23 21:30:42] [INFO] Elaborazione vista 126/147: [dbo].[vistabasevalcostovendita]
+[2026-02-23 21:30:42] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:42] [SUCCESS]   Script generato: 126_dbo_vistabasevalcostovendita.sql
+[2026-02-23 21:30:42] [INFO] Elaborazione vista 127/147: [dbo].[VistaCostiTotaleAnalitici]
+[2026-02-23 21:30:42] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:42] [SUCCESS]   Script generato: 127_dbo_VistaCostiTotaleAnalitici.sql
+[2026-02-23 21:30:42] [INFO] Elaborazione vista 128/147: [dbo].[VistaDebitiCentrodiCosto]
+[2026-02-23 21:30:42] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:42] [SUCCESS]   Script generato: 128_dbo_VistaDebitiCentrodiCosto.sql
+[2026-02-23 21:30:42] [INFO] Elaborazione vista 129/147: [dbo].[vistaimpegniinentratadaram]
+[2026-02-23 21:30:42] [SUCCESS]   Script generato: 129_dbo_vistaimpegniinentratadaram.sql
+[2026-02-23 21:30:42] [INFO] Elaborazione vista 130/147: [dbo].[VistaIncidenzaCentrodicostoTotale]
+[2026-02-23 21:30:42] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:42] [SUCCESS]   Script generato: 130_dbo_VistaIncidenzaCentrodicostoTotale.sql
+[2026-02-23 21:30:42] [INFO] Elaborazione vista 131/147: [dbo].[VistaIncidenzaCostoCentro]
+[2026-02-23 21:30:42] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:42] [SUCCESS]   Script generato: 131_dbo_VistaIncidenzaCostoCentro.sql
+[2026-02-23 21:30:42] [INFO] Elaborazione vista 132/147: [dbo].[Vistaordinidaevadere]
+[2026-02-23 21:30:42] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:42] [SUCCESS]   Script generato: 132_dbo_Vistaordinidaevadere.sql
+[2026-02-23 21:30:42] [INFO] Elaborazione vista 133/147: [dbo].[vistaperbilanciodimagazzino_corretta]
+[2026-02-23 21:30:42] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:42] [SUCCESS]   Script generato: 133_dbo_vistaperbilanciodimagazzino_corretta.sql
+[2026-02-23 21:30:42] [INFO] Elaborazione vista 134/147: [dbo].[vistaperbilanciomagazzino]
+[2026-02-23 21:30:42] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:42] [SUCCESS]   Script generato: 134_dbo_vistaperbilanciomagazzino.sql
+[2026-02-23 21:30:42] [INFO] Elaborazione vista 135/147: [dbo].[vistaperbilanciomagazzino_07092017]
+[2026-02-23 21:30:43] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:43] [SUCCESS]   Script generato: 135_dbo_vistaperbilanciomagazzino_07092017.sql
+[2026-02-23 21:30:43] [INFO] Elaborazione vista 136/147: [dbo].[vistaperbilanciomagazzino_12122018]
+[2026-02-23 21:30:43] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:43] [SUCCESS]   Script generato: 136_dbo_vistaperbilanciomagazzino_12122018.sql
+[2026-02-23 21:30:43] [INFO] Elaborazione vista 137/147: [dbo].[vistaperbilanciomagazzino_30052017]
+[2026-02-23 21:30:43] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:43] [SUCCESS]   Script generato: 137_dbo_vistaperbilanciomagazzino_30052017.sql
+[2026-02-23 21:30:43] [INFO] Elaborazione vista 138/147: [dbo].[vistaperbilanciomagazzinox]
+[2026-02-23 21:30:43] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:43] [SUCCESS]   Script generato: 138_dbo_vistaperbilanciomagazzinox.sql
+[2026-02-23 21:30:43] [INFO] Elaborazione vista 139/147: [dbo].[vistapermercepronta]
+[2026-02-23 21:30:43] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:43] [SUCCESS]   Script generato: 139_dbo_vistapermercepronta.sql
+[2026-02-23 21:30:43] [INFO] Elaborazione vista 140/147: [dbo].[VistaQtaConsegnatePerCommessaPosizione]
+[2026-02-23 21:30:43] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:43] [SUCCESS]   Script generato: 140_dbo_VistaQtaConsegnatePerCommessaPosizione.sql
+[2026-02-23 21:30:43] [INFO] Elaborazione vista 141/147: [dbo].[vistarigheoforep]
+[2026-02-23 21:30:43] [SUCCESS]   Script generato: 141_dbo_vistarigheoforep.sql
+[2026-02-23 21:30:43] [INFO] Elaborazione vista 142/147: [dbo].[VistaVendite]
+[2026-02-23 21:30:43] [SUCCESS]   Script generato: 142_dbo_VistaVendite.sql
+[2026-02-23 21:30:43] [INFO] Elaborazione vista 143/147: [dbo].[VwIxW_OffForCont]
+[2026-02-23 21:30:43] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:43] [SUCCESS]   Script generato: 143_dbo_VwIxW_OffForCont.sql
+[2026-02-23 21:30:43] [INFO] Elaborazione vista 144/147: [dbo].[VwIxW_OffForRighe]
+[2026-02-23 21:30:43] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:43] [SUCCESS]   Script generato: 144_dbo_VwIxW_OffForRighe.sql
+[2026-02-23 21:30:43] [INFO] Elaborazione vista 145/147: [dbo].[VwIxW_OrdForCom]
+[2026-02-23 21:30:43] [SUCCESS]   Script generato: 145_dbo_VwIxW_OrdForCom.sql
+[2026-02-23 21:30:43] [INFO] Elaborazione vista 146/147: [dbo].[VwIxWMovMagPerCommEDep]
+[2026-02-23 21:30:43] [SUCCESS]   Script generato: 146_dbo_VwIxWMovMagPerCommEDep.sql
+[2026-02-23 21:30:43] [INFO] Elaborazione vista 147/147: [dbo].[WIEW_LISTAFATTURATOPERDIVISIONE]
+[2026-02-23 21:30:43] [INFO]   Vista già esistente, sarà ricreata
+[2026-02-23 21:30:43] [SUCCESS]   Script generato: 147_dbo_WIEW_LISTAFATTURATOPERDIVISIONE.sql
+[2026-02-23 21:30:43] [INFO] 
+[2026-02-23 21:30:43] [INFO] === RIEPILOGO GENERAZIONE SCRIPT ===
+[2026-02-23 21:30:43] [SUCCESS] Script generati con successo: 144
+[2026-02-23 21:30:43] [ERROR] Script con errori: 0
+[2026-02-23 21:30:43] [WARNING] Viste saltate: 3
+[2026-02-23 21:30:43] [INFO] Script master: e:\MigrazioneVed\Scripts\VisteMigrate\00_master_script_viste.sql
+[2026-02-23 21:30:50] [INFO] Esecuzione degli script...
+[2026-02-23 21:30:50] [INFO] Inizio esecuzione di 145 script...
+[2026-02-23 21:30:50] [INFO] Esecuzione: 004_dbo_aa_vista_etichette_cliente.sql
+[2026-02-23 21:30:51] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:51] [INFO] Esecuzione: 005_dbo_artcommessew.sql
+[2026-02-23 21:30:51] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:51] [INFO] Esecuzione: 006_dbo_BDE_04_UoM.sql
+[2026-02-23 21:30:51] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:51] [INFO] Esecuzione: 007_dbo_BDE_05_UoMComparations.sql
+[2026-02-23 21:30:51] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:51] [INFO] Esecuzione: 008_dbo_BDE_10_Items.sql
+[2026-02-23 21:30:51] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:51] [INFO] Esecuzione: 009_dbo_BDE_10_Items_old.sql
+[2026-02-23 21:30:52] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:52] [INFO] Esecuzione: 010_dbo_BDE_11_ItemsUOMComparations.sql
+[2026-02-23 21:30:52] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:52] [INFO] Esecuzione: 011_dbo_BDE_12_ItemsCosts.sql
+[2026-02-23 21:30:52] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:52] [INFO] Esecuzione: 012_dbo_BDE_12_ItemsCosts_old.sql
+[2026-02-23 21:30:52] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:52] [INFO] Esecuzione: 013_dbo_BDE_13_ItemsLots.sql
+[2026-02-23 21:30:53] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:53] [INFO] Esecuzione: 014_dbo_BDE_15_CustSupp.sql
+[2026-02-23 21:30:53] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:53] [INFO] Esecuzione: 015_dbo_BDE_16_Jobs.sql
+[2026-02-23 21:30:54] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:54] [INFO] Esecuzione: 016_dbo_BDE_17_Appliances.sql
+[2026-02-23 21:30:54] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:54] [INFO] Esecuzione: 017_dbo_BDE_18_Operations.sql
+[2026-02-23 21:30:54] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:54] [INFO] Esecuzione: 018_dbo_BDE_20_BOM.sql
+[2026-02-23 21:30:54] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:54] [INFO] Esecuzione: 019_dbo_BDE_21_BOMSteps.sql
+[2026-02-23 21:30:54] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:54] [INFO] Esecuzione: 020_dbo_BDE_22_BOMCompoItems.sql
+[2026-02-23 21:30:55] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:55] [INFO] Esecuzione: 021_dbo_BDE_23_BOMCompoBOMs.sql
+[2026-02-23 21:30:55] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:55] [INFO] Esecuzione: 022_dbo_BDE_24_BOMStepsWorkerTime.sql
+[2026-02-23 21:30:55] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:55] [INFO] Esecuzione: 023_dbo_BDE_25_BOMNotes.sql
+[2026-02-23 21:30:55] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:55] [INFO] Esecuzione: 024_dbo_BDE_31_Teams.sql
+[2026-02-23 21:30:55] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:55] [INFO] Esecuzione: 025_dbo_BDE_32_Workers.sql
+[2026-02-23 21:30:56] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:56] [INFO] Esecuzione: 026_dbo_BDE_40_ManufacturingOrders.sql
+[2026-02-23 21:30:56] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:56] [INFO] Esecuzione: 027_dbo_BDE_41_MOSteps.sql
+[2026-02-23 21:30:56] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:56] [INFO] Esecuzione: 028_dbo_BDE_42_StepsWorkerTimes.sql
+[2026-02-23 21:30:56] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:56] [INFO] Esecuzione: 029_dbo_BDE_43_StepsItems.sql
+[2026-02-23 21:30:57] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:57] [INFO] Esecuzione: 030_dbo_BDE_44_MOHierarchies.sql
+[2026-02-23 21:30:57] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:57] [INFO] Esecuzione: 031_dbo_BDE_50_CustomerOrders.sql
+[2026-02-23 21:30:57] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:57] [INFO] Esecuzione: 032_dbo_BDE_50_CustomerOrders_old.sql
+[2026-02-23 21:30:57] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:57] [INFO] Esecuzione: 033_dbo_BDE_51_CustomerOrderEntries.sql
+[2026-02-23 21:30:58] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:58] [INFO] Esecuzione: 034_dbo_BDE_51_CustomerOrderEntries_all.sql
+[2026-02-23 21:30:58] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:58] [INFO] Esecuzione: 035_dbo_BDE_51_CustomerOrderEntries_old.sql
+[2026-02-23 21:30:58] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:58] [INFO] Esecuzione: 036_dbo_BDE_51_CustomerOrderEntries_old1.sql
+[2026-02-23 21:30:58] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:58] [INFO] Esecuzione: 037_dbo_BDE_76_ItemsPhotos.sql
+[2026-02-23 21:30:58] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:58] [INFO] Esecuzione: 038_dbo_BDE_80_FamiliesAppliances.sql
+[2026-02-23 21:30:59] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:59] [INFO] Esecuzione: 039_dbo_BDE_81_AppliancesHourlyCosts.sql
+[2026-02-23 21:30:59] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:59] [INFO] Esecuzione: 040_dbo_BDE_85_OperationsWorkerTimes.sql
+[2026-02-23 21:30:59] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:59] [INFO] Esecuzione: 041_dbo_docviewoikos.sql
+[2026-02-23 21:30:59] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:59] [INFO] Esecuzione: 042_dbo_docviewtexigom.sql
+[2026-02-23 21:30:59] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:30:59] [INFO] Esecuzione: 043_dbo_docviewved.sql
+[2026-02-23 21:31:00] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:00] [INFO] Esecuzione: 044_dbo_fatturericevuteoikos.sql
+[2026-02-23 21:31:00] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:00] [INFO] Esecuzione: 045_dbo_fatturericevutetexigom.sql
+[2026-02-23 21:31:00] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:00] [INFO] Esecuzione: 046_dbo_fatturericevuteved2007.sql
+[2026-02-23 21:31:00] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:00] [INFO] Esecuzione: 047_dbo_GPX_VistaRigheOrdiniFor.sql
+[2026-02-23 21:31:00] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:00] [INFO] Esecuzione: 048_dbo_GPX_VistaRigheRam.sql
+[2026-02-23 21:31:01] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:01] [INFO] Esecuzione: 049_dbo_GPX_VistaSituazioneCommessa.sql
+[2026-02-23 21:31:01] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:01] [INFO] Esecuzione: 050_dbo_IM_CLCLComponents.sql
+[2026-02-23 21:31:01] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:01] [INFO] Esecuzione: 051_dbo_IM_DataJobItemWorkingSteps.sql
+[2026-02-23 21:31:01] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:01] [INFO] Esecuzione: 052_dbo_IM_InvEntryJobs.sql
+[2026-02-23 21:31:02] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:02] [INFO] Esecuzione: 053_dbo_IM_JobCorrectionsList.sql
+[2026-02-23 21:31:02] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:02] [INFO] Esecuzione: 054_dbo_IM_JobItemsOrder.sql
+[2026-02-23 21:31:02] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:02] [INFO] Esecuzione: 055_dbo_IM_JobsDetailsCategories.sql
+[2026-02-23 21:31:02] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:02] [INFO] Esecuzione: 056_dbo_IM_JobsParentJobs.sql
+[2026-02-23 21:31:02] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:02] [INFO] Esecuzione: 057_dbo_IM_PurchaseOrdOrdDetails.sql
+[2026-02-23 21:31:03] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:03] [INFO] Esecuzione: 058_dbo_IM_PurchReqDetailsGroup.sql
+[2026-02-23 21:31:03] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:03] [INFO] Esecuzione: 059_dbo_IM_PurchReqGenDocRefPRDetails.sql
+[2026-02-23 21:31:03] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:03] [INFO] Esecuzione: 060_dbo_IM_PurchReqGenDocRefSuppQuota.sql
+[2026-02-23 21:31:03] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:03] [INFO] Esecuzione: 061_dbo_IM_PyblsRcvblsJobIncidenceDocs.sql
+[2026-02-23 21:31:03] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:03] [INFO] Esecuzione: 062_dbo_IM_SuppQuotasDetails.sql
+[2026-02-23 21:31:04] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:04] [INFO] Esecuzione: 063_dbo_IM_SuppQuotasDetailSummary.sql
+[2026-02-23 21:31:04] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:04] [INFO] Esecuzione: 064_dbo_IM_SuppQuotasSummary.sql
+[2026-02-23 21:31:04] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:04] [INFO] Esecuzione: 065_dbo_IM_WorkingReportsWRStat.sql
+[2026-02-23 21:31:04] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:04] [INFO] Esecuzione: 066_dbo_Lottiw.sql
+[2026-02-23 21:31:04] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:04] [INFO] Esecuzione: 067_dbo_MA_AvailabilityAnalysis.sql
+[2026-02-23 21:31:05] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:05] [INFO] Esecuzione: 068_dbo_MA_DepthLevelBOM.sql
+[2026-02-23 21:31:05] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:05] [INFO] Esecuzione: 069_dbo_MA_InventoryEntriesPhases.sql
+[2026-02-23 21:31:05] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:05] [INFO] Esecuzione: 070_dbo_MA_ItemsSubstituteFiscalData.sql
+[2026-02-23 21:31:05] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:05] [INFO] Esecuzione: 071_dbo_MA_JournalEntriesTaxJoin.sql
+[2026-02-23 21:31:05] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:05] [INFO] Esecuzione: 072_dbo_MA_MasterFor770Form.sql
+[2026-02-23 21:31:06] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:06] [INFO] Esecuzione: 073_dbo_MA_ProductionDevelopment.sql
+[2026-02-23 21:31:06] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:06] [INFO] Esecuzione: 074_dbo_MA_SalesStatistics.sql
+[2026-02-23 21:31:06] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:06] [INFO] Esecuzione: 075_dbo_MA_SalesStatisticsDetailed.sql
+[2026-02-23 21:31:06] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:06] [INFO] Esecuzione: 076_dbo_MA_SubcontractingDoc.sql
+[2026-02-23 21:31:06] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:06] [INFO] Esecuzione: 077_dbo_MA_SubcontratorAnalysis.sql
+[2026-02-23 21:31:07] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:07] [INFO] Esecuzione: 078_dbo_MA_VCrossReferences.sql
+[2026-02-23 21:31:07] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:07] [INFO] Esecuzione: 079_dbo_MA_VDocumentsToBeInvoiced.sql
+[2026-02-23 21:31:07] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:07] [INFO] Esecuzione: 080_dbo_MA_VInventoryProfit.sql
+[2026-02-23 21:31:07] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:07] [INFO] Esecuzione: 081_dbo_MA_VInvEntries.sql
+[2026-02-23 21:31:08] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:08] [INFO] Esecuzione: 082_dbo_MA_VInvEntriesDetail.sql
+[2026-02-23 21:31:08] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:08] [INFO] Esecuzione: 083_dbo_MA_VOpenOrders.sql
+[2026-02-23 21:31:08] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:08] [INFO] Esecuzione: 084_dbo_MA_VPaymentScheduleSplitTax.sql
+[2026-02-23 21:31:08] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:08] [INFO] Esecuzione: 085_dbo_MA_VReceiptsBatch.sql
+[2026-02-23 21:31:09] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:09] [INFO] Esecuzione: 086_dbo_MA_VSaleOrdersToDelivered.sql
+[2026-02-23 21:31:09] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:09] [INFO] Esecuzione: 087_dbo_MA_VTaxDocSendings.sql
+[2026-02-23 21:31:09] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:09] [INFO] Esecuzione: 088_dbo_MA_VTransactionReport.sql
+[2026-02-23 21:31:09] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:09] [INFO] Esecuzione: 089_dbo_MA_VWMSaleOrdersPreShipping.sql
+[2026-02-23 21:31:09] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:09] [INFO] Esecuzione: 090_dbo_MERCE_PRONTA_BRAVO.sql
+[2026-02-23 21:31:10] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:10] [INFO] Esecuzione: 091_dbo_mp_OrdArtOldItem.sql
+[2026-02-23 21:31:10] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:10] [INFO] Esecuzione: 092_dbo_mp_QAnalisiArticolo.sql
+[2026-02-23 21:31:10] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:10] [INFO] Esecuzione: 093_dbo_mp_QVendAgReg.sql
+[2026-02-23 21:31:10] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:10] [INFO] Esecuzione: 094_dbo_mp_QxMedia12m.sql
+[2026-02-23 21:31:11] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:11] [INFO] Esecuzione: 095_dbo_mp_VistaOrdXCliente.sql
+[2026-02-23 21:31:11] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:11] [INFO] Esecuzione: 096_dbo_Ord_Fornitori_Tempo_Evasione.sql
+[2026-02-23 21:31:11] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:11] [INFO] Esecuzione: 097_dbo_ordforcommesse.sql
+[2026-02-23 21:31:11] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:11] [INFO] Esecuzione: 098_dbo_PARTITARIO.sql
+[2026-02-23 21:31:11] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:11] [INFO] Esecuzione: 099_dbo_PARTITARIONEW.sql
+[2026-02-23 21:31:12] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:12] [INFO] Esecuzione: 100_dbo_saldi_per_gruppo.sql
+[2026-02-23 21:31:12] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:12] [INFO] Esecuzione: 101_dbo_scadordbase.sql
+[2026-02-23 21:31:12] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:12] [INFO] Esecuzione: 102_dbo_scadordbase1.sql
+[2026-02-23 21:31:12] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:12] [INFO] Esecuzione: 103_dbo_scadordbase3.sql
+[2026-02-23 21:31:12] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:12] [INFO] Esecuzione: 104_dbo_Statistica numero commesse.sql
+[2026-02-23 21:31:13] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:13] [INFO] Esecuzione: 105_dbo_View_aggiornamentoindirizzimail.sql
+[2026-02-23 21:31:13] [ERROR] Errore nell'esecuzione dello script 105_dbo_View_aggiornamentoindirizzimail.sql: Exception calling "ExecuteNonQuery" with "0" argument(s): "Invalid object name 'dbo.IndirizziPerFatture'."
+[2026-02-23 21:31:13] [ERROR]   Errore nell'esecuzione
+[2026-02-23 21:31:13] [INFO] Esecuzione: 106_dbo_VIEW_CODICI_IVA_UTILIZZATI.sql
+[2026-02-23 21:31:13] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:13] [INFO] Esecuzione: 107_dbo_VIEW_OIKOS_CONTIPERFORNITORE_1.sql
+[2026-02-23 21:31:13] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:13] [INFO] Esecuzione: 108_dbo_VIEW_OIKOS_CONTIPERFORNITORE2.sql
+[2026-02-23 21:31:14] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:14] [INFO] Esecuzione: 109_dbo_VIEW_ORDFOR_CENTRI.sql
+[2026-02-23 21:31:14] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:14] [INFO] Esecuzione: 110_dbo_VIEW_ORDFOR_CENTRI_ORIGINALE.sql
+[2026-02-23 21:31:14] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:14] [INFO] Esecuzione: 111_dbo_viewavanfatt.sql
+[2026-02-23 21:31:14] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:14] [INFO] Esecuzione: 112_dbo_Vista_AggposizioneOrdineMovimento.sql
+[2026-02-23 21:31:14] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:14] [INFO] Esecuzione: 113_dbo_Vista_Basecontrolloordinibollefatt.sql
+[2026-02-23 21:31:15] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:15] [INFO] Esecuzione: 114_dbo_Vista_BaseUpdatePosOrdine.sql
+[2026-02-23 21:31:15] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:15] [INFO] Esecuzione: 115_dbo_Vista_Bolle.sql
+[2026-02-23 21:31:15] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:15] [INFO] Esecuzione: 116_dbo_Vista_controlloddt_fattura.sql
+[2026-02-23 21:31:15] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:15] [INFO] Esecuzione: 117_dbo_Vista_controlloqtaconsegnata.sql
+[2026-02-23 21:31:16] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:16] [INFO] Esecuzione: 118_dbo_Vista_costoimballoordini.sql
+[2026-02-23 21:31:16] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:16] [INFO] Esecuzione: 119_dbo_Vista_ExportFatture.sql
+[2026-02-23 21:31:16] [ERROR] Errore nell'esecuzione dello script 119_dbo_Vista_ExportFatture.sql: Exception calling "ExecuteNonQuery" with "0" argument(s): "Invalid column name 'esportata'."
+[2026-02-23 21:31:16] [ERROR]   Errore nell'esecuzione
+[2026-02-23 21:31:16] [INFO] Esecuzione: 120_dbo_Vista_Fatture.sql
+[2026-02-23 21:31:16] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:16] [INFO] Esecuzione: 121_dbo_Vista_numero_commesse_anno.sql
+[2026-02-23 21:31:16] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:16] [INFO] Esecuzione: 122_dbo_Vista_QtaConsegnataCommessa.sql
+[2026-02-23 21:31:16] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:16] [INFO] Esecuzione: 123_dbo_Vista_Ramdaevadere.sql
+[2026-02-23 21:31:17] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:17] [INFO] Esecuzione: 124_dbo_Vista_RiferimentiDocVenditaGroup.sql
+[2026-02-23 21:31:17] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:17] [INFO] Esecuzione: 125_dbo_VistaBaseControlloOrdiniBolle.sql
+[2026-02-23 21:31:17] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:17] [INFO] Esecuzione: 126_dbo_vistabasevalcostovendita.sql
+[2026-02-23 21:31:17] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:17] [INFO] Esecuzione: 127_dbo_VistaCostiTotaleAnalitici.sql
+[2026-02-23 21:31:18] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:18] [INFO] Esecuzione: 128_dbo_VistaDebitiCentrodiCosto.sql
+[2026-02-23 21:31:18] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:18] [INFO] Esecuzione: 129_dbo_vistaimpegniinentratadaram.sql
+[2026-02-23 21:31:18] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:18] [INFO] Esecuzione: 130_dbo_VistaIncidenzaCentrodicostoTotale.sql
+[2026-02-23 21:31:18] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:18] [INFO] Esecuzione: 131_dbo_VistaIncidenzaCostoCentro.sql
+[2026-02-23 21:31:18] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:18] [INFO] Esecuzione: 132_dbo_Vistaordinidaevadere.sql
+[2026-02-23 21:31:18] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:18] [INFO] Esecuzione: 133_dbo_vistaperbilanciodimagazzino_corretta.sql
+[2026-02-23 21:31:19] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:19] [INFO] Esecuzione: 134_dbo_vistaperbilanciomagazzino.sql
+[2026-02-23 21:31:19] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:19] [INFO] Esecuzione: 135_dbo_vistaperbilanciomagazzino_07092017.sql
+[2026-02-23 21:31:19] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:19] [INFO] Esecuzione: 136_dbo_vistaperbilanciomagazzino_12122018.sql
+[2026-02-23 21:31:19] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:19] [INFO] Esecuzione: 137_dbo_vistaperbilanciomagazzino_30052017.sql
+[2026-02-23 21:31:19] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:19] [INFO] Esecuzione: 138_dbo_vistaperbilanciomagazzinox.sql
+[2026-02-23 21:31:20] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:20] [INFO] Esecuzione: 139_dbo_vistapermercepronta.sql
+[2026-02-23 21:31:20] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:20] [INFO] Esecuzione: 140_dbo_VistaQtaConsegnatePerCommessaPosizione.sql
+[2026-02-23 21:31:20] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:20] [INFO] Esecuzione: 141_dbo_vistarigheoforep.sql
+[2026-02-23 21:31:20] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:20] [INFO] Esecuzione: 142_dbo_VistaVendite.sql
+[2026-02-23 21:31:20] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:20] [INFO] Esecuzione: 143_dbo_VwIxW_OffForCont.sql
+[2026-02-23 21:31:21] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:21] [INFO] Esecuzione: 144_dbo_VwIxW_OffForRighe.sql
+[2026-02-23 21:31:21] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:21] [INFO] Esecuzione: 145_dbo_VwIxW_OrdForCom.sql
+[2026-02-23 21:31:21] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:21] [INFO] Esecuzione: 146_dbo_VwIxWMovMagPerCommEDep.sql
+[2026-02-23 21:31:21] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:21] [INFO] Esecuzione: 147_dbo_WIEW_LISTAFATTURATOPERDIVISIONE.sql
+[2026-02-23 21:31:21] [SUCCESS]   Esecuzione completata con successo
+[2026-02-23 21:31:21] [INFO] 
+[2026-02-23 21:31:21] [INFO] === RIEPILOGO ESECUZIONE SCRIPT ===
+[2026-02-23 21:31:21] [SUCCESS] Script eseguiti con successo: 142
+[2026-02-23 21:31:21] [ERROR] Script falliti: 2
+[2026-02-23 21:31:21] [INFO] Totale script: 144
+[2026-02-23 21:31:21] [INFO] === MIGRAZIONE COMPLETATA ===
+[2026-02-23 21:31:21] [INFO] Script disponibili in: e:\MigrazioneVed\Scripts\VisteMigrate
+[2026-02-23 21:31:21] [INFO] Log dettagliato: e:\MigrazioneVed\Scripts\VisteMigrate\log_viste_migrate.txt

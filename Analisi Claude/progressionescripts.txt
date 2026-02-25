@@ -1,0 +1,406 @@
+SCOPO DEGLI SCRIPT: UNIRE AL DB DI DESTINAZIONE (VEDMASTER) ALCUNI DOCUMENTI PRESENTI NEI DB CLONE. 
+PREMESSA : VEDMASTER CONTINE GIA FATTURE , MOVIMENTI CONTABILI , E ANAGRAFICA VARIE CLIENTI E FORNITORI. 
+CRITICITA': EVITARE SOVRAPPOSIZIONE DI ID , RICOSTRUZIONE CORRETTA DELLA TABELLA MA_CrossReferences
+
+
+--duplicazione db clonazione
+duplicadbvedcontab.ps1
+duplicadbvedbondife.ps1
+duplicadbfurmanet.ps1
+duplicadbgpxnet.ps1
+--svuota db destinazione
+SvuotaVedmaster.ps1
+--Varie mappe 
+CreaMappaCommesseDuplicate.ps1
+-- creare manualemente depositi e causali 
+
+
+--operazioni di rinumerazione sui i singoli db clonati 
+01rinumerajobid.ps1
+02disableoldjobscodes.ps1 
+04aggiornadocumenti.ps1
+05RinumeraIdAcquisti.ps1
+06RinumeraIdOrdiniFornitori.ps1
+07RinumeraIdOfferteFornitori.ps1
+08RinumeraIdOfferteClienti.ps1
+09RinumeraIdOrdiniClienti.ps1
+10RinumeraEntryId.ps1
+11RinumeraImQuotations.ps1
+12RinumeraImRapportini.ps1
+13RinumeraLibretti.ps1
+14RinumeraAnalisiPreventivo.ps1 
+15RinumeraSal.p1
+27rinumerasaledoc.ps1
+18CreaMappaRiferimenti.ps1
+19AggiornaCRossReference.ps1
+19BisRinumerasubid.ps1
+20AggCrossreferenceCommesse.ps1
+21ExportCrossReference.ps1
+22Aggiornacausaliedeposuorigini.ps1
+-- rinumerazione SaleDocId su VEDMaster (allinea ID fatture vedcontab ai clone)
+-- ESEGUIRE PRIMA dell'importazione cross-references dai clone
+28RinumeraSaleDocVedmaster.ps1
+-- Questo script rende SUPERFLUO lo script 23PostTrasfAggiornariffatturevedmaster.ps1
+-- perche gli ID su VEDMaster diventano identici a quelli dei clone,
+-- quindi i cross-references importati dai clone saranno corretti by design.
+
+--trasferimento dati su vedmaster da db clone
+--query su vedmaster
+UPDATE IM_JobsNotes SET Note = REPLACE(CAST(Note AS VARCHAR(MAX)), CHAR(31), '')
+WHERE CAST(Note AS VARCHAR(MAX)) LIKE '%' + CHAR(31) + '%'
+
+UPDATE ma_jobs SET Description = REPLACE(CAST(Description AS VARCHAR(MAX)), CHAR(31), '')
+WHERE CAST(Description AS VARCHAR(MAX)) LIKE '%' + CHAR(31) + '%'
+
+
+UPDATE IM_WorkingReportsDetails SET Note = REPLACE(CAST(Note AS VARCHAR(MAX)), CHAR(31), '')
+WHERE CAST(Note AS VARCHAR(MAX)) LIKE '%' + CHAR(31) + '%'
+--trasferimento sotto insiemi
+Sottoinsieme Magonet Commesse nella cartella MigrazioneSottoInsiemeComesse->
+eseguire script Migrate-JobsData  presente nella cartella 
+
+Sottoinsieme Perfetto cartella MigrazioneSottoinsiemePerfetto01
+eseguire su SSMS lo script sql Fix-Perfetto-Lengths.sql
+eseguire Migrate-PerfettoData.ps1
+
+Sottoinsieme Perfetto cartella MigrazioneSottoinsiemePerfetto02
+eseguire su SSMS lo script sql Fix-IM-Lengths.sql
+eseguire Migrate-ItemsData.ps1
+
+cartella MigrazioneSottoinsiemeCrossReferences
+Eseguire script Migrate-CrossReferencesData
+
+cartella MigrazioneSottoinsiemeAcquisti
+eseguire Migrate-PurchaseData.ps1
+
+cartella MigrazioneSottoinsiemeOrdiniFornitore 
+eseguire lo script sql Increase-DescriptionColumnLength.sql
+eseguire Migrate-PurchaseOrdData.ps1
+
+cartella MigrazioneSottoinsiemeOfferteFornitore 
+eseguire lo script sql Fix-SuppQuotas-Lengths.sql 
+eseguire Migrate-SuppQuotasData.ps1
+
+cartella MigrazioneSottoinsiemeOfferteCliente 
+eseguire lo script sql Fix-CustQuotas-Lengths.sql 
+eseguire Migrate-CustQuotasData.ps1
+
+
+cartella MigrazioneSottoinsiemeOrdiniCliente 
+eseguire lo script sql Alter_Description_VEDMaster_MA_SaleOrdDetails
+eseguire Migrate-SaleOrdData.ps1
+N.B nello script di migrazione le tabelle vanno importate da gpxnet non da gpxnetclone - perchè gli ordini clienti di gpx non devono essere rinumerati. lo script è gia corretto 
+
+
+-- preparazione a trasferimento articoli 
+eseguo questi script:
+DELETE FROM vedmaster.dbo.MA_ItemsWMSZones WHERE Item IN (SELECT Item FROM vedmaster.dbo.ma_items);
+DELETE FROM vedmaster.dbo.MA_ItemsLIFO WHERE Item IN (SELECT Item FROM vedmaster.dbo.ma_items);
+DELETE FROM vedmaster.dbo.MA_ItemsKit WHERE Item IN (SELECT Item FROM vedmaster.dbo.ma_items);
+DELETE FROM vedmaster.dbo.MA_ItemsFIFO WHERE Item IN (SELECT Item FROM vedmaster.dbo.ma_items);
+DELETE FROM vedmaster.dbo.MA_ItemsStorageQtyMonthly WHERE Item IN (SELECT Item FROM vedmaster.dbo.ma_items);
+DELETE FROM vedmaster.dbo.MA_ItemsLIFODomCurr WHERE Item IN (SELECT Item FROM vedmaster.dbo.ma_items);
+DELETE FROM vedmaster.dbo.MA_ItemsManufacturingData WHERE Item IN (SELECT Item FROM vedmaster.dbo.ma_items);
+DELETE FROM vedmaster.dbo.MA_ItemsFIFODomCurr WHERE Item IN (SELECT Item FROM vedmaster.dbo.ma_items);
+DELETE FROM vedmaster.dbo.MA_ItemsIntrastat WHERE Item IN (SELECT Item FROM vedmaster.dbo.ma_items);
+DELETE FROM vedmaster.dbo.MA_ItemNotes WHERE Item IN (SELECT Item FROM vedmaster.dbo.ma_items);
+DELETE FROM vedmaster.dbo.MA_ItemsPurchaseBarCode WHERE Item IN (SELECT Item FROM vedmaster.dbo.ma_items);
+DELETE FROM vedmaster.dbo.MA_ItemsLanguageDescri WHERE Item IN (SELECT Item FROM vedmaster.dbo.ma_items);
+DELETE FROM vedmaster.dbo.MA_ItemsSubstitute WHERE Item IN (SELECT Item FROM vedmaster.dbo.ma_items);
+DELETE FROM vedmaster.dbo.MA_StandardCostHistorical WHERE Item IN (SELECT Item FROM vedmaster.dbo.ma_items);
+DELETE FROM vedmaster.dbo.MA_ItemsComparableUoM WHERE Item IN (SELECT Item FROM vedmaster.dbo.ma_items);
+DELETE FROM vedmaster.dbo.ma_items;
+delete from vedmaster.dbo.MA_ItemCustomers
+delete from vedmaster.dbo.ma_items
+delete from vedmaster.dbo.MA_ItemSuppliers
+
+cartella MigrazioneSottoinsiemeArticoli 
+eseguire lo script sql Fix-MA_Items-Description-280.sql
+eseguire  Migrate-ItemsData.ps1
+
+cartella MigrazioneSottoinsiemeMagazzino 
+eseguire  Migrate-StockData.ps1
+
+-- lavori post trasferimento
+
+22PostTrasfUpdateCrossReference.ps1 (aggiorna i cross references)
+
+-- 23PostTrasfAggiornariffatturevedmaster1 NON PIU NECESSARIO se si e eseguito 28RinumeraSaleDocVedmaster.ps1
+-- (gli ID fatture su VEDMaster sono gia allineati ai clone, i cross-references sono corretti by design) 
+
+Inserire nella tabella IM_SpecificationsItems i seguenti campi : k (float, null) idSal (nchar(10), null) Riga (float, null)
+
+24OpreazioniIds.ps1 (aggiorno i nuovi id)
+
+-- dati gpx ram
+Operazioni pre-esportazione (da fare manualmente)
+Controllare i campi chiave delle tabelle gpx_ (per qualche motivo sono mancanti) 
+Su Db vedmaster - Inserire chiave  su gpx_parametri campo chiave ‘Codice’
+Su Db vedmaster - Inserire chiave  multipla su gpx_parametririghe campo chiave ‘Codice’ e’Deposito’
+
+cartella MigrazioneSottoinsiemeGpx 
+eseguire lo script sql Fix-gpx_righeram-Descrizione-280.sql
+eseguire Migrate-GpxData.ps1
+
+Query da eseguire per aggiornare i riferimenti degli ordini clienti alle RAM di gpx:
+UPDATE d
+SET d.SaleDocId = c.SaleOrdId
+FROM VEDMaster.dbo.gpx_saledocram d
+INNER JOIN gpxnet.dbo.gpx_saledocram a ON d.IdRam = a.IdRam
+INNER JOIN gpxnet.dbo.MA_SaleOrd b ON a.SaleDocId = b.SaleOrdId 
+INNER JOIN VEDMaster.dbo.MA_SaleOrd c ON c.InternalOrdNo = b.InternalOrdNo
+
+cartella MigrazioneSottoinsiemeEmployees 
+eseguire Migrate-ItemsData.ps1 
+
+eseguire 25trasferisciviews.ps1 (trasferisce le viste create per i report solo quelel possibili se ci sono errori ignora la vista)
+
+cartella MigrazioneSottoinsiemeMultistorages 
+eseguire Migrate-ItemsData.ps1 
+
+cartella MigrazioneSottoinsiemeLotti 
+eseguire Migrate-LotsData.ps1
+
+cartella MigrazioneSottoinsiemeDdt 
+eseguire lo script Fix-MA_SaleDocDetail-Description-512
+eseguire Migrate-ItemsData.ps1
+
+-- Problema con RAM (da risolvere manualmente)
+Impostare in VEDMaster.dbo.MA_IDNumbers il numeratore degli ordini in negativo 
+update VEDMaster.dbo.MA_IDNumbers set LastId = -6335 where CodeType = 3801098
+6335 è un valore da aggiornare al momento verificando quale è l’ultimo id ordine cliente su gpxnet
+dal momento in cui viene fatta questa operazione tutti gli ordini cliente nuovi avranno un id negativo. 
+per gli ordini presenti su GPX che non hanno generato RAM sara necessario ricaricare gli ordini. sarebbe preferibile che prima della migrazione gli ordini abbiano tutti le ram generate
+
+Creare su vedmaster nella tabella gpx_saledocram la chiave multipla SaleDocId, IdRam
+
+-- ulteriori operazioni per aggiornamnto cross references
+creare una tabella  di raccordo tra id di vedcontab e id dei db cloni:
+CREATE TABLE [dbo].[SaleDocMapping](
+	[DocumentType] [nvarchar](50) NULL,
+	[NewSaledocId] [int] NULL,
+	[DocNo] [nvarchar](50) NULL,
+	[DocumentDate] [datetime] NULL,
+	[OldSaleDocId] [int] NULL,
+	[SourceDB] [nvarchar](50) NULL,
+	[Customer] [nvarchar](50) NULL
+) ON [PRIMARY]
+popolare tabella SaleDocMapping:
+-- Inserisci in una tabella esistente
+INSERT INTO VEDMaster.dbo.SaleDocMapping 
+(DocumentType, NewSaledocId, DocNo, DocumentDate, OldSaleDocId, Customer,  SourceDB)
+SELECT 
+    a.DocumentType, a.SaleDocId as NewSaledocId, a.DocNo, a.DocumentDate, g.SaleDocId as OldSaleDocId, a.CustSupp as Customer, 'gpxnetclone' as SourceDB
+FROM VEDMaster.dbo.MA_SaleDoc a  
+INNER JOIN gpxnetclone.dbo.MA_SaleDoc g 
+    ON g.DocNo = a.DocNo 
+    AND g.DocumentDate = a.DocumentDate
+	AND g.CustSupp = a.CustSupp
+	where g.DocumentType = 3407874
+
+UNION ALL
+
+SELECT 
+    a.DocumentType, a.SaleDocId as NewSaledocId, a.DocNo,a.DocumentDate, v.SaleDocId as OldSaleDocId, a.CustSupp as Customer,'vedbondifeclone' as SourceDB
+FROM VEDMaster.dbo.MA_SaleDoc a  
+INNER JOIN vedbondifeclone.dbo.MA_SaleDoc v 
+    ON v.DocNo = a.DocNo 
+    AND v.DocumentDate = a.DocumentDate
+	AND v.CustSupp = a.CustSupp
+	where v.DocumentType = 3407874
+
+UNION ALL
+
+SELECT 
+    a.DocumentType, a.SaleDocId as NewSaledocId, a.DocNo, a.DocumentDate, f.SaleDocId as OldSaleDocId,a.CustSupp as Customer,'furmanetclone' as SourceDB
+FROM VEDMaster.dbo.MA_SaleDoc a  
+INNER JOIN furmanetclone.dbo.MA_SaleDoc f 
+    ON f.DocNo = a.DocNo 
+    AND f.DocumentDate = a.DocumentDate
+	AND f.CustSupp = a.CustSupp
+	where f.DocumentType = 3407874
+
+-- Sistemazione riferimenti origine Fatture Accompagnatorie (gli id su vedmaster sono diversi dalle origini)
+-- NOTA: 27066385 = Fattura Accompagnatoria (ReferenceCode in MA_CrossReferences)
+--        3407874 = Fattura Accompagnatoria (DocumentType in MA_SaleDoc)
+-- ATTENZIONE: se vedcontab aveva anche altri tipi fattura (Immediata=27066387, NC=27066389, etc.)
+--             bisogna ripetere queste operazioni per ogni tipo
+Backup della tabella prima dell’UPDATE
+SELECT *
+INTO VEDMaster.dbo.MA_CrossReferences_BACKUP
+FROM VEDMaster.dbo.MA_CrossReferences
+WHERE OriginDocType = 27066385
+
+Aggiornamento dei riferimenti origine fatture accompagnatorie
+UPDATE c
+SET c.OriginDocID = s.NewSaledocId
+FROM VEDMaster.dbo.MA_CrossReferences c
+INNER JOIN SaleDocMapping s
+    ON c.OriginDocType = 27066385
+    AND c.OriginDocID = s.OldSaleDocId
+WHERE s.NewSaledocId != s.OldSaleDocId
+  AND s.DocNo != ‘’
+  AND s.DocumentType = 3407874
+
+-- query per aggiornamento documenti di vendita esiste il problema che nei cross references ci sono id documenti di vendita uguali tra i database origini (clone)
+
+UPDATE c
+SET c.DerivedDocId = s.NewSaledocId
+from VEDMaster.dbo.SaleDocMapping s
+inner join VEDMaster.dbo.MA_CrossReferences c
+on c.DerivedDocID = s.OldSaleDocId and c.DerivedDocType = 27066385 and s.SourceDB = ‘furmanetclone’
+
+UPDATE c
+SET c.DerivedDocId = s.NewSaledocId
+from VEDMaster.dbo.SaleDocMapping s
+inner join VEDMaster.dbo.MA_CrossReferences c
+on c.DerivedDocID = s.OldSaleDocId and c.DerivedDocType = 27066385 and s.SourceDB = ‘vedbondifeclone’
+
+UPDATE c
+SET c.DerivedDocId = s.NewSaledocId
+from VEDMaster.dbo.SaleDocMapping s
+inner join VEDMaster.dbo.MA_CrossReferences c
+on c.DerivedDocID = s.OldSaleDocId and c.DerivedDocType = 27066385 and s.SourceDB = ‘gpxnetclone’
+
+-- RIMOSSO (correzione 3C): Revert offset ordini GPX non più necessario.
+-- gpxnetclone è stato escluso dallo script 09RinumeraIdOrdiniClienti,
+-- quindi gli ordini GPX non vengono più rinumerati (+100000) nel clone.
+-- I CrossReferences restano coerenti senza bisogno di workaround.
+
+-- refusi unione db Eliminazione riferimenti a documenti di altri clienti (eliminazione forsata a documenti di altri clienti)
+
+DELETE cr
+FROM dbo.MA_CrossReferences cr
+INNER JOIN dbo.SaleDocMapping sm 
+ ON cr.DerivedDocID = sm.NewSaledocId
+ INNER JOIN dbo.MA_SaleDoc sd_fattura 
+ ON cr.DerivedDocID = sd_fattura.SaleDocId
+ INNER JOIN dbo.MA_SaleDoc sd_origine 
+ ON cr.OriginDocID = sd_origine.SaleDocId
+ WHERE sd_fattura.DocumentType IN (3407874, 3407876)
+ AND sd_origine.CustSupp <> sd_fattura.CustSupp 
+
+
+
+ -- tipi documento enumerativi presenti in MA_CrossReferences
+
+ -- elenco degli enumerativi dei documenti incrociati 
+Riferimenti Incrociati , 413 , Missione di Magazzino , 1 , 27066369
+Riferimenti Incrociati , 413 , Movimento Magazzino , 2 , 27066370
+Riferimenti Incrociati , 413 , Offerta Cliente , 3 , 27066371
+Riferimenti Incrociati , 413 , Ordine Cliente , 4 , 27066372
+Riferimenti Incrociati , 413 , Offerta Fornitore , 5 , 27066373
+Riferimenti Incrociati , 413 , Ordine Fornitore , 6 , 27066374
+Riferimenti Incrociati , 413 , PreShipping per Consegna , 7 , 27066375
+Riferimenti Incrociati , 413 , PreShipping per Resi , 8 , 27066376
+Riferimenti Incrociati , 413 , PreShipping per Trasferimento tra Depositi , 9 , 27066377
+Riferimenti Incrociati , 413 , Ricevimento Merci per Consegna , 10 , 27066378
+Riferimenti Incrociati , 413 , Ricevimento Merci per Resi , 11 , 27066379
+Riferimenti Incrociati , 413 , Ricevimento Merci per Trasferimento tra Depositi , 12 , 27066380
+Riferimenti Incrociati , 413 , Reso a fornitore , 13 , 27066381
+Riferimenti Incrociati , 413 , Reso da Cliente , 14 , 27066382
+Riferimenti Incrociati , 413 , Documento di Trasporto , 15 , 27066383
+Riferimenti Incrociati , 413 , DDT al Fornitore per Lavorazione Esterna , 16 , 27066384
+Riferimenti Incrociati , 413 , Fattura Accompagnatoria , 17 , 27066385
+Riferimenti Incrociati , 413 , Fattura Accompagnatoria a Correzione , 18 , 27066386
+Riferimenti Incrociati , 413 , Fattura Immediata , 19 , 27066387
+Riferimenti Incrociati , 413 , Fattura a Correzione , 20 , 27066388
+Riferimenti Incrociati , 413 , Nota di Credito , 21 , 27066389
+Riferimenti Incrociati , 413 , Nota di Debito , 22 , 27066390
+Riferimenti Incrociati , 413 , Ricevuta Fiscale , 23 , 27066391
+Riferimenti Incrociati , 413 , Ricevuta Fiscale a Correzione , 24 , 27066392
+Riferimenti Incrociati , 413 , Ricevuta Fiscale Non Incassata , 25 , 27066393
+Riferimenti Incrociati , 413 , Paragon , 26 , 27066394
+Riferimenti Incrociati , 413 , Paragon a Correzione , 27 , 27066395
+Riferimenti Incrociati , 413 , Fattura di Acconto , 28 , 27066396
+Riferimenti Incrociati , 413 , Fattura ProForma , 29 , 27066397
+Riferimenti Incrociati , 413 , Documento Trasferimento tra Depositi , 30 , 27066398
+Riferimenti Incrociati , 413 , Picking List , 31 , 27066399
+Riferimenti Incrociati , 413 , Bolla di Carico , 32 , 27066400
+Riferimenti Incrociati , 413 , Bolle di Carico da Fornitore per Lavorazione Esterna , 33 , 27066401
+Riferimenti Incrociati , 413 , Fattura di Acquisto , 34 , 27066402
+Riferimenti Incrociati , 413 , Fattura di Acquisto a Correzione , 35 , 27066403
+Riferimenti Incrociati , 413 , Nota di Credito ricevuta , 36 , 27066404
+Riferimenti Incrociati , 413 , Nota di Debito Acquisto , 37 , 27066405
+Riferimenti Incrociati , 413 , Fattura di Acquisto di Acconto , 38 , 27066406
+Riferimenti Incrociati , 413 , Inventario di WMS , 39 , 27066407
+Riferimenti Incrociati , 413 , Ubicazione , 40 , 27066408
+Riferimenti Incrociati , 413 , Ordine di Collaudo , 41 , 27066409
+Riferimenti Incrociati , 413 , Bolla di Collaudo , 42 , 27066410
+Riferimenti Incrociati , 413 , Ordine di Produzione , 43 , 27066411
+Riferimenti Incrociati , 413 , Richiesta di Trasferimento , 44 , 27066412
+Riferimenti Incrociati , 413 , Movimento Magazzino Scarti , 45 , 27066413
+Riferimenti Incrociati , 413 , Movimento Magazzino Merci da ricevere , 46 , 27066414
+Riferimenti Incrociati , 413 , RdA , 47 , 27066415
+Riferimenti Incrociati , 413 , Bolla lavorazione , 48 , 27066416
+Riferimenti Incrociati , 413 , Oneri Accessori , 49 , 27066417
+Riferimenti Incrociati , 413 , Documento Contabile Puro , 50 , 27066418
+Riferimenti Incrociati , 413 , Documento Contabile Emesso , 51 , 27066419
+Riferimenti Incrociati , 413 , Documento Contabile Ricevuto , 52 , 27066420
+Riferimenti Incrociati , 413 , PreShipping per Lavorazioni Esterne , 53 , 27066421
+Riferimenti Incrociati , 413 , Partita Fornitore , 54 , 27066422
+Riferimenti Incrociati , 413 , Partita Cliente , 55 , 27066423
+Riferimenti Incrociati , 413 , Movimento Analitico , 56 , 27066424
+Riferimenti Incrociati , 413 , Parcella , 57 , 27066425
+Riferimenti Incrociati , 413 , Intracomunitario Acquisti , 58 , 27066426
+Riferimenti Incrociati , 413 , Intracomunitario Cessioni , 59 , 27066427
+Riferimenti Incrociati , 413 , Movimento Cespiti , 60 , 27066428
+Riferimenti Incrociati , 413 , Documento Contabile Puro Previsionale , 61 , 27066429
+Riferimenti Incrociati , 413 , Documento Contabile da Emettere , 62 , 27066430
+Riferimenti Incrociati , 413 , Documento Contabile da Ricevere , 63 , 27066431
+Riferimenti Incrociati , 413 , Documento Rivalutazione Retail , 64 , 27066432
+Riferimenti Incrociati , 413 , Ricevimento Merci per Movimentazione tra Depositi , 65 , 27066433
+Riferimenti Incrociati , 413 , PreShipping da Deposito c/Terzi , 66 , 27066434
+Riferimenti Incrociati , 413 , Ricevimento Merci in Deposito c/Terzi , 67 , 27066435
+Riferimenti Incrociati , 413 , Movimenti Agenti , 68 , 27066436
+Riferimenti Incrociati , 413 , Movimentazione Distinta Base , 69 , 27066437
+Riferimenti Incrociati , 413 , Ordine al Fornitore per Lavorazione Esterna , 70 , 27066438
+Riferimenti Incrociati , 413 , Ricevuta Fiscale Retail , 71 , 27066439
+Riferimenti Incrociati , 413 , Inventario WMS con assegnazione Ubicazioni , 76 , 27066444
+Riferimenti Incrociati , 413 , AutoFattura , 100 , 27066468
+Riferimenti Incrociati , 413 , AutoNota di Credito , 101 , 27066469
+Riferimenti Incrociati , 413 , Richiesta di Offerta , 300 , 27066668
+Riferimenti Incrociati , 413 , Richiesta di Acquisto , 301 , 27066669
+Riferimenti Incrociati , 413 , Richiesta di Consegna , 302 , 27066670
+Riferimenti Incrociati , 413 , Preventivo , 303 , 27066671
+Riferimenti Incrociati , 413 , Commessa Standard , 304 , 27066672
+Riferimenti Incrociati , 413 , Commessa Variante , 305 , 27066673
+Riferimenti Incrociati , 413 , Commessa in Economia , 306 , 27066674
+Riferimenti Incrociati , 413 , Movimento Revisione Costi Commessa , 307 , 27066675
+Riferimenti Incrociati , 413 , Libretto delle Misure , 308 , 27066676
+Riferimenti Incrociati , 413 , SAL , 309 , 27066677
+Riferimenti Incrociati , 413 , Rapportino di Lavoro per Commessa , 310 , 27066678
+Riferimenti Incrociati , 413 , Rapportino di Lavoro per Dipendente , 311 , 27066679
+Riferimenti Incrociati , 413 , Piano di Lavoro , 312 , 27066680
+Riferimenti Incrociati , 413 , Estratto Conto , 313 , 27066681
+Riferimenti Incrociati , 413 , Offerta Subappalto , 314 , 27066682
+Riferimenti Incrociati , 413 , Ordine di Subappalto , 315 , 27066683
+Riferimenti Incrociati , 413 , SAL di Subappalto , 316 , 27066684
+Riferimenti Incrociati , 413 , Tax Documents Sendings , 82 , 27066450
+Riferimenti Incrociati , 413 , Tax Settlement Sendings , 81 , 27066449
+
+-- tipi documento Magonet
+Tipo documento , 52 , Picking List , 0 , 3407872
+Tipo documento , 52 , DDT , 1 , 3407873
+Tipo documento , 52 , Fattura , 2 , 3407874
+Tipo documento , 52 , Fattura Accompagnatoria , 3 , 3407875
+Tipo documento , 52 , Nota di Credito , 4 , 3407876
+Tipo documento , 52 , Reso da cliente , 5 , 3407877
+Tipo documento , 52 , Ricevuta Fiscale , 6 , 3407878
+Tipo documento , 52 , Ricevuta Fiscale non incassata , 7 , 3407879
+Tipo documento , 52 , DDT per lavorazione esterna , 8 , 3407880
+Tipo documento , 52 , Reso a fornitore , 9 , 3407881
+Tipo documento , 52 , Fattura di Correzione , 10 , 3407882
+Tipo documento , 52 , Fattura di Acconto , 11 , 3407883
+Tipo documento , 52 , Fattura Accompagnatoria di Correzione , 12 , 3407884
+Tipo documento , 52 , Ricevuta Fiscale di Correzione , 13 , 3407885
+Tipo documento , 52 , Paragon , 14 , 3407886
+Tipo documento , 52 , Paragon di Correzione , 15 , 3407887
+Tipo documento , 52 , Fattura ProForma , 16 , 3407888
+Tipo documento , 52 , Nota di Debito , 17 , 3407889
+Tipo documento , 52 , Documento Trasferimento tra Depositi , 18 , 3407890
+Tipo documento , 52 , Piano di Produzione , 19 , 3407891
+Tipo documento , 52 , AutoFattura , 26 , 3407898
+Tipo documento , 52 , AutoNota di Credito , 27 , 3407899
+Tipo documento , 52 , Rapportino , 100 , 3407972
+Tipo documento , 52 , SAL , 101 , 3407973

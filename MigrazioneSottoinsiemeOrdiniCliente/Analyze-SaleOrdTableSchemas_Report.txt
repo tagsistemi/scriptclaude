@@ -1,0 +1,1138 @@
+Report di analisi della struttura del database per MA_SaleOrd generato il 09/17/2025 10:57:45
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AccGroup'
+  - 'VEDMaster': Posizione 82
+  - 'furmanetclone': Posizione 81
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AccGroup'
+  - 'VEDMaster': Posizione 82
+  - 'gpxnet': Posizione 81
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AccGroup'
+  - 'VEDMaster': Posizione 82
+  - 'vedbondifeclone': Posizione 81
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ActiveSubcontracting'
+  - 'VEDMaster': Posizione 57
+  - 'furmanetclone': Posizione 56
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ActiveSubcontracting'
+  - 'VEDMaster': Posizione 57
+  - 'gpxnet': Posizione 56
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ActiveSubcontracting'
+  - 'VEDMaster': Posizione 57
+  - 'vedbondifeclone': Posizione 56
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Allocated'
+  - 'VEDMaster': Posizione 86
+  - 'furmanetclone': Posizione 89
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Allocated'
+  - 'VEDMaster': Posizione 86
+  - 'gpxnet': Posizione 89
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Allocated'
+  - 'VEDMaster': Posizione 86
+  - 'vedbondifeclone': Posizione 89
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AllocationArea'
+  - 'VEDMaster': Posizione 87
+  - 'furmanetclone': Posizione 90
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AllocationArea'
+  - 'VEDMaster': Posizione 87
+  - 'gpxnet': Posizione 90
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AllocationArea'
+  - 'VEDMaster': Posizione 87
+  - 'vedbondifeclone': Posizione 90
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AreaManagerCommAuto'
+  - 'VEDMaster': Posizione 69
+  - 'furmanetclone': Posizione 68
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AreaManagerCommAuto'
+  - 'VEDMaster': Posizione 69
+  - 'gpxnet': Posizione 68
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AreaManagerCommAuto'
+  - 'VEDMaster': Posizione 69
+  - 'vedbondifeclone': Posizione 68
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AreaManagerCommPerc'
+  - 'VEDMaster': Posizione 67
+  - 'furmanetclone': Posizione 66
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AreaManagerCommPerc'
+  - 'VEDMaster': Posizione 67
+  - 'gpxnet': Posizione 66
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AreaManagerCommPerc'
+  - 'VEDMaster': Posizione 67
+  - 'vedbondifeclone': Posizione 66
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AreaManagerCommPercAuto'
+  - 'VEDMaster': Posizione 71
+  - 'furmanetclone': Posizione 70
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AreaManagerCommPercAuto'
+  - 'VEDMaster': Posizione 71
+  - 'gpxnet': Posizione 70
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AreaManagerCommPercAuto'
+  - 'VEDMaster': Posizione 71
+  - 'vedbondifeclone': Posizione 70
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AreaManagerCommTot'
+  - 'VEDMaster': Posizione 63
+  - 'furmanetclone': Posizione 62
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AreaManagerCommTot'
+  - 'VEDMaster': Posizione 63
+  - 'gpxnet': Posizione 62
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AreaManagerCommTot'
+  - 'VEDMaster': Posizione 63
+  - 'vedbondifeclone': Posizione 62
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AreaManagerPolicy'
+  - 'VEDMaster': Posizione 73
+  - 'furmanetclone': Posizione 72
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AreaManagerPolicy'
+  - 'VEDMaster': Posizione 73
+  - 'gpxnet': Posizione 72
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'AreaManagerPolicy'
+  - 'VEDMaster': Posizione 73
+  - 'vedbondifeclone': Posizione 72
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'BankAuthorization'
+  - 'VEDMaster': Posizione 58
+  - 'furmanetclone': Posizione 57
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'BankAuthorization'
+  - 'VEDMaster': Posizione 58
+  - 'gpxnet': Posizione 57
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'BankAuthorization'
+  - 'VEDMaster': Posizione 58
+  - 'vedbondifeclone': Posizione 57
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'BaseAreaManager'
+  - 'VEDMaster': Posizione 65
+  - 'furmanetclone': Posizione 64
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'BaseAreaManager'
+  - 'VEDMaster': Posizione 65
+  - 'gpxnet': Posizione 64
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'BaseAreaManager'
+  - 'VEDMaster': Posizione 65
+  - 'vedbondifeclone': Posizione 64
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'BaseSalesperson'
+  - 'VEDMaster': Posizione 64
+  - 'furmanetclone': Posizione 63
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'BaseSalesperson'
+  - 'VEDMaster': Posizione 64
+  - 'gpxnet': Posizione 63
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'BaseSalesperson'
+  - 'VEDMaster': Posizione 64
+  - 'vedbondifeclone': Posizione 63
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Cancelled'
+  - 'VEDMaster': Posizione 42
+  - 'furmanetclone': Posizione 41
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Cancelled'
+  - 'VEDMaster': Posizione 42
+  - 'gpxnet': Posizione 41
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Cancelled'
+  - 'VEDMaster': Posizione 42
+  - 'vedbondifeclone': Posizione 41
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Carrier1'
+  - 'VEDMaster': Posizione 88
+  - 'furmanetclone': Posizione 92
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Carrier1'
+  - 'VEDMaster': Posizione 88
+  - 'gpxnet': Posizione 92
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Carrier1'
+  - 'VEDMaster': Posizione 88
+  - 'vedbondifeclone': Posizione 92
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'CompanyCA'
+  - 'VEDMaster': Posizione 50
+  - 'furmanetclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'CompanyCA'
+  - 'VEDMaster': Posizione 50
+  - 'gpxnet': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'CompanyCA'
+  - 'VEDMaster': Posizione 50
+  - 'vedbondifeclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'CompulsoryDeliveryDate'
+  - 'VEDMaster': Posizione 52
+  - 'furmanetclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'CompulsoryDeliveryDate'
+  - 'VEDMaster': Posizione 52
+  - 'gpxnet': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'CompulsoryDeliveryDate'
+  - 'VEDMaster': Posizione 52
+  - 'vedbondifeclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ContractCode'
+  - 'VEDMaster': Posizione 89
+  - 'furmanetclone': Posizione 87
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ContractCode'
+  - 'VEDMaster': Posizione 89
+  - 'gpxnet': Posizione 87
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ContractCode'
+  - 'VEDMaster': Posizione 89
+  - 'vedbondifeclone': Posizione 87
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ContractNo'
+  - 'VEDMaster': Posizione 78
+  - 'furmanetclone': Posizione 77
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ContractNo'
+  - 'VEDMaster': Posizione 78
+  - 'gpxnet': Posizione 77
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ContractNo'
+  - 'VEDMaster': Posizione 78
+  - 'vedbondifeclone': Posizione 77
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ContractType'
+  - 'VEDMaster': Posizione 81
+  - 'furmanetclone': Posizione 80
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ContractType'
+  - 'VEDMaster': Posizione 81
+  - 'gpxnet': Posizione 80
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ContractType'
+  - 'VEDMaster': Posizione 81
+  - 'vedbondifeclone': Posizione 80
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'CostCenter'
+  - 'VEDMaster': Posizione 45
+  - 'furmanetclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'CostCenter'
+  - 'VEDMaster': Posizione 45
+  - 'gpxnet': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'CostCenter'
+  - 'VEDMaster': Posizione 45
+  - 'vedbondifeclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'CustSuppType'
+  - 'VEDMaster': Posizione 74
+  - 'furmanetclone': Posizione 73
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'CustSuppType'
+  - 'VEDMaster': Posizione 74
+  - 'gpxnet': Posizione 73
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'CustSuppType'
+  - 'VEDMaster': Posizione 74
+  - 'vedbondifeclone': Posizione 73
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'InstallmStartDate'
+  - 'VEDMaster': Posizione 60
+  - 'furmanetclone': Posizione 59
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'InstallmStartDate'
+  - 'VEDMaster': Posizione 60
+  - 'gpxnet': Posizione 59
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'InstallmStartDate'
+  - 'VEDMaster': Posizione 60
+  - 'vedbondifeclone': Posizione 59
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'InstallmStartDateIsAuto'
+  - 'VEDMaster': Posizione 61
+  - 'furmanetclone': Posizione 60
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'InstallmStartDateIsAuto'
+  - 'VEDMaster': Posizione 61
+  - 'gpxnet': Posizione 60
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'InstallmStartDateIsAuto'
+  - 'VEDMaster': Posizione 61
+  - 'vedbondifeclone': Posizione 60
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'InvoiceFollows'
+  - 'VEDMaster': Posizione 59
+  - 'furmanetclone': Posizione 58
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'InvoiceFollows'
+  - 'VEDMaster': Posizione 59
+  - 'gpxnet': Posizione 58
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'InvoiceFollows'
+  - 'VEDMaster': Posizione 59
+  - 'vedbondifeclone': Posizione 58
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'InvoicingCustomer'
+  - 'VEDMaster': Posizione 54
+  - 'furmanetclone': Posizione 53
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'InvoicingCustomer'
+  - 'VEDMaster': Posizione 54
+  - 'gpxnet': Posizione 53
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'InvoicingCustomer'
+  - 'VEDMaster': Posizione 54
+  - 'vedbondifeclone': Posizione 53
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Job'
+  - 'VEDMaster': Posizione 44
+  - 'furmanetclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Job'
+  - 'VEDMaster': Posizione 44
+  - 'gpxnet': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Job'
+  - 'VEDMaster': Posizione 44
+  - 'vedbondifeclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'LastSubId'
+  - 'VEDMaster': Posizione 53
+  - 'furmanetclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'LastSubId'
+  - 'VEDMaster': Posizione 53
+  - 'gpxnet': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'LastSubId'
+  - 'VEDMaster': Posizione 53
+  - 'vedbondifeclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'OpenOrder'
+  - 'VEDMaster': Posizione 77
+  - 'furmanetclone': Posizione 76
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'OpenOrder'
+  - 'VEDMaster': Posizione 77
+  - 'gpxnet': Posizione 76
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'OpenOrder'
+  - 'VEDMaster': Posizione 77
+  - 'vedbondifeclone': Posizione 76
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Picked'
+  - 'VEDMaster': Posizione 83
+  - 'furmanetclone': Posizione 84
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Picked'
+  - 'VEDMaster': Posizione 83
+  - 'gpxnet': Posizione 84
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Picked'
+  - 'VEDMaster': Posizione 83
+  - 'vedbondifeclone': Posizione 82
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Presentation'
+  - 'VEDMaster': Posizione 51
+  - 'furmanetclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Presentation'
+  - 'VEDMaster': Posizione 51
+  - 'gpxnet': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Presentation'
+  - 'VEDMaster': Posizione 51
+  - 'vedbondifeclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'PreShipped'
+  - 'VEDMaster': Posizione 38
+  - 'furmanetclone': Posizione 91
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'PreShipped'
+  - 'VEDMaster': Posizione 38
+  - 'gpxnet': Posizione 91
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'PreShipped'
+  - 'VEDMaster': Posizione 38
+  - 'vedbondifeclone': Posizione 91
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'PriceListFromDeliveryDate'
+  - 'VEDMaster': Posizione 47
+  - 'furmanetclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'PriceListFromDeliveryDate'
+  - 'VEDMaster': Posizione 47
+  - 'gpxnet': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'PriceListFromDeliveryDate'
+  - 'VEDMaster': Posizione 47
+  - 'vedbondifeclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'PriceListValidityDate'
+  - 'VEDMaster': Posizione 48
+  - 'furmanetclone': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'PriceListValidityDate'
+  - 'VEDMaster': Posizione 48
+  - 'gpxnet': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'PriceListValidityDate'
+  - 'VEDMaster': Posizione 48
+  - 'vedbondifeclone': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Printed'
+  - 'VEDMaster': Posizione 39
+  - 'furmanetclone': Posizione 38
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Printed'
+  - 'VEDMaster': Posizione 39
+  - 'gpxnet': Posizione 38
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Printed'
+  - 'VEDMaster': Posizione 39
+  - 'vedbondifeclone': Posizione 38
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Priority'
+  - 'VEDMaster': Posizione 55
+  - 'furmanetclone': Posizione 54
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Priority'
+  - 'VEDMaster': Posizione 55
+  - 'gpxnet': Posizione 54
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Priority'
+  - 'VEDMaster': Posizione 55
+  - 'vedbondifeclone': Posizione 54
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ProductLine'
+  - 'VEDMaster': Posizione 46
+  - 'furmanetclone': Posizione 45
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ProductLine'
+  - 'VEDMaster': Posizione 46
+  - 'gpxnet': Posizione 45
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ProductLine'
+  - 'VEDMaster': Posizione 46
+  - 'vedbondifeclone': Posizione 45
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ProjectCode'
+  - 'VEDMaster': Posizione 90
+  - 'furmanetclone': Posizione 88
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ProjectCode'
+  - 'VEDMaster': Posizione 90
+  - 'gpxnet': Posizione 88
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ProjectCode'
+  - 'VEDMaster': Posizione 90
+  - 'vedbondifeclone': Posizione 88
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SaleOrdId'
+  - 'VEDMaster': Posizione 43
+  - 'furmanetclone': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SaleOrdId'
+  - 'VEDMaster': Posizione 43
+  - 'gpxnet': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SaleOrdId'
+  - 'VEDMaster': Posizione 43
+  - 'vedbondifeclone': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SalespersonCommAuto'
+  - 'VEDMaster': Posizione 68
+  - 'furmanetclone': Posizione 67
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SalespersonCommAuto'
+  - 'VEDMaster': Posizione 68
+  - 'gpxnet': Posizione 67
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SalespersonCommAuto'
+  - 'VEDMaster': Posizione 68
+  - 'vedbondifeclone': Posizione 67
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SalespersonCommPerc'
+  - 'VEDMaster': Posizione 66
+  - 'furmanetclone': Posizione 65
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SalespersonCommPerc'
+  - 'VEDMaster': Posizione 66
+  - 'gpxnet': Posizione 65
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SalespersonCommPerc'
+  - 'VEDMaster': Posizione 66
+  - 'vedbondifeclone': Posizione 65
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SalespersonCommPercAuto'
+  - 'VEDMaster': Posizione 70
+  - 'furmanetclone': Posizione 69
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SalespersonCommPercAuto'
+  - 'VEDMaster': Posizione 70
+  - 'gpxnet': Posizione 69
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SalespersonCommPercAuto'
+  - 'VEDMaster': Posizione 70
+  - 'vedbondifeclone': Posizione 69
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SalespersonCommTot'
+  - 'VEDMaster': Posizione 62
+  - 'furmanetclone': Posizione 61
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SalespersonCommTot'
+  - 'VEDMaster': Posizione 62
+  - 'gpxnet': Posizione 61
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SalespersonCommTot'
+  - 'VEDMaster': Posizione 62
+  - 'vedbondifeclone': Posizione 61
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SalespersonPolicy'
+  - 'VEDMaster': Posizione 72
+  - 'furmanetclone': Posizione 71
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SalespersonPolicy'
+  - 'VEDMaster': Posizione 72
+  - 'gpxnet': Posizione 71
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SalespersonPolicy'
+  - 'VEDMaster': Posizione 72
+  - 'vedbondifeclone': Posizione 71
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SaleType'
+  - 'VEDMaster': Posizione 85
+  - 'furmanetclone': Posizione 86
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SaleType'
+  - 'VEDMaster': Posizione 85
+  - 'gpxnet': Posizione 86
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SaleType'
+  - 'VEDMaster': Posizione 85
+  - 'vedbondifeclone': Posizione 86
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SaleTypeByLine'
+  - 'VEDMaster': Posizione 84
+  - 'furmanetclone': Posizione 85
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SaleTypeByLine'
+  - 'VEDMaster': Posizione 84
+  - 'gpxnet': Posizione 85
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SaleTypeByLine'
+  - 'VEDMaster': Posizione 84
+  - 'vedbondifeclone': Posizione 85
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SentByEMail'
+  - 'VEDMaster': Posizione 40
+  - 'furmanetclone': Posizione 39
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SentByEMail'
+  - 'VEDMaster': Posizione 40
+  - 'gpxnet': Posizione 39
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SentByEMail'
+  - 'VEDMaster': Posizione 40
+  - 'vedbondifeclone': Posizione 39
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ShippingReason'
+  - 'VEDMaster': Posizione 79
+  - 'furmanetclone': Posizione 78
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ShippingReason'
+  - 'VEDMaster': Posizione 79
+  - 'gpxnet': Posizione 78
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ShippingReason'
+  - 'VEDMaster': Posizione 79
+  - 'vedbondifeclone': Posizione 78
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ShipToAddress'
+  - 'VEDMaster': Posizione 56
+  - 'furmanetclone': Posizione 55
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ShipToAddress'
+  - 'VEDMaster': Posizione 56
+  - 'gpxnet': Posizione 55
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'ShipToAddress'
+  - 'VEDMaster': Posizione 56
+  - 'vedbondifeclone': Posizione 55
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SingleDelivery'
+  - 'VEDMaster': Posizione 49
+  - 'furmanetclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SingleDelivery'
+  - 'VEDMaster': Posizione 49
+  - 'gpxnet': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'SingleDelivery'
+  - 'VEDMaster': Posizione 49
+  - 'vedbondifeclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Specificator1Type'
+  - 'VEDMaster': Posizione 75
+  - 'furmanetclone': Posizione 74
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Specificator1Type'
+  - 'VEDMaster': Posizione 75
+  - 'gpxnet': Posizione 74
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Specificator1Type'
+  - 'VEDMaster': Posizione 75
+  - 'vedbondifeclone': Posizione 74
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Specificator2Type'
+  - 'VEDMaster': Posizione 76
+  - 'furmanetclone': Posizione 75
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Specificator2Type'
+  - 'VEDMaster': Posizione 76
+  - 'gpxnet': Posizione 75
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'Specificator2Type'
+  - 'VEDMaster': Posizione 76
+  - 'vedbondifeclone': Posizione 75
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 91
+  - 'furmanetclone': Posizione 82
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 91
+  - 'gpxnet': Posizione 82
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 91
+  - 'vedbondifeclone': Posizione 83
+[ERRORE] Nullability: Tabella 'MA_SaleOrd', Colonna 'TBCreatedID'
+  - 'VEDMaster': NO
+  - 'furmanetclone': YES
+[ERRORE] Nullability: Tabella 'MA_SaleOrd', Colonna 'TBCreatedID'
+  - 'VEDMaster': NO
+  - 'gpxnet': YES
+[ERRORE] Nullability: Tabella 'MA_SaleOrd', Colonna 'TBCreatedID'
+  - 'VEDMaster': NO
+  - 'vedbondifeclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'TBGuid'
+  - 'VEDMaster': Posizione 80
+  - 'furmanetclone': Posizione 79
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'TBGuid'
+  - 'VEDMaster': Posizione 80
+  - 'gpxnet': Posizione 79
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'TBGuid'
+  - 'VEDMaster': Posizione 80
+  - 'vedbondifeclone': Posizione 79
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 92
+  - 'furmanetclone': Posizione 83
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 92
+  - 'gpxnet': Posizione 83
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 92
+  - 'vedbondifeclone': Posizione 84
+[ERRORE] Nullability: Tabella 'MA_SaleOrd', Colonna 'TBModifiedID'
+  - 'VEDMaster': NO
+  - 'furmanetclone': YES
+[ERRORE] Nullability: Tabella 'MA_SaleOrd', Colonna 'TBModifiedID'
+  - 'VEDMaster': NO
+  - 'gpxnet': YES
+[ERRORE] Nullability: Tabella 'MA_SaleOrd', Colonna 'TBModifiedID'
+  - 'VEDMaster': NO
+  - 'vedbondifeclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'UseBusinessYear'
+  - 'VEDMaster': Posizione 41
+  - 'furmanetclone': Posizione 40
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'UseBusinessYear'
+  - 'VEDMaster': Posizione 41
+  - 'gpxnet': Posizione 40
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrd', Colonna 'UseBusinessYear'
+  - 'VEDMaster': Posizione 41
+  - 'vedbondifeclone': Posizione 40
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdComponents', Colonna 'FixedQty'
+  - 'VEDMaster': Posizione 14
+  - 'furmanetclone': Posizione 16
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdComponents', Colonna 'FixedQty'
+  - 'VEDMaster': Posizione 14
+  - 'gpxnet': Posizione 16
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdComponents', Colonna 'FixedQty'
+  - 'VEDMaster': Posizione 14
+  - 'vedbondifeclone': Posizione 16
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdComponents', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 15
+  - 'furmanetclone': Posizione 14
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdComponents', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 15
+  - 'gpxnet': Posizione 14
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdComponents', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 15
+  - 'vedbondifeclone': Posizione 14
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdComponents', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 16
+  - 'furmanetclone': Posizione 15
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdComponents', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 16
+  - 'gpxnet': Posizione 15
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdComponents', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 16
+  - 'vedbondifeclone': Posizione 15
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerComm'
+  - 'VEDMaster': Posizione 78
+  - 'furmanetclone': Posizione 76
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerComm'
+  - 'VEDMaster': Posizione 78
+  - 'gpxnet': Posizione 76
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerComm'
+  - 'VEDMaster': Posizione 78
+  - 'vedbondifeclone': Posizione 76
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerCommAuto'
+  - 'VEDMaster': Posizione 83
+  - 'furmanetclone': Posizione 81
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerCommAuto'
+  - 'VEDMaster': Posizione 83
+  - 'gpxnet': Posizione 81
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerCommAuto'
+  - 'VEDMaster': Posizione 83
+  - 'vedbondifeclone': Posizione 81
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerCommCtg'
+  - 'VEDMaster': Posizione 79
+  - 'furmanetclone': Posizione 77
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerCommCtg'
+  - 'VEDMaster': Posizione 79
+  - 'gpxnet': Posizione 77
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerCommCtg'
+  - 'VEDMaster': Posizione 79
+  - 'vedbondifeclone': Posizione 77
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerCommCtgAuto'
+  - 'VEDMaster': Posizione 85
+  - 'furmanetclone': Posizione 83
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerCommCtgAuto'
+  - 'VEDMaster': Posizione 85
+  - 'gpxnet': Posizione 83
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerCommCtgAuto'
+  - 'VEDMaster': Posizione 85
+  - 'vedbondifeclone': Posizione 83
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerCommPerc'
+  - 'VEDMaster': Posizione 50
+  - 'furmanetclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerCommPerc'
+  - 'VEDMaster': Posizione 50
+  - 'gpxnet': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerCommPerc'
+  - 'VEDMaster': Posizione 50
+  - 'vedbondifeclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerCommPercAuto'
+  - 'VEDMaster': Posizione 81
+  - 'furmanetclone': Posizione 79
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerCommPercAuto'
+  - 'VEDMaster': Posizione 81
+  - 'gpxnet': Posizione 79
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'AreaManagerCommPercAuto'
+  - 'VEDMaster': Posizione 81
+  - 'vedbondifeclone': Posizione 79
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'BaseAreaManager'
+  - 'VEDMaster': Posizione 77
+  - 'furmanetclone': Posizione 75
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'BaseAreaManager'
+  - 'VEDMaster': Posizione 77
+  - 'gpxnet': Posizione 75
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'BaseAreaManager'
+  - 'VEDMaster': Posizione 77
+  - 'vedbondifeclone': Posizione 75
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'BaseSalesperson'
+  - 'VEDMaster': Posizione 76
+  - 'furmanetclone': Posizione 74
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'BaseSalesperson'
+  - 'VEDMaster': Posizione 76
+  - 'gpxnet': Posizione 74
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'BaseSalesperson'
+  - 'VEDMaster': Posizione 76
+  - 'vedbondifeclone': Posizione 74
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'BOMItem'
+  - 'VEDMaster': Posizione 60
+  - 'furmanetclone': Posizione 58
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'BOMItem'
+  - 'VEDMaster': Posizione 60
+  - 'gpxnet': Posizione 58
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'BOMItem'
+  - 'VEDMaster': Posizione 60
+  - 'vedbondifeclone': Posizione 58
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'BookedQty'
+  - 'VEDMaster': Posizione 57
+  - 'furmanetclone': Posizione 55
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'BookedQty'
+  - 'VEDMaster': Posizione 57
+  - 'gpxnet': Posizione 55
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'BookedQty'
+  - 'VEDMaster': Posizione 57
+  - 'vedbondifeclone': Posizione 55
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Cancelled'
+  - 'VEDMaster': Posizione 42
+  - 'furmanetclone': Posizione 40
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Cancelled'
+  - 'VEDMaster': Posizione 42
+  - 'gpxnet': Posizione 40
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Cancelled'
+  - 'VEDMaster': Posizione 42
+  - 'vedbondifeclone': Posizione 40
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CommissionCtg'
+  - 'VEDMaster': Posizione 52
+  - 'furmanetclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CommissionCtg'
+  - 'VEDMaster': Posizione 52
+  - 'gpxnet': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CommissionCtg'
+  - 'VEDMaster': Posizione 52
+  - 'vedbondifeclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CommPerc'
+  - 'VEDMaster': Posizione 49
+  - 'furmanetclone': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CommPerc'
+  - 'VEDMaster': Posizione 49
+  - 'gpxnet': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CommPerc'
+  - 'VEDMaster': Posizione 49
+  - 'vedbondifeclone': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CommPercAuto'
+  - 'VEDMaster': Posizione 80
+  - 'furmanetclone': Posizione 78
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CommPercAuto'
+  - 'VEDMaster': Posizione 80
+  - 'gpxnet': Posizione 78
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CommPercAuto'
+  - 'VEDMaster': Posizione 80
+  - 'vedbondifeclone': Posizione 78
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ConfirmationLevel'
+  - 'VEDMaster': Posizione 86
+  - 'furmanetclone': Posizione 84
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ConfirmationLevel'
+  - 'VEDMaster': Posizione 86
+  - 'gpxnet': Posizione 84
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ConfirmationLevel'
+  - 'VEDMaster': Posizione 86
+  - 'vedbondifeclone': Posizione 84
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CostCenter'
+  - 'VEDMaster': Posizione 47
+  - 'furmanetclone': Posizione 45
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CostCenter'
+  - 'VEDMaster': Posizione 47
+  - 'gpxnet': Posizione 45
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CostCenter'
+  - 'VEDMaster': Posizione 47
+  - 'vedbondifeclone': Posizione 45
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CRRefID'
+  - 'VEDMaster': Posizione 98
+  - 'furmanetclone': Posizione 100
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CRRefID'
+  - 'VEDMaster': Posizione 98
+  - 'gpxnet': Posizione 100
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CRRefID'
+  - 'VEDMaster': Posizione 98
+  - 'vedbondifeclone': Posizione 100
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CRRefSubID'
+  - 'VEDMaster': Posizione 99
+  - 'furmanetclone': Posizione 101
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CRRefSubID'
+  - 'VEDMaster': Posizione 99
+  - 'gpxnet': Posizione 101
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CRRefSubID'
+  - 'VEDMaster': Posizione 99
+  - 'vedbondifeclone': Posizione 101
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CRRefType'
+  - 'VEDMaster': Posizione 97
+  - 'furmanetclone': Posizione 99
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CRRefType'
+  - 'VEDMaster': Posizione 97
+  - 'gpxnet': Posizione 99
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CRRefType'
+  - 'VEDMaster': Posizione 97
+  - 'vedbondifeclone': Posizione 99
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CustomerCode'
+  - 'VEDMaster': Posizione 87
+  - 'furmanetclone': Posizione 85
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CustomerCode'
+  - 'VEDMaster': Posizione 87
+  - 'gpxnet': Posizione 85
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CustomerCode'
+  - 'VEDMaster': Posizione 87
+  - 'vedbondifeclone': Posizione 85
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CustomerLotNo'
+  - 'VEDMaster': Posizione 66
+  - 'furmanetclone': Posizione 64
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CustomerLotNo'
+  - 'VEDMaster': Posizione 66
+  - 'gpxnet': Posizione 64
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'CustomerLotNo'
+  - 'VEDMaster': Posizione 66
+  - 'vedbondifeclone': Posizione 64
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Delivered'
+  - 'VEDMaster': Posizione 39
+  - 'furmanetclone': Posizione 38
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Delivered'
+  - 'VEDMaster': Posizione 39
+  - 'gpxnet': Posizione 38
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Delivered'
+  - 'VEDMaster': Posizione 39
+  - 'vedbondifeclone': Posizione 38
+[ERRORE] Lunghezza: Tabella 'MA_SaleOrdDetails', Colonna 'Description'
+  - 'VEDMaster': 280
+  - 'vedbondifeclone': 128
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ExternalLineReference'
+  - 'VEDMaster': Posizione 65
+  - 'furmanetclone': Posizione 63
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ExternalLineReference'
+  - 'VEDMaster': Posizione 65
+  - 'gpxnet': Posizione 63
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ExternalLineReference'
+  - 'VEDMaster': Posizione 65
+  - 'vedbondifeclone': Posizione 63
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'GrossVolume'
+  - 'VEDMaster': Posizione 38
+  - 'furmanetclone': Posizione 37
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'GrossVolume'
+  - 'VEDMaster': Posizione 38
+  - 'gpxnet': Posizione 37
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'GrossVolume'
+  - 'VEDMaster': Posizione 38
+  - 'vedbondifeclone': Posizione 37
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'GrossWeight'
+  - 'VEDMaster': Posizione 36
+  - 'furmanetclone': Posizione 35
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'GrossWeight'
+  - 'VEDMaster': Posizione 36
+  - 'gpxnet': Posizione 35
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'GrossWeight'
+  - 'VEDMaster': Posizione 36
+  - 'vedbondifeclone': Posizione 35
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'InternalOrdNo'
+  - 'VEDMaster': Posizione 94
+  - 'furmanetclone': Posizione 95
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'InternalOrdNo'
+  - 'VEDMaster': Posizione 94
+  - 'gpxnet': Posizione 95
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'InternalOrdNo'
+  - 'VEDMaster': Posizione 94
+  - 'vedbondifeclone': Posizione 95
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Invoiced'
+  - 'VEDMaster': Posizione 40
+  - 'furmanetclone': Posizione 39
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Invoiced'
+  - 'VEDMaster': Posizione 40
+  - 'gpxnet': Posizione 39
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Invoiced'
+  - 'VEDMaster': Posizione 40
+  - 'vedbondifeclone': Posizione 39
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Job'
+  - 'VEDMaster': Posizione 46
+  - 'furmanetclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Job'
+  - 'VEDMaster': Posizione 46
+  - 'gpxnet': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Job'
+  - 'VEDMaster': Posizione 46
+  - 'vedbondifeclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'KitNo'
+  - 'VEDMaster': Posizione 44
+  - 'furmanetclone': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'KitNo'
+  - 'VEDMaster': Posizione 44
+  - 'gpxnet': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'KitNo'
+  - 'VEDMaster': Posizione 44
+  - 'vedbondifeclone': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'KitQty'
+  - 'VEDMaster': Posizione 45
+  - 'furmanetclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'KitQty'
+  - 'VEDMaster': Posizione 45
+  - 'gpxnet': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'KitQty'
+  - 'VEDMaster': Posizione 45
+  - 'vedbondifeclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'NetWeight'
+  - 'VEDMaster': Posizione 37
+  - 'furmanetclone': Posizione 36
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'NetWeight'
+  - 'VEDMaster': Posizione 37
+  - 'gpxnet': Posizione 36
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'NetWeight'
+  - 'VEDMaster': Posizione 37
+  - 'vedbondifeclone': Posizione 36
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'NoOfPacks'
+  - 'VEDMaster': Posizione 34
+  - 'furmanetclone': Posizione 33
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'NoOfPacks'
+  - 'VEDMaster': Posizione 34
+  - 'gpxnet': Posizione 33
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'NoOfPacks'
+  - 'VEDMaster': Posizione 34
+  - 'vedbondifeclone': Posizione 33
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Notes'
+  - 'VEDMaster': Posizione 75
+  - 'furmanetclone': Posizione 73
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Notes'
+  - 'VEDMaster': Posizione 75
+  - 'gpxnet': Posizione 73
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Notes'
+  - 'VEDMaster': Posizione 75
+  - 'vedbondifeclone': Posizione 73
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Offset'
+  - 'VEDMaster': Posizione 56
+  - 'furmanetclone': Posizione 54
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Offset'
+  - 'VEDMaster': Posizione 56
+  - 'gpxnet': Posizione 54
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Offset'
+  - 'VEDMaster': Posizione 56
+  - 'vedbondifeclone': Posizione 54
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PacksUoM'
+  - 'VEDMaster': Posizione 35
+  - 'furmanetclone': Posizione 34
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PacksUoM'
+  - 'VEDMaster': Posizione 35
+  - 'gpxnet': Posizione 34
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PacksUoM'
+  - 'VEDMaster': Posizione 35
+  - 'vedbondifeclone': Posizione 34
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'Picked'
+  - 'VEDMaster': Posizione 89
+  - 'vedbondifeclone': Posizione 87
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PickedAndDeliveredQty'
+  - 'VEDMaster': Posizione 91
+  - 'vedbondifeclone': Posizione 89
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PickedQty'
+  - 'VEDMaster': Posizione 90
+  - 'vedbondifeclone': Posizione 88
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PreShipped'
+  - 'VEDMaster': Posizione 41
+  - 'furmanetclone': Posizione 96
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PreShipped'
+  - 'VEDMaster': Posizione 41
+  - 'gpxnet': Posizione 96
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PreShipped'
+  - 'VEDMaster': Posizione 41
+  - 'vedbondifeclone': Posizione 96
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PreShippedAndDeliveredQty'
+  - 'VEDMaster': Posizione 95
+  - 'furmanetclone': Posizione 97
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PreShippedAndDeliveredQty'
+  - 'VEDMaster': Posizione 95
+  - 'gpxnet': Posizione 97
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PreShippedAndDeliveredQty'
+  - 'VEDMaster': Posizione 95
+  - 'vedbondifeclone': Posizione 97
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PreShippedQty'
+  - 'VEDMaster': Posizione 32
+  - 'furmanetclone': Posizione 94
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PreShippedQty'
+  - 'VEDMaster': Posizione 32
+  - 'gpxnet': Posizione 94
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PreShippedQty'
+  - 'VEDMaster': Posizione 32
+  - 'vedbondifeclone': Posizione 94
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PriceList'
+  - 'VEDMaster': Posizione 88
+  - 'furmanetclone': Posizione 86
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PriceList'
+  - 'VEDMaster': Posizione 88
+  - 'gpxnet': Posizione 86
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'PriceList'
+  - 'VEDMaster': Posizione 88
+  - 'vedbondifeclone': Posizione 86
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionJobId'
+  - 'VEDMaster': Posizione 67
+  - 'furmanetclone': Posizione 65
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionJobId'
+  - 'VEDMaster': Posizione 67
+  - 'gpxnet': Posizione 65
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionJobId'
+  - 'VEDMaster': Posizione 67
+  - 'vedbondifeclone': Posizione 65
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionJobNo'
+  - 'VEDMaster': Posizione 68
+  - 'furmanetclone': Posizione 66
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionJobNo'
+  - 'VEDMaster': Posizione 68
+  - 'gpxnet': Posizione 66
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionJobNo'
+  - 'VEDMaster': Posizione 68
+  - 'vedbondifeclone': Posizione 66
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionJobSubId'
+  - 'VEDMaster': Posizione 69
+  - 'furmanetclone': Posizione 67
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionJobSubId'
+  - 'VEDMaster': Posizione 69
+  - 'gpxnet': Posizione 67
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionJobSubId'
+  - 'VEDMaster': Posizione 69
+  - 'vedbondifeclone': Posizione 67
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionPlanId'
+  - 'VEDMaster': Posizione 53
+  - 'furmanetclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionPlanId'
+  - 'VEDMaster': Posizione 53
+  - 'gpxnet': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionPlanId'
+  - 'VEDMaster': Posizione 53
+  - 'vedbondifeclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionPlanLine'
+  - 'VEDMaster': Posizione 55
+  - 'furmanetclone': Posizione 53
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionPlanLine'
+  - 'VEDMaster': Posizione 55
+  - 'gpxnet': Posizione 53
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionPlanLine'
+  - 'VEDMaster': Posizione 55
+  - 'vedbondifeclone': Posizione 53
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionPlanNo'
+  - 'VEDMaster': Posizione 54
+  - 'furmanetclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionPlanNo'
+  - 'VEDMaster': Posizione 54
+  - 'gpxnet': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductionPlanNo'
+  - 'VEDMaster': Posizione 54
+  - 'vedbondifeclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductLine'
+  - 'VEDMaster': Posizione 48
+  - 'furmanetclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductLine'
+  - 'VEDMaster': Posizione 48
+  - 'gpxnet': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ProductLine'
+  - 'VEDMaster': Posizione 48
+  - 'vedbondifeclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferenceDocId'
+  - 'VEDMaster': Posizione 70
+  - 'furmanetclone': Posizione 68
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferenceDocId'
+  - 'VEDMaster': Posizione 70
+  - 'gpxnet': Posizione 68
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferenceDocId'
+  - 'VEDMaster': Posizione 70
+  - 'vedbondifeclone': Posizione 68
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferenceDocNo'
+  - 'VEDMaster': Posizione 71
+  - 'furmanetclone': Posizione 69
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferenceDocNo'
+  - 'VEDMaster': Posizione 71
+  - 'gpxnet': Posizione 69
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferenceDocNo'
+  - 'VEDMaster': Posizione 71
+  - 'vedbondifeclone': Posizione 69
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferenceQuotation'
+  - 'VEDMaster': Posizione 74
+  - 'furmanetclone': Posizione 72
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferenceQuotation'
+  - 'VEDMaster': Posizione 74
+  - 'gpxnet': Posizione 72
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferenceQuotation'
+  - 'VEDMaster': Posizione 74
+  - 'vedbondifeclone': Posizione 72
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferenceQuotationId'
+  - 'VEDMaster': Posizione 72
+  - 'furmanetclone': Posizione 70
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferenceQuotationId'
+  - 'VEDMaster': Posizione 72
+  - 'gpxnet': Posizione 70
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferenceQuotationId'
+  - 'VEDMaster': Posizione 72
+  - 'vedbondifeclone': Posizione 70
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferenceQuotationSubId'
+  - 'VEDMaster': Posizione 73
+  - 'furmanetclone': Posizione 71
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferenceQuotationSubId'
+  - 'VEDMaster': Posizione 73
+  - 'gpxnet': Posizione 71
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferenceQuotationSubId'
+  - 'VEDMaster': Posizione 73
+  - 'vedbondifeclone': Posizione 71
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferredPosition'
+  - 'VEDMaster': Posizione 96
+  - 'furmanetclone': Posizione 98
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferredPosition'
+  - 'VEDMaster': Posizione 96
+  - 'gpxnet': Posizione 98
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'ReferredPosition'
+  - 'VEDMaster': Posizione 96
+  - 'vedbondifeclone': Posizione 98
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SaleOrdId'
+  - 'VEDMaster': Posizione 43
+  - 'furmanetclone': Posizione 41
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SaleOrdId'
+  - 'VEDMaster': Posizione 43
+  - 'gpxnet': Posizione 41
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SaleOrdId'
+  - 'VEDMaster': Posizione 43
+  - 'vedbondifeclone': Posizione 41
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SalespersonComm'
+  - 'VEDMaster': Posizione 58
+  - 'furmanetclone': Posizione 56
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SalespersonComm'
+  - 'VEDMaster': Posizione 58
+  - 'gpxnet': Posizione 56
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SalespersonComm'
+  - 'VEDMaster': Posizione 58
+  - 'vedbondifeclone': Posizione 56
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SalespersonCommAuto'
+  - 'VEDMaster': Posizione 82
+  - 'furmanetclone': Posizione 80
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SalespersonCommAuto'
+  - 'VEDMaster': Posizione 82
+  - 'gpxnet': Posizione 80
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SalespersonCommAuto'
+  - 'VEDMaster': Posizione 82
+  - 'vedbondifeclone': Posizione 80
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SalespersonCommCtgAuto'
+  - 'VEDMaster': Posizione 84
+  - 'furmanetclone': Posizione 82
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SalespersonCommCtgAuto'
+  - 'VEDMaster': Posizione 84
+  - 'gpxnet': Posizione 82
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SalespersonCommCtgAuto'
+  - 'VEDMaster': Posizione 84
+  - 'vedbondifeclone': Posizione 82
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SalespersonDiscount'
+  - 'VEDMaster': Posizione 51
+  - 'furmanetclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SalespersonDiscount'
+  - 'VEDMaster': Posizione 51
+  - 'gpxnet': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SalespersonDiscount'
+  - 'VEDMaster': Posizione 51
+  - 'vedbondifeclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SaleType'
+  - 'VEDMaster': Posizione 33
+  - 'furmanetclone': Posizione 32
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SaleType'
+  - 'VEDMaster': Posizione 33
+  - 'gpxnet': Posizione 32
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SaleType'
+  - 'VEDMaster': Posizione 33
+  - 'vedbondifeclone': Posizione 32
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SpecificatorPhase1'
+  - 'VEDMaster': Posizione 63
+  - 'furmanetclone': Posizione 61
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SpecificatorPhase1'
+  - 'VEDMaster': Posizione 63
+  - 'gpxnet': Posizione 61
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SpecificatorPhase1'
+  - 'VEDMaster': Posizione 63
+  - 'vedbondifeclone': Posizione 61
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SpecificatorPhase2'
+  - 'VEDMaster': Posizione 64
+  - 'furmanetclone': Posizione 62
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SpecificatorPhase2'
+  - 'VEDMaster': Posizione 64
+  - 'gpxnet': Posizione 62
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SpecificatorPhase2'
+  - 'VEDMaster': Posizione 64
+  - 'vedbondifeclone': Posizione 62
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'StoragePhase1'
+  - 'VEDMaster': Posizione 61
+  - 'furmanetclone': Posizione 59
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'StoragePhase1'
+  - 'VEDMaster': Posizione 61
+  - 'gpxnet': Posizione 59
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'StoragePhase1'
+  - 'VEDMaster': Posizione 61
+  - 'vedbondifeclone': Posizione 59
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'StoragePhase2'
+  - 'VEDMaster': Posizione 62
+  - 'furmanetclone': Posizione 60
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'StoragePhase2'
+  - 'VEDMaster': Posizione 62
+  - 'gpxnet': Posizione 60
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'StoragePhase2'
+  - 'VEDMaster': Posizione 62
+  - 'vedbondifeclone': Posizione 60
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SubId'
+  - 'VEDMaster': Posizione 59
+  - 'furmanetclone': Posizione 57
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SubId'
+  - 'VEDMaster': Posizione 59
+  - 'gpxnet': Posizione 57
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'SubId'
+  - 'VEDMaster': Posizione 59
+  - 'vedbondifeclone': Posizione 57
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 100
+  - 'furmanetclone': Posizione 87
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 100
+  - 'gpxnet': Posizione 87
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 100
+  - 'vedbondifeclone': Posizione 90
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 101
+  - 'furmanetclone': Posizione 88
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 101
+  - 'gpxnet': Posizione 88
+[ERRORE] Ordine colonna: Tabella 'MA_SaleOrdDetails', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 101
+  - 'vedbondifeclone': Posizione 91

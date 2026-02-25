@@ -1,0 +1,349 @@
+Report di analisi della struttura del database per il sottoinsieme MULTISTORAGES generato il 09/16/2025 10:56:02
+[ERRORE] Ordine colonna: Tabella 'MA_ItemsStorageQty', Colonna 'AllocatedQty'
+  - 'VEDMaster': Posizione 21
+  - 'furmanetclone': Posizione 23
+[ERRORE] Ordine colonna: Tabella 'MA_ItemsStorageQty', Colonna 'AllocatedQty'
+  - 'VEDMaster': Posizione 21
+  - 'gpxnetclone': Posizione 23
+[ERRORE] Ordine colonna: Tabella 'MA_ItemsStorageQty', Colonna 'AllocatedQty'
+  - 'VEDMaster': Posizione 21
+  - 'vedbondifeclone': Posizione 23
+[ERRORE] Ordine colonna: Tabella 'MA_ItemsStorageQty', Colonna 'PickedQty'
+  - 'VEDMaster': Posizione 20
+  - 'furmanetclone': Posizione 22
+[ERRORE] Ordine colonna: Tabella 'MA_ItemsStorageQty', Colonna 'PickedQty'
+  - 'VEDMaster': Posizione 20
+  - 'gpxnetclone': Posizione 22
+[ERRORE] Ordine colonna: Tabella 'MA_ItemsStorageQty', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 22
+  - 'furmanetclone': Posizione 20
+[ERRORE] Ordine colonna: Tabella 'MA_ItemsStorageQty', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 22
+  - 'gpxnetclone': Posizione 20
+[ERRORE] Ordine colonna: Tabella 'MA_ItemsStorageQty', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 22
+  - 'vedbondifeclone': Posizione 21
+[ERRORE] Ordine colonna: Tabella 'MA_ItemsStorageQty', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 23
+  - 'furmanetclone': Posizione 21
+[ERRORE] Ordine colonna: Tabella 'MA_ItemsStorageQty', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 23
+  - 'gpxnetclone': Posizione 21
+[ERRORE] Ordine colonna: Tabella 'MA_ItemsStorageQty', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 23
+  - 'vedbondifeclone': Posizione 22
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'GoodsIssueZone'
+  - 'VEDMaster': Posizione 36
+  - 'furmanetclone': Posizione 38
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'GoodsIssueZone'
+  - 'VEDMaster': Posizione 36
+  - 'gpxnetclone': Posizione 38
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'GoodsIssueZone'
+  - 'VEDMaster': Posizione 36
+  - 'vedbondifeclone': Posizione 38
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'GoodsReceiptZone'
+  - 'VEDMaster': Posizione 35
+  - 'furmanetclone': Posizione 37
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'GoodsReceiptZone'
+  - 'VEDMaster': Posizione 35
+  - 'gpxnetclone': Posizione 37
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'GoodsReceiptZone'
+  - 'VEDMaster': Posizione 35
+  - 'vedbondifeclone': Posizione 37
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'InspectionZone'
+  - 'VEDMaster': Posizione 40
+  - 'furmanetclone': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'InspectionZone'
+  - 'VEDMaster': Posizione 40
+  - 'gpxnetclone': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'InspectionZone'
+  - 'VEDMaster': Posizione 40
+  - 'vedbondifeclone': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'InventoryScarcityCheckType'
+  - 'VEDMaster': Posizione 32
+  - 'furmanetclone': Posizione 34
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'InventoryScarcityCheckType'
+  - 'VEDMaster': Posizione 32
+  - 'gpxnetclone': Posizione 34
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'InventoryScarcityCheckType'
+  - 'VEDMaster': Posizione 32
+  - 'vedbondifeclone': Posizione 34
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'InventoryShortageCheckType'
+  - 'VEDMaster': Posizione 29
+  - 'furmanetclone': Posizione 31
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'InventoryShortageCheckType'
+  - 'VEDMaster': Posizione 29
+  - 'gpxnetclone': Posizione 31
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'InventoryShortageCheckType'
+  - 'VEDMaster': Posizione 29
+  - 'vedbondifeclone': Posizione 31
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'LastSnapshotCertifiedDate'
+  - 'VEDMaster': Posizione 50
+  - 'furmanetclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'LastSnapshotCertifiedDate'
+  - 'VEDMaster': Posizione 50
+  - 'gpxnetclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'LastSnapshotCertifiedDate'
+  - 'VEDMaster': Posizione 50
+  - 'vedbondifeclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'ManTwoStepsPutaway'
+  - 'VEDMaster': Posizione 44
+  - 'furmanetclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'ManTwoStepsPutaway'
+  - 'VEDMaster': Posizione 44
+  - 'gpxnetclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'ManTwoStepsPutaway'
+  - 'VEDMaster': Posizione 44
+  - 'vedbondifeclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'ManufacturingIssueZone'
+  - 'VEDMaster': Posizione 46
+  - 'furmanetclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'ManufacturingIssueZone'
+  - 'VEDMaster': Posizione 46
+  - 'gpxnetclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'ManufacturingIssueZone'
+  - 'VEDMaster': Posizione 46
+  - 'vedbondifeclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'ManufacturingReceiptZone'
+  - 'VEDMaster': Posizione 45
+  - 'furmanetclone': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'ManufacturingReceiptZone'
+  - 'VEDMaster': Posizione 45
+  - 'gpxnetclone': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'ManufacturingReceiptZone'
+  - 'VEDMaster': Posizione 45
+  - 'vedbondifeclone': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'ReturnZone'
+  - 'VEDMaster': Posizione 38
+  - 'furmanetclone': Posizione 40
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'ReturnZone'
+  - 'VEDMaster': Posizione 38
+  - 'gpxnetclone': Posizione 40
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'ReturnZone'
+  - 'VEDMaster': Posizione 38
+  - 'vedbondifeclone': Posizione 40
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'SalesOrdersShortageCheckType'
+  - 'VEDMaster': Posizione 31
+  - 'furmanetclone': Posizione 33
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'SalesOrdersShortageCheckType'
+  - 'VEDMaster': Posizione 31
+  - 'gpxnetclone': Posizione 33
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'SalesOrdersShortageCheckType'
+  - 'VEDMaster': Posizione 31
+  - 'vedbondifeclone': Posizione 33
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'SalesScarcityCheckType'
+  - 'VEDMaster': Posizione 33
+  - 'furmanetclone': Posizione 35
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'SalesScarcityCheckType'
+  - 'VEDMaster': Posizione 33
+  - 'gpxnetclone': Posizione 35
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'SalesScarcityCheckType'
+  - 'VEDMaster': Posizione 33
+  - 'vedbondifeclone': Posizione 35
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'SalesShortageCheckType'
+  - 'VEDMaster': Posizione 30
+  - 'furmanetclone': Posizione 32
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'SalesShortageCheckType'
+  - 'VEDMaster': Posizione 30
+  - 'gpxnetclone': Posizione 32
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'SalesShortageCheckType'
+  - 'VEDMaster': Posizione 30
+  - 'vedbondifeclone': Posizione 32
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'ScrapZone'
+  - 'VEDMaster': Posizione 39
+  - 'furmanetclone': Posizione 41
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'ScrapZone'
+  - 'VEDMaster': Posizione 39
+  - 'gpxnetclone': Posizione 41
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'ScrapZone'
+  - 'VEDMaster': Posizione 39
+  - 'vedbondifeclone': Posizione 41
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'SearchZoneStrategyPicking'
+  - 'VEDMaster': Posizione 42
+  - 'furmanetclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'SearchZoneStrategyPicking'
+  - 'VEDMaster': Posizione 42
+  - 'gpxnetclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'SearchZoneStrategyPicking'
+  - 'VEDMaster': Posizione 42
+  - 'vedbondifeclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'SearchZoneStrategyPutaway'
+  - 'VEDMaster': Posizione 41
+  - 'furmanetclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'SearchZoneStrategyPutaway'
+  - 'VEDMaster': Posizione 41
+  - 'gpxnetclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'SearchZoneStrategyPutaway'
+  - 'VEDMaster': Posizione 41
+  - 'vedbondifeclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StockReturnStrategy'
+  - 'VEDMaster': Posizione 43
+  - 'furmanetclone': Posizione 45
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StockReturnStrategy'
+  - 'VEDMaster': Posizione 43
+  - 'gpxnetclone': Posizione 45
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StockReturnStrategy'
+  - 'VEDMaster': Posizione 43
+  - 'vedbondifeclone': Posizione 45
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StorageBarcodePrefix'
+  - 'VEDMaster': Posizione 49
+  - 'furmanetclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StorageBarcodePrefix'
+  - 'VEDMaster': Posizione 49
+  - 'gpxnetclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StorageBarcodePrefix'
+  - 'VEDMaster': Posizione 49
+  - 'vedbondifeclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StubBookAdjustment'
+  - 'VEDMaster': Posizione 27
+  - 'furmanetclone': Posizione 26
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StubBookAdjustment'
+  - 'VEDMaster': Posizione 27
+  - 'gpxnetclone': Posizione 26
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StubBookAdjustment'
+  - 'VEDMaster': Posizione 27
+  - 'vedbondifeclone': Posizione 26
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StubBookInterStorageIN'
+  - 'VEDMaster': Posizione 25
+  - 'furmanetclone': Posizione 24
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StubBookInterStorageIN'
+  - 'VEDMaster': Posizione 25
+  - 'gpxnetclone': Posizione 24
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StubBookInterStorageIN'
+  - 'VEDMaster': Posizione 25
+  - 'vedbondifeclone': Posizione 24
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StubBookInterStorageOUT'
+  - 'VEDMaster': Posizione 26
+  - 'furmanetclone': Posizione 25
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StubBookInterStorageOUT'
+  - 'VEDMaster': Posizione 26
+  - 'gpxnetclone': Posizione 25
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StubBookInterStorageOUT'
+  - 'VEDMaster': Posizione 26
+  - 'vedbondifeclone': Posizione 25
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StubBookPurchases'
+  - 'VEDMaster': Posizione 24
+  - 'furmanetclone': Posizione 23
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StubBookPurchases'
+  - 'VEDMaster': Posizione 24
+  - 'gpxnetclone': Posizione 23
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StubBookPurchases'
+  - 'VEDMaster': Posizione 24
+  - 'vedbondifeclone': Posizione 23
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StubBookSales'
+  - 'VEDMaster': Posizione 23
+  - 'furmanetclone': Posizione 22
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StubBookSales'
+  - 'VEDMaster': Posizione 23
+  - 'gpxnetclone': Posizione 22
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'StubBookSales'
+  - 'VEDMaster': Posizione 23
+  - 'vedbondifeclone': Posizione 22
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TaxJournalPurchases'
+  - 'VEDMaster': Posizione 22
+  - 'furmanetclone': Posizione 21
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TaxJournalPurchases'
+  - 'VEDMaster': Posizione 22
+  - 'gpxnetclone': Posizione 21
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TaxJournalPurchases'
+  - 'VEDMaster': Posizione 22
+  - 'vedbondifeclone': Posizione 21
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TaxJournalSales'
+  - 'VEDMaster': Posizione 21
+  - 'furmanetclone': Posizione 20
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TaxJournalSales'
+  - 'VEDMaster': Posizione 21
+  - 'gpxnetclone': Posizione 20
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TaxJournalSales'
+  - 'VEDMaster': Posizione 21
+  - 'vedbondifeclone': Posizione 20
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 51
+  - 'furmanetclone': Posizione 27
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 51
+  - 'gpxnetclone': Posizione 27
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 51
+  - 'vedbondifeclone': Posizione 28
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TBGuid'
+  - 'VEDMaster': Posizione 19
+  - 'furmanetclone': Posizione 18
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TBGuid'
+  - 'VEDMaster': Posizione 19
+  - 'gpxnetclone': Posizione 18
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TBGuid'
+  - 'VEDMaster': Posizione 19
+  - 'vedbondifeclone': Posizione 18
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 52
+  - 'furmanetclone': Posizione 28
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 52
+  - 'gpxnetclone': Posizione 28
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 52
+  - 'vedbondifeclone': Posizione 29
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TwoStepsPutaway'
+  - 'VEDMaster': Posizione 37
+  - 'furmanetclone': Posizione 39
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TwoStepsPutaway'
+  - 'VEDMaster': Posizione 37
+  - 'gpxnetclone': Posizione 39
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'TwoStepsPutaway'
+  - 'VEDMaster': Posizione 37
+  - 'vedbondifeclone': Posizione 39
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'UsedByMRP'
+  - 'VEDMaster': Posizione 18
+  - 'furmanetclone': Posizione 30
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'UsedByMRP'
+  - 'VEDMaster': Posizione 18
+  - 'gpxnetclone': Posizione 30
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'UsedByMRP'
+  - 'VEDMaster': Posizione 18
+  - 'vedbondifeclone': Posizione 30
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'UsedForRetail'
+  - 'VEDMaster': Posizione 28
+  - 'furmanetclone': Posizione 29
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'UsedForRetail'
+  - 'VEDMaster': Posizione 28
+  - 'gpxnetclone': Posizione 29
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'UsedForRetail'
+  - 'VEDMaster': Posizione 28
+  - 'vedbondifeclone': Posizione 27
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'UseLocation'
+  - 'VEDMaster': Posizione 20
+  - 'furmanetclone': Posizione 19
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'UseLocation'
+  - 'VEDMaster': Posizione 20
+  - 'gpxnetclone': Posizione 19
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'UseLocation'
+  - 'VEDMaster': Posizione 20
+  - 'vedbondifeclone': Posizione 19
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'WMS'
+  - 'VEDMaster': Posizione 34
+  - 'furmanetclone': Posizione 36
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'WMS'
+  - 'VEDMaster': Posizione 34
+  - 'gpxnetclone': Posizione 36
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'WMS'
+  - 'VEDMaster': Posizione 34
+  - 'vedbondifeclone': Posizione 36
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'WMSActivationDate'
+  - 'VEDMaster': Posizione 47
+  - 'furmanetclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'WMSActivationDate'
+  - 'VEDMaster': Posizione 47
+  - 'gpxnetclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'WMSActivationDate'
+  - 'VEDMaster': Posizione 47
+  - 'vedbondifeclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'WMSManActivationDate'
+  - 'VEDMaster': Posizione 48
+  - 'furmanetclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'WMSManActivationDate'
+  - 'VEDMaster': Posizione 48
+  - 'gpxnetclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_Storages', Colonna 'WMSManActivationDate'
+  - 'VEDMaster': Posizione 48
+  - 'vedbondifeclone': Posizione 50

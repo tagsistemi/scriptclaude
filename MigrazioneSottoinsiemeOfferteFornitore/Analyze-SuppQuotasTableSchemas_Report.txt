@@ -1,0 +1,154 @@
+Report di analisi della struttura del database per MA_SuppQuotas generato il 09/12/2025 13:36:53
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'Autorizzato'
+  - 'VEDMaster': Posizione 39
+  - 'furmanetclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'Autorizzato'
+  - 'VEDMaster': Posizione 39
+  - 'gpxnetclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'Autorizzato'
+  - 'VEDMaster': Posizione 39
+  - 'vedbondifeclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'ContractCode'
+  - 'VEDMaster': Posizione 37
+  - 'furmanetclone': Posizione 39
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'ContractCode'
+  - 'VEDMaster': Posizione 37
+  - 'gpxnetclone': Posizione 39
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'ContractCode'
+  - 'VEDMaster': Posizione 37
+  - 'vedbondifeclone': Posizione 39
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'DataAutorizzazione'
+  - 'VEDMaster': Posizione 40
+  - 'furmanetclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'DataAutorizzazione'
+  - 'VEDMaster': Posizione 40
+  - 'gpxnetclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'DataAutorizzazione'
+  - 'VEDMaster': Posizione 40
+  - 'vedbondifeclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'PaymentAddress'
+  - 'VEDMaster': Posizione 36
+  - 'furmanetclone': Posizione 38
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'PaymentAddress'
+  - 'VEDMaster': Posizione 36
+  - 'gpxnetclone': Posizione 38
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'ProjectCode'
+  - 'VEDMaster': Posizione 38
+  - 'furmanetclone': Posizione 40
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'ProjectCode'
+  - 'VEDMaster': Posizione 38
+  - 'gpxnetclone': Posizione 40
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'ProjectCode'
+  - 'VEDMaster': Posizione 38
+  - 'vedbondifeclone': Posizione 40
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 41
+  - 'furmanetclone': Posizione 36
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 41
+  - 'gpxnetclone': Posizione 36
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 41
+  - 'vedbondifeclone': Posizione 37
+[ERRORE] Nullability: Tabella 'MA_SuppQuotas', Colonna 'TBCreatedID'
+  - 'VEDMaster': NO
+  - 'furmanetclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'TBCreatedID'
+  - 'VEDMaster': Posizione 43
+  - 'furmanetclone': Posizione 41
+[ERRORE] Nullability: Tabella 'MA_SuppQuotas', Colonna 'TBCreatedID'
+  - 'VEDMaster': NO
+  - 'gpxnetclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'TBCreatedID'
+  - 'VEDMaster': Posizione 43
+  - 'gpxnetclone': Posizione 41
+[ERRORE] Nullability: Tabella 'MA_SuppQuotas', Colonna 'TBCreatedID'
+  - 'VEDMaster': NO
+  - 'vedbondifeclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'TBCreatedID'
+  - 'VEDMaster': Posizione 43
+  - 'vedbondifeclone': Posizione 41
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 42
+  - 'furmanetclone': Posizione 37
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 42
+  - 'gpxnetclone': Posizione 37
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 42
+  - 'vedbondifeclone': Posizione 38
+[ERRORE] Nullability: Tabella 'MA_SuppQuotas', Colonna 'TBModifiedID'
+  - 'VEDMaster': NO
+  - 'furmanetclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'TBModifiedID'
+  - 'VEDMaster': Posizione 44
+  - 'furmanetclone': Posizione 42
+[ERRORE] Nullability: Tabella 'MA_SuppQuotas', Colonna 'TBModifiedID'
+  - 'VEDMaster': NO
+  - 'gpxnetclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'TBModifiedID'
+  - 'VEDMaster': Posizione 44
+  - 'gpxnetclone': Posizione 42
+[ERRORE] Nullability: Tabella 'MA_SuppQuotas', Colonna 'TBModifiedID'
+  - 'VEDMaster': NO
+  - 'vedbondifeclone': YES
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotas', Colonna 'TBModifiedID'
+  - 'VEDMaster': Posizione 44
+  - 'vedbondifeclone': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'CRRefID'
+  - 'VEDMaster': Posizione 52
+  - 'furmanetclone': Posizione 54
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'CRRefID'
+  - 'VEDMaster': Posizione 52
+  - 'gpxnetclone': Posizione 54
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'CRRefID'
+  - 'VEDMaster': Posizione 52
+  - 'vedbondifeclone': Posizione 54
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'CRRefSubID'
+  - 'VEDMaster': Posizione 53
+  - 'furmanetclone': Posizione 55
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'CRRefSubID'
+  - 'VEDMaster': Posizione 53
+  - 'gpxnetclone': Posizione 55
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'CRRefSubID'
+  - 'VEDMaster': Posizione 53
+  - 'vedbondifeclone': Posizione 55
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'CRRefType'
+  - 'VEDMaster': Posizione 51
+  - 'furmanetclone': Posizione 53
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'CRRefType'
+  - 'VEDMaster': Posizione 51
+  - 'gpxnetclone': Posizione 53
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'CRRefType'
+  - 'VEDMaster': Posizione 51
+  - 'vedbondifeclone': Posizione 53
+[ERRORE] Lunghezza: Tabella 'MA_SuppQuotasDetail', Colonna 'Description'
+  - 'VEDMaster': 128
+  - 'furmanetclone': 256
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'ExpectedDeliveryDate'
+  - 'VEDMaster': Posizione 50
+  - 'furmanetclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'ExpectedDeliveryDate'
+  - 'VEDMaster': Posizione 50
+  - 'gpxnetclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'ExpectedDeliveryDate'
+  - 'VEDMaster': Posizione 50
+  - 'vedbondifeclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 54
+  - 'furmanetclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 54
+  - 'gpxnetclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 54
+  - 'vedbondifeclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 55
+  - 'furmanetclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 55
+  - 'gpxnetclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_SuppQuotasDetail', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 55
+  - 'vedbondifeclone': Posizione 51

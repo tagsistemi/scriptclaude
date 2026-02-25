@@ -1,0 +1,365 @@
+Report di analisi della struttura del database per il sottoinsieme PERFETTO01 generato il 09/16/2025 09:48:19
+Nessuna informazione di schema trovata per la tabella 'M_JobCorrections'.
+[ERRORE] Lunghezza: Tabella 'IM_JobsDetails', Colonna 'Description'
+  - 'VEDMaster': 128
+  - 'furmanetclone': 256
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetails', Colonna 'NoteVCL'
+  - 'VEDMaster': Posizione 79
+  - 'furmanetclone': Posizione 81
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetails', Colonna 'NoteVCL'
+  - 'VEDMaster': Posizione 79
+  - 'gpxnetclone': Posizione 81
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetails', Colonna 'NoteVCL'
+  - 'VEDMaster': Posizione 79
+  - 'vedbondifeclone': Posizione 81
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetails', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 80
+  - 'furmanetclone': Posizione 79
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetails', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 80
+  - 'gpxnetclone': Posizione 79
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetails', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 80
+  - 'vedbondifeclone': Posizione 79
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetails', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 81
+  - 'furmanetclone': Posizione 80
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetails', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 81
+  - 'gpxnetclone': Posizione 80
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetails', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 81
+  - 'vedbondifeclone': Posizione 80
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetailsVCL', Colonna 'Note'
+  - 'VEDMaster': Posizione 46
+  - 'furmanetclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetailsVCL', Colonna 'Note'
+  - 'VEDMaster': Posizione 46
+  - 'gpxnetclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetailsVCL', Colonna 'Note'
+  - 'VEDMaster': Posizione 46
+  - 'vedbondifeclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetailsVCL', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 47
+  - 'furmanetclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetailsVCL', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 47
+  - 'gpxnetclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetailsVCL', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 47
+  - 'vedbondifeclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetailsVCL', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 48
+  - 'furmanetclone': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetailsVCL', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 48
+  - 'gpxnetclone': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'IM_JobsDetailsVCL', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 48
+  - 'vedbondifeclone': Posizione 47
+[ERRORE] Database 'gpxnetclone', Tabella 'IM_JobsSummary': Colonne mancanti rispetto a 'VEDMaster':
+  - RicaricaPerc
+  - TariffaOraria
+[ERRORE] Database 'furmanetclone', Tabella 'IM_JobsSummary': Colonne mancanti rispetto a 'VEDMaster':
+  - RicaricaPerc
+  - TariffaOraria
+[ERRORE] Database 'vedbondifeclone', Tabella 'IM_JobsSummary': Colonne mancanti rispetto a 'VEDMaster':
+  - RicaricaPerc
+  - TariffaOraria
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'AdministrativeClosureDate'
+  - 'VEDMaster': Posizione 95
+  - 'furmanetclone': Posizione 93
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'AdministrativeClosureDate'
+  - 'VEDMaster': Posizione 95
+  - 'gpxnetclone': Posizione 93
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'AdministrativeClosureDate'
+  - 'VEDMaster': Posizione 95
+  - 'vedbondifeclone': Posizione 93
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'ChargingPerc'
+  - 'VEDMaster': Posizione 67
+  - 'furmanetclone': Posizione 69
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'ChargingPerc'
+  - 'VEDMaster': Posizione 67
+  - 'gpxnetclone': Posizione 69
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'ChargingPerc'
+  - 'VEDMaster': Posizione 67
+  - 'vedbondifeclone': Posizione 69
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'ContractRevenues'
+  - 'VEDMaster': Posizione 90
+  - 'furmanetclone': Posizione 88
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'ContractRevenues'
+  - 'VEDMaster': Posizione 90
+  - 'gpxnetclone': Posizione 88
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'ContractRevenues'
+  - 'VEDMaster': Posizione 90
+  - 'vedbondifeclone': Posizione 88
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'EmployeeReference'
+  - 'VEDMaster': Posizione 78
+  - 'furmanetclone': Posizione 76
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'EmployeeReference'
+  - 'VEDMaster': Posizione 78
+  - 'gpxnetclone': Posizione 76
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'EmployeeReference'
+  - 'VEDMaster': Posizione 78
+  - 'vedbondifeclone': Posizione 76
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'ExpiryRatePeriodEnjoyment'
+  - 'VEDMaster': Posizione 94
+  - 'furmanetclone': Posizione 92
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'ExpiryRatePeriodEnjoyment'
+  - 'VEDMaster': Posizione 94
+  - 'gpxnetclone': Posizione 92
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'ExpiryRatePeriodEnjoyment'
+  - 'VEDMaster': Posizione 94
+  - 'vedbondifeclone': Posizione 92
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'FurtherDiscountIsAutomatic'
+  - 'VEDMaster': Posizione 69
+  - 'furmanetclone': Posizione 71
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'FurtherDiscountIsAutomatic'
+  - 'VEDMaster': Posizione 69
+  - 'gpxnetclone': Posizione 71
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'FurtherDiscountIsAutomatic'
+  - 'VEDMaster': Posizione 69
+  - 'vedbondifeclone': Posizione 71
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'InvRsnPDoc'
+  - 'VEDMaster': Posizione 79
+  - 'furmanetclone': Posizione 77
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'InvRsnPDoc'
+  - 'VEDMaster': Posizione 79
+  - 'gpxnetclone': Posizione 77
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'InvRsnPDoc'
+  - 'VEDMaster': Posizione 79
+  - 'vedbondifeclone': Posizione 77
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'MandatoryExpectedDates'
+  - 'VEDMaster': Posizione 64
+  - 'furmanetclone': Posizione 66
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'MandatoryExpectedDates'
+  - 'VEDMaster': Posizione 64
+  - 'gpxnetclone': Posizione 66
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'MandatoryExpectedDates'
+  - 'VEDMaster': Posizione 64
+  - 'vedbondifeclone': Posizione 66
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'MarginPerc'
+  - 'VEDMaster': Posizione 66
+  - 'furmanetclone': Posizione 68
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'MarginPerc'
+  - 'VEDMaster': Posizione 66
+  - 'gpxnetclone': Posizione 68
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'MarginPerc'
+  - 'VEDMaster': Posizione 66
+  - 'vedbondifeclone': Posizione 68
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'MethodCalculationCompRevenues'
+  - 'VEDMaster': Posizione 84
+  - 'furmanetclone': Posizione 82
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'MethodCalculationCompRevenues'
+  - 'VEDMaster': Posizione 84
+  - 'gpxnetclone': Posizione 82
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'MethodCalculationCompRevenues'
+  - 'VEDMaster': Posizione 84
+  - 'vedbondifeclone': Posizione 82
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'OriginCostsSubcontract'
+  - 'VEDMaster': Posizione 70
+  - 'furmanetclone': Posizione 75
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'OriginCostsSubcontract'
+  - 'VEDMaster': Posizione 70
+  - 'gpxnetclone': Posizione 75
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'OriginCostsSubcontract'
+  - 'VEDMaster': Posizione 70
+  - 'vedbondifeclone': Posizione 75
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'RevenuesFromDate'
+  - 'VEDMaster': Posizione 91
+  - 'furmanetclone': Posizione 89
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'RevenuesFromDate'
+  - 'VEDMaster': Posizione 91
+  - 'gpxnetclone': Posizione 89
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'RevenuesFromDate'
+  - 'VEDMaster': Posizione 91
+  - 'vedbondifeclone': Posizione 89
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'RevenuesToDate'
+  - 'VEDMaster': Posizione 92
+  - 'furmanetclone': Posizione 90
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'RevenuesToDate'
+  - 'VEDMaster': Posizione 92
+  - 'gpxnetclone': Posizione 90
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'RevenuesToDate'
+  - 'VEDMaster': Posizione 92
+  - 'vedbondifeclone': Posizione 90
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'SiteManager'
+  - 'VEDMaster': Posizione 68
+  - 'furmanetclone': Posizione 70
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'SiteManager'
+  - 'VEDMaster': Posizione 68
+  - 'gpxnetclone': Posizione 70
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'SiteManager'
+  - 'VEDMaster': Posizione 68
+  - 'vedbondifeclone': Posizione 70
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'StorageDelReqPL'
+  - 'VEDMaster': Posizione 81
+  - 'furmanetclone': Posizione 79
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'StorageDelReqPL'
+  - 'VEDMaster': Posizione 81
+  - 'gpxnetclone': Posizione 79
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'StorageDelReqPL'
+  - 'VEDMaster': Posizione 81
+  - 'vedbondifeclone': Posizione 79
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'StorageDelReqPO'
+  - 'VEDMaster': Posizione 80
+  - 'furmanetclone': Posizione 78
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'StorageDelReqPO'
+  - 'VEDMaster': Posizione 80
+  - 'gpxnetclone': Posizione 78
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'StorageDelReqPO'
+  - 'VEDMaster': Posizione 80
+  - 'vedbondifeclone': Posizione 78
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TaxCommunicationGroup'
+  - 'VEDMaster': Posizione 71
+  - 'furmanetclone': Posizione 74
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TaxCommunicationGroup'
+  - 'VEDMaster': Posizione 71
+  - 'gpxnetclone': Posizione 74
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TaxCommunicationGroup'
+  - 'VEDMaster': Posizione 71
+  - 'vedbondifeclone': Posizione 74
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 72
+  - 'furmanetclone': Posizione 63
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 72
+  - 'gpxnetclone': Posizione 63
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 72
+  - 'vedbondifeclone': Posizione 63
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TBCreatedID'
+  - 'VEDMaster': Posizione 74
+  - 'furmanetclone': Posizione 72
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TBCreatedID'
+  - 'VEDMaster': Posizione 74
+  - 'gpxnetclone': Posizione 72
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TBCreatedID'
+  - 'VEDMaster': Posizione 74
+  - 'vedbondifeclone': Posizione 72
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 73
+  - 'furmanetclone': Posizione 64
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 73
+  - 'gpxnetclone': Posizione 64
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 73
+  - 'vedbondifeclone': Posizione 64
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TBModifiedID'
+  - 'VEDMaster': Posizione 75
+  - 'furmanetclone': Posizione 73
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TBModifiedID'
+  - 'VEDMaster': Posizione 75
+  - 'gpxnetclone': Posizione 73
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TBModifiedID'
+  - 'VEDMaster': Posizione 75
+  - 'vedbondifeclone': Posizione 73
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TypeRatePeriodEnjoyment'
+  - 'VEDMaster': Posizione 93
+  - 'furmanetclone': Posizione 91
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TypeRatePeriodEnjoyment'
+  - 'VEDMaster': Posizione 93
+  - 'gpxnetclone': Posizione 91
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'TypeRatePeriodEnjoyment'
+  - 'VEDMaster': Posizione 93
+  - 'vedbondifeclone': Posizione 91
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseAccInvInCompRevenues'
+  - 'VEDMaster': Posizione 96
+  - 'furmanetclone': Posizione 94
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseAccInvInCompRevenues'
+  - 'VEDMaster': Posizione 96
+  - 'gpxnetclone': Posizione 94
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseAccInvInCompRevenues'
+  - 'VEDMaster': Posizione 96
+  - 'vedbondifeclone': Posizione 94
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseCreditNoteInCompRevenues'
+  - 'VEDMaster': Posizione 87
+  - 'furmanetclone': Posizione 85
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseCreditNoteInCompRevenues'
+  - 'VEDMaster': Posizione 87
+  - 'gpxnetclone': Posizione 85
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseCreditNoteInCompRevenues'
+  - 'VEDMaster': Posizione 87
+  - 'vedbondifeclone': Posizione 85
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseEIDocumentType'
+  - 'VEDMaster': Posizione 97
+  - 'furmanetclone': Posizione 95
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseEIDocumentType'
+  - 'VEDMaster': Posizione 97
+  - 'gpxnetclone': Posizione 95
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseEIDocumentType'
+  - 'VEDMaster': Posizione 97
+  - 'vedbondifeclone': Posizione 95
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseInAdvTools'
+  - 'VEDMaster': Posizione 83
+  - 'furmanetclone': Posizione 81
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseInAdvTools'
+  - 'VEDMaster': Posizione 83
+  - 'gpxnetclone': Posizione 81
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseInAdvTools'
+  - 'VEDMaster': Posizione 83
+  - 'vedbondifeclone': Posizione 81
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseInvForAdvInCompRevenues'
+  - 'VEDMaster': Posizione 86
+  - 'furmanetclone': Posizione 84
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseInvForAdvInCompRevenues'
+  - 'VEDMaster': Posizione 86
+  - 'gpxnetclone': Posizione 84
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseInvForAdvInCompRevenues'
+  - 'VEDMaster': Posizione 86
+  - 'vedbondifeclone': Posizione 84
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseInvoiceInCompRevenues'
+  - 'VEDMaster': Posizione 85
+  - 'furmanetclone': Posizione 83
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseInvoiceInCompRevenues'
+  - 'VEDMaster': Posizione 85
+  - 'gpxnetclone': Posizione 83
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseInvoiceInCompRevenues'
+  - 'VEDMaster': Posizione 85
+  - 'vedbondifeclone': Posizione 83
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseMethodPrefTaxCode'
+  - 'VEDMaster': Posizione 82
+  - 'furmanetclone': Posizione 80
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseMethodPrefTaxCode'
+  - 'VEDMaster': Posizione 82
+  - 'gpxnetclone': Posizione 80
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseMethodPrefTaxCode'
+  - 'VEDMaster': Posizione 82
+  - 'vedbondifeclone': Posizione 80
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseNonCollReceiptInCompRevenues'
+  - 'VEDMaster': Posizione 89
+  - 'furmanetclone': Posizione 87
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseNonCollReceiptInCompRevenues'
+  - 'VEDMaster': Posizione 89
+  - 'gpxnetclone': Posizione 87
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseNonCollReceiptInCompRevenues'
+  - 'VEDMaster': Posizione 89
+  - 'vedbondifeclone': Posizione 87
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UsePercInEconomicCP'
+  - 'VEDMaster': Posizione 65
+  - 'furmanetclone': Posizione 67
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UsePercInEconomicCP'
+  - 'VEDMaster': Posizione 65
+  - 'gpxnetclone': Posizione 67
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UsePercInEconomicCP'
+  - 'VEDMaster': Posizione 65
+  - 'vedbondifeclone': Posizione 67
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseReceiptInCompRevenues'
+  - 'VEDMaster': Posizione 88
+  - 'furmanetclone': Posizione 86
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseReceiptInCompRevenues'
+  - 'VEDMaster': Posizione 88
+  - 'gpxnetclone': Posizione 86
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'UseReceiptInCompRevenues'
+  - 'VEDMaster': Posizione 88
+  - 'vedbondifeclone': Posizione 86
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'WRReason'
+  - 'VEDMaster': Posizione 63
+  - 'furmanetclone': Posizione 65
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'WRReason'
+  - 'VEDMaster': Posizione 63
+  - 'gpxnetclone': Posizione 65
+[ERRORE] Ordine colonna: Tabella 'IM_JobsSummary', Colonna 'WRReason'
+  - 'VEDMaster': Posizione 63
+  - 'vedbondifeclone': Posizione 65

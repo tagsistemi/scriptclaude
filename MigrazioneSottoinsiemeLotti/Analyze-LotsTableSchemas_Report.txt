@@ -1,0 +1,172 @@
+Report di analisi della struttura del database per il sottoinsieme LOTTI generato il 09/16/2025 11:12:12
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'BarcodeSegment'
+  - 'VEDMaster': Posizione 50
+  - 'furmanetclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'BarcodeSegment'
+  - 'VEDMaster': Posizione 50
+  - 'gpxnetclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'BarcodeSegment'
+  - 'VEDMaster': Posizione 50
+  - 'vedbondifeclone': Posizione 52
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'LastMaintenance'
+  - 'VEDMaster': Posizione 43
+  - 'furmanetclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'LastMaintenance'
+  - 'VEDMaster': Posizione 43
+  - 'gpxnetclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'LastMaintenance'
+  - 'VEDMaster': Posizione 43
+  - 'vedbondifeclone': Posizione 46
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'LastMaintenanceExtra'
+  - 'VEDMaster': Posizione 44
+  - 'furmanetclone': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'LastMaintenanceExtra'
+  - 'VEDMaster': Posizione 44
+  - 'gpxnetclone': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'LastMaintenanceExtra'
+  - 'VEDMaster': Posizione 44
+  - 'vedbondifeclone': Posizione 47
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'PurchaseDate'
+  - 'VEDMaster': Posizione 42
+  - 'furmanetclone': Posizione 45
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'PurchaseDate'
+  - 'VEDMaster': Posizione 42
+  - 'gpxnetclone': Posizione 45
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'PurchaseDate'
+  - 'VEDMaster': Posizione 42
+  - 'vedbondifeclone': Posizione 45
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 51
+  - 'furmanetclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 51
+  - 'gpxnetclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 51
+  - 'vedbondifeclone': Posizione 43
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'TBGuid'
+  - 'VEDMaster': Posizione 49
+  - 'furmanetclone': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'TBGuid'
+  - 'VEDMaster': Posizione 49
+  - 'gpxnetclone': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'TBGuid'
+  - 'VEDMaster': Posizione 49
+  - 'vedbondifeclone': Posizione 42
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 52
+  - 'furmanetclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 52
+  - 'gpxnetclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 52
+  - 'vedbondifeclone': Posizione 44
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'ThresholdQty'
+  - 'VEDMaster': Posizione 46
+  - 'furmanetclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'ThresholdQty'
+  - 'VEDMaster': Posizione 46
+  - 'gpxnetclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'ThresholdQty'
+  - 'VEDMaster': Posizione 46
+  - 'vedbondifeclone': Posizione 49
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'ThresholdQtyTot'
+  - 'VEDMaster': Posizione 48
+  - 'furmanetclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'ThresholdQtyTot'
+  - 'VEDMaster': Posizione 48
+  - 'gpxnetclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'ThresholdQtyTot'
+  - 'VEDMaster': Posizione 48
+  - 'vedbondifeclone': Posizione 51
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'UsedQty'
+  - 'VEDMaster': Posizione 45
+  - 'furmanetclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'UsedQty'
+  - 'VEDMaster': Posizione 45
+  - 'gpxnetclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'UsedQty'
+  - 'VEDMaster': Posizione 45
+  - 'vedbondifeclone': Posizione 48
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'UsedQtyTot'
+  - 'VEDMaster': Posizione 47
+  - 'furmanetclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'UsedQtyTot'
+  - 'VEDMaster': Posizione 47
+  - 'gpxnetclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_Lots', Colonna 'UsedQtyTot'
+  - 'VEDMaster': Posizione 47
+  - 'vedbondifeclone': Posizione 50
+[ERRORE] Ordine colonna: Tabella 'MA_LotSerialParameters', Colonna 'AutoCreation'
+  - 'VEDMaster': Posizione 23
+  - 'furmanetclone': Posizione 25
+[ERRORE] Ordine colonna: Tabella 'MA_LotSerialParameters', Colonna 'AutoCreation'
+  - 'VEDMaster': Posizione 23
+  - 'gpxnetclone': Posizione 25
+[ERRORE] Ordine colonna: Tabella 'MA_LotSerialParameters', Colonna 'AutoCreation'
+  - 'VEDMaster': Posizione 23
+  - 'vedbondifeclone': Posizione 25
+[ERRORE] Ordine colonna: Tabella 'MA_LotSerialParameters', Colonna 'DisplayOutofStocksLots'
+  - 'VEDMaster': Posizione 24
+  - 'furmanetclone': Posizione 26
+[ERRORE] Ordine colonna: Tabella 'MA_LotSerialParameters', Colonna 'DisplayOutofStocksLots'
+  - 'VEDMaster': Posizione 24
+  - 'gpxnetclone': Posizione 26
+[ERRORE] Ordine colonna: Tabella 'MA_LotSerialParameters', Colonna 'DisplayOutofStocksLots'
+  - 'VEDMaster': Posizione 24
+  - 'vedbondifeclone': Posizione 26
+[ERRORE] Ordine colonna: Tabella 'MA_LotSerialParameters', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 26
+  - 'furmanetclone': Posizione 23
+[ERRORE] Ordine colonna: Tabella 'MA_LotSerialParameters', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 26
+  - 'gpxnetclone': Posizione 23
+[ERRORE] Ordine colonna: Tabella 'MA_LotSerialParameters', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 26
+  - 'vedbondifeclone': Posizione 23
+[ERRORE] Ordine colonna: Tabella 'MA_LotSerialParameters', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 27
+  - 'furmanetclone': Posizione 24
+[ERRORE] Ordine colonna: Tabella 'MA_LotSerialParameters', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 27
+  - 'gpxnetclone': Posizione 24
+[ERRORE] Ordine colonna: Tabella 'MA_LotSerialParameters', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 27
+  - 'vedbondifeclone': Posizione 24
+[ERRORE] Ordine colonna: Tabella 'MA_LotSerialParameters', Colonna 'UseSupplierLotAsNewLotNumber'
+  - 'VEDMaster': Posizione 25
+  - 'furmanetclone': Posizione 27
+[ERRORE] Ordine colonna: Tabella 'MA_LotSerialParameters', Colonna 'UseSupplierLotAsNewLotNumber'
+  - 'VEDMaster': Posizione 25
+  - 'gpxnetclone': Posizione 27
+[ERRORE] Ordine colonna: Tabella 'MA_LotSerialParameters', Colonna 'UseSupplierLotAsNewLotNumber'
+  - 'VEDMaster': Posizione 25
+  - 'vedbondifeclone': Posizione 27
+[ERRORE] Ordine colonna: Tabella 'MA_LotsStoragesQty', Colonna 'InitialValue'
+  - 'VEDMaster': Posizione 17
+  - 'furmanetclone': Posizione 19
+[ERRORE] Ordine colonna: Tabella 'MA_LotsStoragesQty', Colonna 'InitialValue'
+  - 'VEDMaster': Posizione 17
+  - 'gpxnetclone': Posizione 19
+[ERRORE] Ordine colonna: Tabella 'MA_LotsStoragesQty', Colonna 'InitialValue'
+  - 'VEDMaster': Posizione 17
+  - 'vedbondifeclone': Posizione 19
+[ERRORE] Ordine colonna: Tabella 'MA_LotsStoragesQty', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 18
+  - 'furmanetclone': Posizione 17
+[ERRORE] Ordine colonna: Tabella 'MA_LotsStoragesQty', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 18
+  - 'gpxnetclone': Posizione 17
+[ERRORE] Ordine colonna: Tabella 'MA_LotsStoragesQty', Colonna 'TBCreated'
+  - 'VEDMaster': Posizione 18
+  - 'vedbondifeclone': Posizione 17
+[ERRORE] Ordine colonna: Tabella 'MA_LotsStoragesQty', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 19
+  - 'furmanetclone': Posizione 18
+[ERRORE] Ordine colonna: Tabella 'MA_LotsStoragesQty', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 19
+  - 'gpxnetclone': Posizione 18
+[ERRORE] Ordine colonna: Tabella 'MA_LotsStoragesQty', Colonna 'TBModified'
+  - 'VEDMaster': Posizione 19
+  - 'vedbondifeclone': Posizione 18

@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -d /e/MigrazioneVed/ScriptsClaudeNonFunziona/*Rinumera* /e/MigrazioneVed/ScriptsClaudeNonFunziona/*rinumera*)"
+    ]
+  }
+}
