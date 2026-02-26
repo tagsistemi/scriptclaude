@@ -361,6 +361,40 @@ INNER JOIN VEDMaster.dbo.MA_SaleOrd c ON c.InternalOrdNo = b.InternalOrdNo
 | 9.9.1 | SQL    | Cartella `MigrazioneSottoinsiemeDdt` → eseguire su SSMS `Fix-MA_SaleDocDetail-Description-512` |
 | 9.9.2 | SCRIPT | Eseguire `Migrate-ItemsData.ps1`                                                               |
 
+### 9.10 - Fix CrossReferences Fatture
+
+| #      | Tipo   | Azione                                                                               |
+| ------ | ------ | ------------------------------------------------------------------------------------ |
+| 9.10.1 | SCRIPT | `29a_CreaMA_CrossReferencesOrigin.ps1` - backup MA_CrossReferences (Origin + Backup) |
+| 9.10.2 | SCRIPT | `29CorrettivoFixDerivedDocIdFatture.ps1` - fix DerivedDocID Fattura->DocContabile     |
+
+> **Problema**: I cross-references Fattura Immediata (27066387) -> Documento Contabile Emesso (27066419) hanno DerivedDocID errato su VEDMaster. I movimenti contabili mantengono gli ID originali di vedcontab (non rinumerati), ma i cross-references puntano a ID sbagliati.
+> **Soluzione**: Lo script 29 mappa le fatture VEDMaster -> vedcontab tramite business key e copia il DerivedDocID corretto da vedcontab.
+
+### 9.11 - Pulizia e fix CrossReferences destinazioni
+
+| #      | Tipo   | Azione                                                                                           |
+| ------ | ------ | ------------------------------------------------------------------------------------------------ |
+| 9.11.1 | SCRIPT | `30EliminaDestinazioniPartiteCliente.ps1` - elimina CrossRef Fattura->Partita Cliente            |
+| 9.11.2 | SCRIPT | `31FixOriginDocIdCrossReferences.ps1` - fix OriginDocID orfani Fattura->DocContabile             |
+
+> **Script 30 - Problema**: MA_CrossReferences contiene record con OriginDocType=27066387 (Fattura Immediata) e DerivedDocType=27066423 (Partita Cliente). Questi sono errati perche sono i documenti contabili a generare le partite, non le fatture direttamente.
+> **Soluzione**: Elimina tutti i record con quella combinazione Origin/Derived DocType.
+
+> **Script 31 - Problema**: Dopo la rinumerazione SaleDocId, alcuni cross-references Fattura (27066387) -> DocContabile (27066419) hanno ancora il vecchio OriginDocID di vedcontab (es. 141874) invece del nuovo ID VEDMaster (es. 535618). Questo perche il record con il vecchio ID non e stato aggiornato durante la rinumerazione.
+> **Soluzione**: Lo script mappa il vecchio ID al nuovo tramite business key (DocNo + DocumentDate + CustSupp + DocumentType) via vedcontab -> VEDMaster. Gestisce anche i conflitti PK: se il nuovo ID esiste gia, elimina il record orfano ridondante prima di aggiornare i rimanenti.
+
+### 9.12 - Importazione dati anagrafici aggiuntivi
+
+| #      | Tipo   | Azione                                                                                                    |
+| ------ | ------ | --------------------------------------------------------------------------------------------------------- |
+| 9.12.1 | SCRIPT | `32ImportaCustSuppBranches.ps1` - importa sedi clienti/fornitori (MA_CustSuppBranches) dai clone          |
+
+> Lo script importa i record di `MA_CustSuppBranches` dai 3 DB clone su VEDMaster senza cancellare i dati esistenti (vedcontab). Gestisce automaticamente:
+> - **Duplicati PK**: record gia presenti su VEDMaster vengono saltati (NOT EXISTS su chiave CustSuppType + CustSupp + Branch)
+> - **FK mancanti**: record con CustSupp/CustSuppType non presenti in MA_CustSupp vengono saltati e segnalati con campione
+> - **Errori**: se un clone fallisce, lo segnala e continua con il successivo
+
 ---
 
 ## FASE 10 - Workaround RAM GPX
@@ -429,6 +463,11 @@ UPDATE VEDMaster.dbo.MA_IDNumbers SET LastId = -6335 WHERE CodeType = 3801098
 | Bug 3C        | Workaround -100000                             | Rimosso (non piu necessario)               |
 | Script 23 v4  | `23PostTrasfAggiornariffatturevedmaster.ps1`   | Riscrittura completa: importa cross-ref dai clone anziche tentare fix su VEDMaster |
 | **Script 28** | **`28RinumeraSaleDocVedmaster.ps1`**           | **Rinumera SaleDocId su VEDMaster per allinearli ai clone. Rende superfluo lo script 23** |
+| Script 29a    | `29a_CreaMA_CrossReferencesOrigin.ps1`         | Backup MA_CrossReferences (Origin + Backup)                                               |
+| Script 29     | `29CorrettivoFixDerivedDocIdFatture.ps1`       | Fix DerivedDocID Fattura->DocContabile da vedcontab                                       |
+| **Script 30** | **`30EliminaDestinazioniPartiteCliente.ps1`**  | **Elimina CrossRef errati Fattura->Partita Cliente**                                      |
+| **Script 31** | **`31FixOriginDocIdCrossReferences.ps1`**      | **Fix OriginDocID orfani (vecchio vedcontab->nuovo VEDMaster) con gestione duplicati PK** |
+| Script 32     | `32ImportaCustSuppBranches.ps1`                | Importa MA_CustSuppBranches dai clone con gestione duplicati PK e FK mancanti             |
 
 ## Bug ancora aperti / risolti
 

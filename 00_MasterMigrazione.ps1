@@ -538,6 +538,15 @@ INNER JOIN VEDMaster.dbo.MA_SaleOrd c ON c.InternalOrdNo = b.InternalOrdNo
         Execute-Script "9.10.1" "29a_CreaMA_CrossReferencesOrigin.ps1"      "Backup MA_CrossReferences (Origin + Backup)"
         Execute-Script "9.10.2" "29CorrettivoFixDerivedDocIdFatture.ps1"    "Fix DerivedDocID Fattura->DocContabile"
 
+        # 9.11 - Pulizia e fix CrossReferences destinazioni
+        Write-SubHeader "9.11 - Pulizia e fix CrossReferences destinazioni"
+        Execute-Script "9.11.1" "30EliminaDestinazioniPartiteCliente.ps1"   "Elimina CrossRef Fattura->Partita Cliente (generati dai doc contabili)"
+        Execute-Script "9.11.2" "31FixOriginDocIdCrossReferences.ps1"       "Fix OriginDocID orfani Fattura->DocContabile (vecchio ID vedcontab->nuovo)"
+
+        # 9.12 - Importazione dati anagrafici aggiuntivi
+        Write-SubHeader "9.12 - Importazione dati anagrafici aggiuntivi"
+        Execute-Script "9.12.1" "32ImportaCustSuppBranches.ps1"             "Importa MA_CustSuppBranches dai clone (sedi clienti/fornitori)"
+
         Write-Ok "FASE 9 completata"
     }
 }
