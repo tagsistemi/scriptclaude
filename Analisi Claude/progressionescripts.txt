@@ -404,3 +404,61 @@ Tipo documento , 52 , AutoFattura , 26 , 3407898
 Tipo documento , 52 , AutoNota di Credito , 27 , 3407899
 Tipo documento , 52 , Rapportino , 100 , 3407972
 Tipo documento , 52 , SAL , 101 , 3407973
+
+
+-- specie archivio numeratori id
+Specie archivio , 58 , Documenti di vendita , 0 , 3801088
+Specie archivio , 58 , Variazioni Esigibilità IVA , 1 , 3801089
+Specie archivio , 58 , Mandati , 2 , 3801090
+Specie archivio , 58 , Intrastat , 3 , 3801091
+Specie archivio , 58 , Movimenti agenti , 4 , 3801092
+Specie archivio , 58 , Movimenti magazzino , 5 , 3801093
+Specie archivio , 58 , Partite , 6 , 3801094
+Specie archivio , 58 , Prima nota , 7 , 3801095
+Specie archivio , 58 , Piano produzione , 8 , 3801096
+Specie archivio , 58 , Movimenti cespiti , 9 , 3801097
+Specie archivio , 58 , Ordini cliente , 10 , 3801098
+Specie archivio , 58 , Offerte a cliente , 11 , 3801099
+Specie archivio , 58 , Ordini fornitore , 12 , 3801100
+Specie archivio , 58 , Parcelle , 13 , 3801101
+Specie archivio , 58 , Movimenti analitici , 14 , 3801102
+Specie archivio , 58 , Ordine produzione , 15 , 3801103
+Specie archivio , 58 , Rda , 16 , 3801104
+Specie archivio , 58 , Bolla lav , 17 , 3801105
+Specie archivio , 58 , Documenti di Acquisto , 20 , 3801108
+Specie archivio , 58 , Offerta fornitore , 21 , 3801109
+Specie archivio , 58 , Ordine Lavorazione , 25 , 3801113
+Specie archivio , 58 , Oneri Accessori , 26 , 3801114
+Specie archivio , 58 , Carichi per Lifo/Fifo continuo , 27 , 3801115
+Specie archivio , 58 , Sessioni di cassa , 28 , 3801116
+Specie archivio , 58 , Ordini di Collaudo , 29 , 3801117
+Specie archivio , 58 , Bolle di Collaudo , 30 , 3801118
+Specie archivio , 58 , PreShipping , 31 , 3801119
+Specie archivio , 58 , Ricevimento Merci , 32 , 3801120
+Specie archivio , 58 , Inventario di WMS , 33 , 3801121
+Specie archivio , 58 , Dichiarazione di Intento , 34 , 3801122
+Specie archivio , 58 , Richiesta di Trasferimento , 35 , 3801123
+Specie archivio , 58 , Modifica Dati Retail , 36 , 3801124
+Specie archivio , 58 , POS , 37 , 3801125
+Specie archivio , 58 , Romaneio , 38 , 3801126
+Specie archivio , 58 , Dichiarazione Importazione , 39 , 3801127
+Specie archivio , 58 , Carta Correzione Cliente , 40 , 3801128
+Specie archivio , 58 , Carta Correzione Fornitore , 41 , 3801129
+Specie archivio , 58 , Rapportino , 100 , 3801188
+Specie archivio , 58 , Analisi , 101 , 3801189
+Specie archivio , 58 , Importazione Articoli , 103 , 3801191
+Specie archivio , 58 , Richiesta di Acquisto , 220 , 3801308
+Specie archivio , 58 , PDL Giornaliero , 201 , 3801289
+Specie archivio , 58 , Libretto delle Misure , 202 , 3801290
+Specie archivio , 58 , SAL , 203 , 3801291
+Specie archivio , 58 , Estratto Conto , 204 , 3801292
+Specie archivio , 58 , Dichiarazione di Conformità , 221 , 3801309
+Specie archivio , 58 , Richiesta d'Offerta , 222 , 3801310
+Specie archivio , 58 , Offerta di Subappalto , 223 , 3801311
+Specie archivio , 58 , Ordine di Subappalto , 224 , 3801312
+Specie archivio , 58 , SAL in Subappalto , 225 , 3801313
+Specie archivio , 58 , Richiesta di Consegna , 226 , 3801314
+Specie archivio , 58 , Rettifica di Budget Commessa , 227 , 3801315
+Specie archivio , 58 , Commessa , 228 , 3801316
+Specie archivio , 58 , Tax Documents Sendings , 44 , 3801132
+Specie archivio , 58 , Tax Settlement Sendings , 43 , 3801131

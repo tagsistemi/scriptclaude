@@ -448,6 +448,105 @@ UPDATE VEDMaster.dbo.MA_IDNumbers SET LastId = -6335 WHERE CodeType = 3801098
 
 ---
 
+## FASE FINALE - Controllo numeratori ID (Specie Archivio)
+
+> **IMPORTANTE**: Al termine di tutte le operazioni di migrazione, e' necessario verificare e aggiornare i numeratori degli ID nella tabella `MA_IDNumbers`. Ogni tipo di documento ha un proprio numeratore (CodeType) definito come "Specie Archivio". Se i numeratori non vengono aggiornati, Mago4 potrebbe generare nuovi ID che collidono con quelli importati.
+
+### Procedura per ogni tipo di documento
+
+1. **Trovare l'ultimo ID utilizzato** con una query sul tipo di documento interessato
+2. **Verificare il valore attuale** del numeratore in `MA_IDNumbers`
+3. **Aggiornare il numeratore** al valore massimo trovato
+
+**Esempio per Documenti di vendita (SaleDocId):**
+
+```sql
+-- 1. Trovare l'ultimo SaleDocId
+SELECT TOP 4 a.SaleDocId, a.DocumentType FROM VEDMaster.dbo.MA_SaleDoc a
+ORDER BY a.SaleDocId DESC
+
+-- 2. Verificare il numeratore attuale
+SELECT * FROM VEDMaster.dbo.MA_IDNumbers WHERE CodeType = 3801088
+
+-- 3. Aggiornare con l'ultimo ID trovato
+UPDATE VEDMaster.dbo.MA_IDNumbers SET LastId = 535704 WHERE CodeType = 3801088
+```
+
+**Esempio per Prima nota (JournalEntryId):**
+
+```sql
+-- 1. Trovare l'ultimo JournalEntryId
+SELECT TOP 4 j.JournalEntryId FROM MA_JournalEntries j
+ORDER BY j.JournalEntryId DESC
+
+-- 2. Aggiornare con l'ultimo ID trovato
+UPDATE VEDMaster.dbo.MA_IDNumbers SET LastId = 524342 WHERE CodeType = 3801095
+```
+
+### Elenco completo dei numeratori da controllare
+
+| Descrizione | Indice | CodeType |
+| --- | --- | --- |
+| Documenti di vendita | 0 | 3801088 |
+| Variazioni Esigibilita IVA | 1 | 3801089 |
+| Mandati | 2 | 3801090 |
+| Intrastat | 3 | 3801091 |
+| Movimenti agenti | 4 | 3801092 |
+| Movimenti magazzino | 5 | 3801093 |
+| Partite | 6 | 3801094 |
+| Prima nota | 7 | 3801095 |
+| Piano produzione | 8 | 3801096 |
+| Movimenti cespiti | 9 | 3801097 |
+| Ordini cliente | 10 | 3801098 |
+| Offerte a cliente | 11 | 3801099 |
+| Ordini fornitore | 12 | 3801100 |
+| Parcelle | 13 | 3801101 |
+| Movimenti analitici | 14 | 3801102 |
+| Ordine produzione | 15 | 3801103 |
+| Rda | 16 | 3801104 |
+| Bolla lav | 17 | 3801105 |
+| Documenti di Acquisto | 20 | 3801108 |
+| Offerta fornitore | 21 | 3801109 |
+| Ordine Lavorazione | 25 | 3801113 |
+| Oneri Accessori | 26 | 3801114 |
+| Carichi per Lifo/Fifo continuo | 27 | 3801115 |
+| Sessioni di cassa | 28 | 3801116 |
+| Ordini di Collaudo | 29 | 3801117 |
+| Bolle di Collaudo | 30 | 3801118 |
+| PreShipping | 31 | 3801119 |
+| Ricevimento Merci | 32 | 3801120 |
+| Inventario di WMS | 33 | 3801121 |
+| Dichiarazione di Intento | 34 | 3801122 |
+| Richiesta di Trasferimento | 35 | 3801123 |
+| Modifica Dati Retail | 36 | 3801124 |
+| POS | 37 | 3801125 |
+| Romaneio | 38 | 3801126 |
+| Dichiarazione Importazione | 39 | 3801127 |
+| Carta Correzione Cliente | 40 | 3801128 |
+| Carta Correzione Fornitore | 41 | 3801129 |
+| Tax Settlement Sendings | 43 | 3801131 |
+| Tax Documents Sendings | 44 | 3801132 |
+| Rapportino | 100 | 3801188 |
+| Analisi | 101 | 3801189 |
+| Importazione Articoli | 103 | 3801191 |
+| PDL Giornaliero | 201 | 3801289 |
+| Libretto delle Misure | 202 | 3801290 |
+| SAL | 203 | 3801291 |
+| Estratto Conto | 204 | 3801292 |
+| Richiesta di Acquisto | 220 | 3801308 |
+| Dichiarazione di Conformita | 221 | 3801309 |
+| Richiesta d'Offerta | 222 | 3801310 |
+| Offerta di Subappalto | 223 | 3801311 |
+| Ordine di Subappalto | 224 | 3801312 |
+| SAL in Subappalto | 225 | 3801313 |
+| Richiesta di Consegna | 226 | 3801314 |
+| Rettifica di Budget Commessa | 227 | 3801315 |
+| Commessa | 228 | 3801316 |
+
+> **NOTA**: Non tutti i numeratori avranno necessariamente dati migrati. Controllare almeno quelli relativi ai tipi di documento effettivamente trasferiti (Documenti di vendita, Prima nota, Ordini cliente, Ordini fornitore, Acquisti, Offerte, Movimenti magazzino, Partite, ecc.).
+
+---
+
 ## Riepilogo correzioni applicate
 
 | Correzione    | Script/File                                    | Descrizione                                |

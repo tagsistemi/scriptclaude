@@ -16,9 +16,7 @@ $TablesToMigrate = @(
     # Batch di carichi (per valorizzazioni LIFO/FIFO)
     "MA_ReceiptsBatch",
 
-    # Mastri di contabilità industriale e cespiti
-    "MA_CostAccEntries",
-    "MA_CostAccEntriesDetail",
+    # Mastri cespiti (MA_CostAccEntries e MA_CostAccEntriesDetail escluse: restano solo i dati di vedcontab)
     "MA_FixAssetEntries",
     "MA_FixAssetEntriesDetail",
 
